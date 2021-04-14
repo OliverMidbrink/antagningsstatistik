@@ -1,0 +1,41 @@
+{
+    "url": "http://www.xn--antagningspong-hib.se/mittuniversitetet/ekoingenjör",
+    "school": "Mittuniversitetet",
+    "program": "Ekoingenjör",
+    "data": [
+        {
+            "semester": "HT2021",
+            "urval 1": {
+                "BI": "11.25",
+                "BII": "13.43",
+                "HP": "1.8",
+                "SA": "99.99",
+                "BF": "3.0"
+            },
+            "urval 2": {
+                "BI": "11.25",
+                "BII": "13.43",
+                "HP": "1.8",
+                "SA": "99.99",
+                "BF": "3.0"
+            }
+        },
+        {
+            "semester": "VT2021",
+            "urval 1": {
+                "BI": "11.25",
+                "BII": "13.43",
+                "HP": "1.8",
+                "SA": "99.99",
+                "BF": "3.0"
+            },
+            "urval 2": {
+                "BI": "11.25",
+                "BII": "13.43",
+                "HP": "1.8",
+                "SA": "99.99",
+                "BF": "3.0"
+            }
+        }
+    ]
+}
