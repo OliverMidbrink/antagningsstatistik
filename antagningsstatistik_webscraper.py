@@ -89,7 +89,9 @@ def get_program_data(url):
             json.dump(program_data, json_file)
         logging.info('Created file: ' + program_file_name)
 
-
+# Function that takes in a search string and uses 
+# webscraping off of antagningspoängs search to return 
+# a dictionary with the search results.
 def search_for_programs(query_string):
     q_dict = {'q': query_string}
     encoded_query = urlencode(q_dict)
