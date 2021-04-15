@@ -4,15 +4,11 @@ import json
 import os.path
 import logging
 from urllib.parse import urlencode
+from flask import Flask, request
+from flask_restful import Resource, Api
 
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', 
 level=logging.INFO, handlers=[logging.FileHandler("events.log"), logging.StreamHandler()])
-
-
-
-
-
-url = "http://www.xn--antagningspong-hib.se/karolinska-institutet/lakarprogrammet"
 
 
 # Function that returns the UNIVERSITY program data. First it checks if data about the university has been downloaded
@@ -122,6 +118,20 @@ def search_for_programs(query_string):
     return query_results
 
 
-get_program_data(url)
+get_program_data("http://www.xn--antagningspong-hib.se/karolinska-institutet/lakarprogrammet")
 print(search_for_programs("Karolinska läkarprogrammet")["results"][0])
 
+
+app = Flask(__name__)
+api = Api(app)
+
+class Query(Resource):
+    def get(self):
+        args = request.args
+        results = search_for_programs(args['q'])
+        return json.dumps(results)
+
+api.add_resource(Query, '/query') # Api server on port 5002
+
+if __name__ == '__main__':
+    app.run(port='5002')
