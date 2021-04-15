@@ -3,8 +3,9 @@ from bs4 import BeautifulSoup
 import json
 import os.path
 import logging
+from urllib.parse import urlencode
 
-logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', encoding='utf-8', 
+logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', 
 level=logging.INFO, handlers=[logging.FileHandler("events.log"), logging.StreamHandler()])
 
 
@@ -89,4 +90,36 @@ def get_program_data(url):
         logging.info('Created file: ' + program_file_name)
 
 
+def search_for_programs(query_string):
+    q_dict = {'q': query_string}
+    encoded_query = urlencode(q_dict)
+
+    query_url = "http://xn--antagningspong-hib.se/?" + encoded_query
+    
+    page = urlopen(query_url)
+    html = page.read().decode("utf-8")
+    soup = BeautifulSoup(html, "html.parser")
+
+    headers = [item.text for item in soup.find_all('th')]
+    results = [[x.text for x in item.find_all('td')] for item in soup.find_all('tr')]
+    
+    urls = [item.find_all('a')[0]['href'] for item in soup.find_all('td') if len(item.find_all('a'))>0]
+    program_urls = [urls[x*2] for x in range(len(results))]
+
+    query_results = {
+        "results": [{
+            "program": results[x][0],
+            "school": results[x][1],
+            "BI": results[x][2],
+            "BII": results[x][3],
+            "HP": results[x][4],
+            "url": program_urls[x],
+        } for x in range(len(results))]
+    }
+
+    return query_results
+
+
 get_program_data(url)
+print(search_for_programs("Karolinska läkarprogrammet")["results"][0])
+
