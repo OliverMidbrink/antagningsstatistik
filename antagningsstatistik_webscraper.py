@@ -131,7 +131,16 @@ class Query(Resource):
         results = search_for_programs(args['q'])
         return json.dumps(results)
 
+class Program_data(Resource):
+    def get(self):
+        args = request.args
+        results = get_program_data(args['q'])
+        return json.dumps(results)
+
+# Query takes a q with a search query string
+# Program_data takes a q with a url to a program
 api.add_resource(Query, '/query') # Api server on port 5002
+api.add_resource(Program_data, '/program_data')
 
 if __name__ == '__main__':
     app.run(port='5002')
