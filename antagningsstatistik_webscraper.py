@@ -81,7 +81,7 @@ def get_program_data(url):
             "admission_data": admission_data
         }
 
-        with open(program_file_path, "w") as json_file:
+        with open(program_file_path, "w+") as json_file:
             json.dump(program_data, json_file)
         logging.info('Created file: ' + program_file_name)
 
