@@ -27,7 +27,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: "#282c34",
-    //height: "100vh",
+    minHeight: "100vh",
   },  
   searchBar: {
     padding: '2px 4px',
