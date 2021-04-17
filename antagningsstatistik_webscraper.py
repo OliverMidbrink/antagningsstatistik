@@ -6,6 +6,7 @@ import logging
 from urllib.parse import urlencode
 from flask import Flask, request
 from flask_restful import Resource, Api
+from flask_cors import CORS
 
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', 
 level=logging.INFO, handlers=[logging.FileHandler("events.log"), logging.StreamHandler()])
@@ -105,7 +106,7 @@ def search_for_programs(query_string):
     program_urls = [urls[x*2] for x in range(len(results))]
 
     query_results = {
-        "results": [{
+        "queryResults": [{
             "program": results[x][0],
             "school": results[x][1],
             "BI": results[x][2],
@@ -119,10 +120,11 @@ def search_for_programs(query_string):
 
 
 get_program_data("http://www.xn--antagningspong-hib.se/karolinska-institutet/lakarprogrammet")
-print(search_for_programs("Karolinska läkarprogrammet")["results"][0])
+print(search_for_programs("Karolinska läkarprogrammet")["queryResults"][0])
 
 
 app = Flask(__name__)
+CORS(app)
 api = Api(app)
 
 class Query(Resource):
