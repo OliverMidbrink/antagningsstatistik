@@ -7,6 +7,8 @@ from urllib.parse import urlencode
 from flask import Flask, request
 from flask_restful import Resource, Api
 from flask_cors import CORS
+import requests
+
 
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', 
 level=logging.INFO, handlers=[logging.FileHandler("events.log"), logging.StreamHandler()])
@@ -88,39 +90,27 @@ def get_program_data(url):
 
 # Function that takes in a search string and uses 
 # webscraping off of antagningspoängs search to return 
-# a dictionary with the search results.
+# a list with the search results.
 def search_for_programs(query_string):
-    q_dict = {'q': query_string}
+    query_object = {"tillfalle":'Sokande',
+    'vy':'Total',
+    'antagningsomgang':'HT2021',
+    'larosateId':'',
+    'utbildningstyp':'',
+    'fritextFilter':query_string,
+    'urvalsGrupp':'','firstResult':'0','maxResults':'100','sorteringsKolumn':'1','sorteringsOrdningDesc':'false',
+    'requestNumber':'1','paginate':'true'}
+
+    query_object = json.dumps(query_object)
+
+    q_dict = {'request': query_object}
     encoded_query = urlencode(q_dict)
 
-    query_url = "http://xn--antagningspong-hib.se/?" + encoded_query
+    query_url = "https://statistik.uhr.se/rest/stats/tableData?" + encoded_query
+    response = requests.get(query_url, verify=False)
     
-    page = urlopen(query_url)
-    html = page.read().decode("utf-8")
-    soup = BeautifulSoup(html, "html.parser")
+    return {"results": response.json()["aaData"]}
 
-    headers = [item.text for item in soup.find_all('th')]
-    results = [[x.text for x in item.find_all('td')] for item in soup.find_all('tr')]
-    
-    urls = [item.find_all('a')[0]['href'] for item in soup.find_all('td') if len(item.find_all('a'))>0]
-    program_urls = [urls[x*2] for x in range(len(results))]
-
-    query_results = {
-        "queryResults": [{
-            "program": results[x][0],
-            "school": results[x][1],
-            "BI": results[x][2],
-            "BII": results[x][3],
-            "HP": results[x][4],
-            "url": program_urls[x],
-        } for x in range(len(results))]
-    }
-
-    return query_results
-
-
-get_program_data("http://www.xn--antagningspong-hib.se/karolinska-institutet/lakarprogrammet")
-print(search_for_programs("Karolinska läkarprogrammet")["queryResults"][0])
 
 
 app = Flask(__name__)
@@ -133,6 +123,7 @@ class Query(Resource):
         results = search_for_programs(args['q'])
         return json.dumps(results)
 
+# TODO finish
 class Program_data(Resource):
     def get(self):
         args = request.args
