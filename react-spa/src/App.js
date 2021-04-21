@@ -84,7 +84,8 @@ function App() {
 
   const [allValues, setAllValues] = React.useState({
     queryString: '',
-    queryResults: []
+    queryResults: [],
+    selection: '',
   });
 
   const changeHandler = e => {
@@ -101,26 +102,30 @@ function App() {
     fetch(queryURL)
     .then(response => response.json())
     .then(function(data) {
-      const results = JSON.parse(data).queryResults;
+      const results = JSON.parse(data).results;
       setAllValues({...allValues, ["queryResults"]: results})
       console.log(results);
-      console.log(allValues.queryResults[0].program);
     }).catch(function(err) {
       console.log('Fetch problem: ' + err.message);
     });
   };
 
+  const handleSelection = (kurskod) => {
+    const empty = [];
+    setAllValues({...allValues, ["selection"]: kurskod});
+    alert(allValues.selection);
+  }
+
   return (
     <div className={classes.root}>
       <Container>
         <header className="App-header">
-          <h3 style={{textAlign:"center", margin:0, padding:"1em",}}>
-            Se dina chanser att komma in!
-          </h3>
+          <h3 style={{textAlign:"left", margin:0, padding:"1em"}}>Se dina chanser att komma in!</h3>
+          <h6 style={{textAlign:"left", margin:0, padding:"1em", color: "gray",}}>Sök efter ett program eller en kurs. Klicka sedan på programmet för att se dina chanser att komma in.</h6>
         </header>
         
         <form onSubmit={handleSubmit}>
-        <Paper className={classes.searchBar}>
+        <Paper className={classes.searchBar} style={{textAlign:"left", margin: "1em",}}>
           
             <InputBase
               className={classes.input}
@@ -135,6 +140,7 @@ function App() {
             </IconButton>
         </Paper>
         </form>
+
       </Container>
       
 
@@ -145,21 +151,21 @@ function App() {
             <StyledTableRow>
               <StyledTableCell>Program</StyledTableCell>
               <StyledTableCell align="left">Skola</StyledTableCell>
-              <StyledTableCell align="right">BI</StyledTableCell>
-              <StyledTableCell align="right">BII</StyledTableCell>
-              <StyledTableCell align="right">HP</StyledTableCell>
+              <StyledTableCell align="right">Termin</StyledTableCell>
+              <StyledTableCell align="right">Program/Kurs</StyledTableCell>
+              <StyledTableCell align="right">Kod</StyledTableCell>
             </StyledTableRow>
           </TableHead>
           <TableBody>
             {allValues.queryResults.map((item, index) => (
-              <StyledTableRow key={item.name}>
+              <StyledTableRow key={index} onClick={() => handleSelection(item[3])}>
                 <StyledTableCell component="th" scope="row">
-                  {item.program}
+                  {item[2]}
                 </StyledTableCell>
-                <StyledTableCell align="left">{item.school}</StyledTableCell>
-                <StyledTableCell align="right">{item.BI}</StyledTableCell>
-                <StyledTableCell align="right">{item.BII}</StyledTableCell>
-                <StyledTableCell align="right">{item.HP}</StyledTableCell>
+                <StyledTableCell align="left">{item[4]}</StyledTableCell>
+                <StyledTableCell align="right">{item[0]}</StyledTableCell>
+                <StyledTableCell align="right">{item[1]}</StyledTableCell>
+                <StyledTableCell align="right">{item[3]}</StyledTableCell>
               </StyledTableRow>
             ))}
           </TableBody>
