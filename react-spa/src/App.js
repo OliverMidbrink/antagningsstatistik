@@ -95,14 +95,28 @@ function App() {
   const handleSubmit = (event) => {
     event.preventDefault();
     //alert('A name was submitted: ' + queryString);
+    var query_object = {"tillfalle":'Sokande',
+    'vy':'Total',
+    'antagningsomgang':'HT2021',
+    'larosateId':'',
+    'utbildningstyp':'',
+    'fritextFilter':allValues.queryString,
+    'urvalsGrupp':'','firstResult':'0','maxResults':'100','sorteringsKolumn':'1','sorteringsOrdningDesc':'false',
+    'requestNumber':'1','paginate':'true'};
 
-    var queryURL = new URL('http://127.0.0.1:5002/query');
-    queryURL.searchParams.append('q', allValues.queryString);
+    query_object = JSON.stringify(query_object);
+    var encoded_query = encodeURI(query_object);
 
-    fetch(queryURL)
+    var query_url = "http://statistik.uhr.se/rest/stats/tableData?request=" + encoded_query;
+
+    console.log(query_url);
+
+    var queryURL = new URL(query_url);
+
+    fetch(queryURL, {method: 'GET'})
     .then(response => response.json())
     .then(function(data) {
-      const results = JSON.parse(data).results;
+      const results = JSON.parse(data).aaData;
       setAllValues({...allValues, ["queryResults"]: results})
       console.log(results);
     }).catch(function(err) {
