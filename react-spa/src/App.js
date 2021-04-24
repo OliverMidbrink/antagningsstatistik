@@ -22,6 +22,9 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
+import Modal from '@material-ui/core/Modal';
+import Backdrop from '@material-ui/core/Backdrop';
+import Fade from '@material-ui/core/Fade';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -57,6 +60,15 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "auto",
     marginRight: "auto",
   },
+  modal: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  paper: {
+    padding: theme.spacing(2, 4, 3),
+    maxWidth: "90%",
+  },
 }));
 
 const StyledTableCell = withStyles((theme) => ({
@@ -86,11 +98,21 @@ function App() {
     queryString: '',
     queryResults: [],
     kurskod: '',
+    open: false,
+    programData: "",
   });
 
   const changeHandler = e => {
     setAllValues({...allValues, [e.target.name]: e.target.value});
   }
+
+  const handleOpen = () => {
+    setAllValues({...allValues, ["open"]: true});
+  };
+
+  const handleClose = () => {
+    setAllValues({...allValues, ["open"]: false});
+  };
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -103,7 +125,7 @@ function App() {
     .then(response => response.json())
     .then(function(data) {
       const results = JSON.parse(data).results;
-      setAllValues({...allValues, ["queryResults"]: results})
+      setAllValues({...allValues, ["queryResults"]: results});
       console.log(results);
     }).catch(function(err) {
       console.log('Fetch problem: ' + err.message);
@@ -122,8 +144,12 @@ function App() {
     fetch(queryURL)
     .then(response => response.json())
     .then(function(data) {
-      const results = JSON.parse(data);
-      console.log(results);
+      var programData = JSON.parse(data);
+      programData = [programData.HT, programData.VT, programData.comment];
+      setAllValues({...allValues, ["programData"]: programData});
+      handleOpen();
+      console.log(programData);
+      console.log(allValues[""]);
     }).catch(function(err) {
       console.log('Fetch problem: ' + err.message);
     });
@@ -184,6 +210,29 @@ function App() {
           </TableBody>
         </Table>
       </TableContainer>
+
+
+      <Modal
+        aria-labelledby="transition-modal-title"
+        aria-describedby="transition-modal-description"
+        className={classes.modal}
+        open={allValues.open}
+        onClose={handleClose}
+        closeAfterTransition
+        BackdropComponent={Backdrop}
+        BackdropProps={{
+          timeout: 500,
+        }}
+      >
+        <Fade in={allValues.open}>
+          <Paper className={classes.paper}>
+            <h2 id="transition-modal-title">Hey!</h2>
+            <h1 id="transition-modal-description">coming soon</h1>
+            <p>{allValues.programData}</p>
+            <p>{"test"}</p>
+          </Paper>
+        </Fade>
+      </Modal>
     </div>
   );
 }
