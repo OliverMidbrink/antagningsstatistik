@@ -85,7 +85,7 @@ function App() {
   const [allValues, setAllValues] = React.useState({
     queryString: '',
     queryResults: [],
-    selection: '',
+    kurskod: '',
   });
 
   const changeHandler = e => {
@@ -110,10 +110,23 @@ function App() {
     });
   };
 
-  const handleSelection = (kurskod) => {
+  const handleSelection = (kurskod, program, school) => {
     const empty = [];
-    setAllValues({...allValues, ["selection"]: kurskod});
-    alert(allValues.selection);
+
+    var queryURL = new URL('http://127.0.0.1:5002/program_data');
+    queryURL.searchParams.append('q', kurskod);
+    queryURL.searchParams.append('school', school);
+    queryURL.searchParams.append('program', program);
+    console.log(queryURL);
+
+    fetch(queryURL)
+    .then(response => response.json())
+    .then(function(data) {
+      const results = JSON.parse(data);
+      console.log(results);
+    }).catch(function(err) {
+      console.log('Fetch problem: ' + err.message);
+    });
   }
 
   return (
@@ -158,7 +171,7 @@ function App() {
           </TableHead>
           <TableBody>
             {allValues.queryResults.map((item, index) => (
-              <StyledTableRow key={index} onClick={() => handleSelection(item[3])}>
+              <StyledTableRow key={index} onClick={() => handleSelection(item[3], item[2], item[4])}>
                 <StyledTableCell component="th" scope="row">
                   {item[2]}
                 </StyledTableCell>
