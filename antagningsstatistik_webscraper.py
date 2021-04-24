@@ -8,6 +8,10 @@ from flask import Flask, request
 from flask_restful import Resource, Api
 from flask_cors import CORS
 import requests
+import datetime
+import time
+import random
+
 
 
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', 
@@ -19,82 +23,116 @@ level=logging.INFO, handlers=[logging.FileHandler("events.log"), logging.StreamH
 # If data about the university program has not been found locally, it will webscrape it from antagningspoäng.se and save 
 # the data in the program_data folder. Filename will be basically be the url path to the original data from 
 # antagningspoäng.se. Events will be logged in events.log
-def get_program_data(url):
-    program_file_name = url.split("antagningspong-hib.se/")[1].replace("/", "_") + ".json"
-    program_file_path = "program_data/" + program_file_name
+def get_program_data(kurskod_ht, school, program):
+    # Load data if already exists
+    file_name = "./program_data/" + kurskod_ht + ".json"
 
-    program_data = None
+    if os.path.exists(file_name):  
+        with open(file_name, "r") as file:
+            program_data_json = json.load(file)
+            print("Reading from file")
+            return program_data_json
 
-    if os.path.isfile(program_file_path):
-        # Local data exists
-        logging.info('File exists: ' + program_file_name)
-        with open(program_file_path, "r") as json_file:
-            program_data = json.load(json_file)
-            return program_data
-    else:
-        # Local data does not exist
-        page = urlopen(url)
-        html = page.read().decode("utf-8")
-        soup = BeautifulSoup(html, "html.parser")
+    current_year = datetime.datetime.now().year
+    kurskod_vt = -1
 
-        semesters = [item.text for item in soup.find_all('h2')]
-        rows = soup.find_all('tr')
+    # Search for VT kurskod
+    query_object = {"tillfalle":'Sokande',
+    'vy':'Total',
+    'antagningsomgang':'VT' + str(current_year),
+    'larosateId':'',
+    'utbildningstyp':'',
+    'fritextFilter':program + " " + school,
+    'urvalsGrupp':'','firstResult':'0','maxResults':'100','sorteringsKolumn':'1','sorteringsOrdningDesc':'false',
+    'requestNumber':'1','paginate':'true'}
 
-        data_rows_list = []
-        data_headers = []
+    query_object = json.dumps(query_object)
 
-        for row in rows:
-            if len(row.find_all('td')) > 0:
-                data_rows_list.append([item.text for item in row.find_all('td')])
-            elif len(row.find_all('th')) > 0:
-                if len(data_headers) == 0:
-                    data_headers = [item.text for item in row.find_all('th')][1:]
+    q_dict = {'request': query_object}
+    encoded_query = urlencode(q_dict)
 
-        program, school = [item.strip() for item in soup.find_all('h1')[0].text.split("Antagningspoäng för")[1].split("vid")]
+    query_url = "https://statistik.uhr.se/rest/stats/tableData?" + encoded_query
+    response = requests.get(query_url, verify=False)
+    
+    for result in response.json()["aaData"]:
+        if result[2] == program and result[4] == school:
+            kurskod_vt = result[3]
+            print(kurskod_vt)
 
 
-        urval_1s = [data_rows_list[x * 2][1:] for x in range(len(semesters))]
-        urval_2s = [data_rows_list[x * 2 + 1][1:] for x in range(len(semesters))]
+    # Some schools reuse course id for different time periods. Like use for one course, then after some years use the same code for another course
+    earliest_year_read_successfully = current_year
+    should_break = False
 
-        admission_data = []
-        for x in range(len(semesters)):
-            semester_data = {
-                "semester": semesters[x],
-                "urval 1": {
-                    "BI": urval_1s[x][0],
-                    "BII": urval_1s[x][1],
-                    "HP": urval_1s[x][2],
-                    "SA": urval_1s[x][3],
-                    "BF": urval_1s[x][4]
-                },
-                "urval 2": {
-                    "BI": urval_2s[x][0],
-                    "BII": urval_2s[x][1],
-                    "HP": urval_2s[x][2],
-                    "SA": urval_2s[x][3],
-                    "BF": urval_2s[x][4]
-                }
-            }
-            admission_data.append(semester_data)
+    program_data = {"VT": [], "HT": [], "comment":""}
+    kurskoder = {"HT": kurskod_ht, "VT": kurskod_vt}
 
-        program_data = {
-            "url": url,
-            "school": school,
-            "program": program,
-            "admission_data": admission_data
-        }
+    if kurskod_ht == "HHS-34002":
+        program_data["comment"] = "Tänk på att handelshögskolan ej räknar med meritpoäng! Lägg därför inte till meritpoäng."
 
-        with open(program_file_path, "w+") as json_file:
-            json.dump(program_data, json_file)
-        logging.info('Created file: ' + program_file_name)
+    for year in range(current_year, 2008, -1):
+        for semester in ["VT", "HT"]:
+            if should_break or (semester == "VT" and kurskod_vt == -1):
+                continue
+            
+            # Wait to be kind to the data server
+            time.sleep(random.random() / 8)
+
+
+            query_object = {"tillfalle":'Urval2',
+            'vy':'Antagningspoang',
+            'antagningsomgang':semester + str(year),
+            'larosateId':'',
+            'utbildningstyp':'',
+            'fritextFilter':kurskoder[semester],
+            'urvalsGrupp':'','firstResult':'0','maxResults':'100','sorteringsKolumn':'1','sorteringsOrdningDesc':'false',
+            'requestNumber':'1','paginate':'true'}
+
+            query_object = json.dumps(query_object)
+
+            q_dict = {'request': query_object}
+            encoded_query = urlencode(q_dict)
+
+            query_url = "https://statistik.uhr.se/rest/stats/tableData?" + encoded_query
+            response = requests.get(query_url, verify=False)
+
+            semester_data = response.json()["aaData"]
+
+            # IF three years without use of this coursecode has gone by, stop reading for more data
+            if earliest_year_read_successfully - year > 2:
+                print("Empty years, aborting")
+                should_break = True
+                break
+
+ 
+            semester_obj = {"year": year, "semester": semester}
+            for row in semester_data:
+                semester_obj[row[5]] = row[6]
+            
+
+            # skip if there is no relevant data
+            if len(semester_data) == 0 or "BI" not in semester_obj:
+                continue
+            
+            print(semester_obj)
+            program_data[semester].append(semester_obj)
+            earliest_year_read_successfully = year
+    
+
+    with open(file_name, "w+") as file:
+            json.dump(program_data, file)
+
+    return program_data
 
 # Function that takes in a search string and uses 
 # webscraping off of antagningspoängs search to return 
 # a list with the search results.
 def search_for_programs(query_string):
+    current_year = datetime.datetime.now().year
+
     query_object = {"tillfalle":'Sokande',
     'vy':'Total',
-    'antagningsomgang':'HT2021',
+    'antagningsomgang':'HT' + str(current_year),
     'larosateId':'',
     'utbildningstyp':'',
     'fritextFilter':query_string,
@@ -112,6 +150,7 @@ def search_for_programs(query_string):
     return {"results": response.json()["aaData"]}
 
 
+#print(get_program_data("KI-41006"))
 
 app = Flask(__name__)
 CORS(app)
@@ -127,7 +166,7 @@ class Query(Resource):
 class Program_data(Resource):
     def get(self):
         args = request.args
-        results = get_program_data(args['q'])
+        results = get_program_data(args['q'], args['school'], args['program'])
         return json.dumps(results)
 
 # Query takes a q with a search query string
