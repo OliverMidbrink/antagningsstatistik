@@ -91,7 +91,7 @@ const useStyles2 = theme => ({
     padding: theme.spacing(2, 4, 3),
     maxWidth: "90%",
     overflow: "auto",
-    maxHeight: "90%",
+    maxHeight: "80%",
   },
 });
 
@@ -170,8 +170,8 @@ class App extends React.Component {
       .then(response => response.json())
       .then(function(data) {
         const rawData = JSON.parse(data);
-        
-        const programData = [[rawData.comment.length > 0? rawData.comment:"Ingen kommentar"], rawData.HT.length > 0? rawData.HT:["Ingen statistik"], rawData.VT.length > 0? rawData.VT:["Ingen statistik"]];
+        const comment = "Kvoten BI är till för dig som kommer direkt från gymnasiet. BII är för dig som har kompletterat ditt gymnasiebetyg och HP är för de som gjort högskoleprovet. (PS. fler betygskvoter finns men är inte så vanliga bland dagens gymnasieelever). ";
+        const programData = [[rawData.comment.length > 0? (comment + rawData.comment):comment], rawData.HT.length > 0? rawData.HT:["Ingen statistik"], rawData.VT.length > 0? rawData.VT:["Ingen statistik"]];
 
         that.setState({programData: programData, kurskod: kurskod, program: program, school: school, loading: false});
 
