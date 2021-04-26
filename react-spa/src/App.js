@@ -285,7 +285,7 @@ class App extends React.Component {
                             <h4>{["Kommentar", "HT", "VT"][index]}</h4>
                             {
                               item.map(row => {
-                                if(row !== "Ingen statistik" && row !== "Ingen kommentar") {
+                                if(row.length < 6) {
                                   return(<p><b>{row[0]}</b>: &nbsp;&nbsp;BI {row[2]} &nbsp;&nbsp;&nbsp; BII {row[3]} &nbsp;&nbsp;&nbsp; HP {row[4]}</p>)
                                 } else {
                                   return(<p>{row}</p>)
