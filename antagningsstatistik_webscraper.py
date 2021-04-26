@@ -145,7 +145,7 @@ def get_program_data(kurskod_ht, school, program):
     
     
     with open(file_name, "w+") as file:
-        print("Saving: " + program_data)
+        print("Saving: " + json.dumps(program_data))
         json.dump(program_data, file)
     
 
