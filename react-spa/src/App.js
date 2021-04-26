@@ -25,9 +25,31 @@ import Typography from '@material-ui/core/Typography';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
+import Loader from "react-loader-spinner";
+import { trackPromise } from 'react-promise-tracker';
+import { usePromiseTracker } from "react-promise-tracker";
 
+const StyledTableCell = withStyles((theme) => ({
+  head: {
+    backgroundColor: theme.palette.common.black,
+    color: theme.palette.common.white,
+  },
+  body: {
+    fontSize: 12,
+    paddingLeft:"0.2em",
+    paddingRight:"0.2em",
+  },
+}))(TableCell);
 
-const useStyles = makeStyles((theme) => ({
+const StyledTableRow = withStyles((theme) => ({
+  root: {
+    '&:nth-of-type(odd)': {
+      backgroundColor: theme.palette.action.hover,
+    },
+  },
+}))(TableRow);
+
+const useStyles2 = theme => ({
   root: {
     backgroundColor: "#282c34",
     minHeight: "100vh",
@@ -38,12 +60,12 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     width: "100%",
     maxWidth: 600,
-    margin: "auto",
+    marginRight: "auto",
     marginTop:"2em",
     marginBottom:"2em",
   },
   input: {
-    marginLeft: theme.spacing(1),
+    marginLeft:0,
     flex: 1,
   },
   iconButton: {
@@ -68,173 +90,221 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(2, 4, 3),
     maxWidth: "90%",
+    overflow: "auto",
+    maxHeight: "90%",
   },
-}));
+});
 
-const StyledTableCell = withStyles((theme) => ({
-  head: {
-    backgroundColor: theme.palette.common.black,
-    color: theme.palette.common.white,
-  },
-  body: {
-    fontSize: 12,
-    paddingLeft:"0.2em",
-    paddingRight:"0.2em",
-  },
-}))(TableCell);
+const LoadingIndicator = props => {
+  const { promiseInProgress } = usePromiseTracker();
 
-const StyledTableRow = withStyles((theme) => ({
-  root: {
-    '&:nth-of-type(odd)': {
-      backgroundColor: theme.palette.action.hover,
-    },
-  },
-}))(TableRow);
+  return promiseInProgress && 
+    <div
+      style={{
+        width: "100%",
+        height: "100",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
+      }}
+    >
+      <Loader type="ThreeDots" color="#2BAD60" height="100" width="100" />
+    </div>
+};
 
-function App() {
-  const classes = useStyles();
 
-  const [allValues, setAllValues] = React.useState({
-    queryString: '',
-    queryResults: [],
-    kurskod: '',
-    open: false,
-    programData: "",
-  });
+class App extends React.Component {
+  constructor(props) {
+    super(props);
 
-  const changeHandler = e => {
-    setAllValues({...allValues, [e.target.name]: e.target.value});
+    this.state = {
+      queryString: '',
+      queryResults: [],
+      kurskod: '',
+      open: false,
+      programData: [],
+      program: '',
+      school: '',
+      loading: false,
+    };
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleSelection = this.handleSelection.bind(this);
+    this.handleSearchBarChange = this.handleSearchBarChange.bind(this);
+    this.handleModalClose = this.handleModalClose.bind(this);
   }
 
-  const handleOpen = () => {
-    setAllValues({...allValues, ["open"]: true});
-  };
-
-  const handleClose = () => {
-    setAllValues({...allValues, ["open"]: false});
-  };
-
-  const handleSubmit = (event) => {
+  handleSubmit(event) {
     event.preventDefault();
     //alert('A name was submitted: ' + queryString);
 
     var queryURL = new URL('http://127.0.0.1:5002/query');
-    queryURL.searchParams.append('q', allValues.queryString);
+    queryURL.searchParams.append('q', this.state.queryString);
+
+    var that = this;
 
     fetch(queryURL)
     .then(response => response.json())
     .then(function(data) {
       const results = JSON.parse(data).results;
-      setAllValues({...allValues, ["queryResults"]: results});
       console.log(results);
+
+      that.setState({queryResults: results});
     }).catch(function(err) {
       console.log('Fetch problem: ' + err.message);
     });
-  };
+  }
 
-  const handleSelection = (kurskod, program, school) => {
-    const empty = [];
-
+  handleSelection(kurskod, program, school) {
     var queryURL = new URL('http://127.0.0.1:5002/program_data');
     queryURL.searchParams.append('q', kurskod);
     queryURL.searchParams.append('school', school);
     queryURL.searchParams.append('program', program);
     console.log(queryURL);
 
-    fetch(queryURL)
-    .then(response => response.json())
-    .then(function(data) {
-      var programData = JSON.parse(data);
-      programData = [programData.HT, programData.VT, programData.comment];
-      setAllValues({...allValues, ["programData"]: programData});
-      handleOpen();
-      console.log(programData);
-      console.log(allValues[""]);
-    }).catch(function(err) {
-      console.log('Fetch problem: ' + err.message);
-    });
+    var that = this;
+    this.setState({open: true, loading: true});
+
+    trackPromise(
+      fetch(queryURL)
+      .then(response => response.json())
+      .then(function(data) {
+        const rawData = JSON.parse(data);
+        
+        const programData = [[rawData.comment.length > 0? rawData.comment:"Ingen kommentar"], rawData.HT.length > 0? rawData.HT:["Ingen statistik"], rawData.VT.length > 0? rawData.VT:["Ingen statistik"]];
+
+        that.setState({programData: programData, kurskod: kurskod, program: program, school: school, loading: false});
+
+        console.log(programData);
+        setTimeout(() => {  console.log(that.state.programData); }, 1000);
+      }).catch(function(err) {
+        console.log('Fetch problem: ' + err.message);
+    }));
+
   }
 
-  return (
-    <div className={classes.root}>
-      <Container>
-        <header className="App-header">
-          <h3 style={{textAlign:"left", margin:0, padding:"1em"}}>Se dina chanser att komma in!</h3>
-          <h6 style={{textAlign:"left", margin:0, padding:"1em", color: "gray",}}>Sök efter ett program eller en kurs. Klicka sedan på programmet för att se dina chanser att komma in.</h6>
-        </header>
-        
-        <form onSubmit={handleSubmit}>
-        <Paper className={classes.searchBar} style={{textAlign:"left", margin: "1em",}}>
+  handleSearchBarChange(event) {
+    this.setState({queryString: event.target.value});
+  }
+
+  handleModalClose() {
+    this.setState({open: false});
+  }
+
+  render() {
+    const { classes } = this.props;
+
+    return (
+      <div className={classes.root}>
+        <Container style={{padding:"2em", paddingTop:"2em",}}>
+          <header className="App-header">
+            <h3 style={{textAlign:"left", margin:0, padding:0}}>Se dina chanser att bli antagen!</h3>
+            <h6 style={{textAlign:"left", margin:0, padding:0, paddingTop:"0.5em", color: "gray",}}>
+              Sök efter ett program eller en kurs. Klicka sedan på programmet för att se dina chanser att bli antagen. 
+              Tips: skriv utbildningens namn och sedan skolan i sökrutan för ännu bättre sökresultat. </h6>
+          </header>
           
-            <InputBase
-              className={classes.input}
-              placeholder="Läkarprogrammet Karolinska"
-              value={allValues.queryString}
-              name="queryString"
-              onChange={changeHandler}
-              inputProps={{ 'aria-label': 'sök efter utbildningar' }}
-            />
-            <IconButton type="submit" className={classes.iconButton} aria-label="search">
-              <SearchIcon />
-            </IconButton>
-        </Paper>
-        </form>
-
-      </Container>
-      
-
-
-      <TableContainer component={Paper} className={classes.table}>
-        <Table size="small" aria-label="customized table">
-          <TableHead>
-            <StyledTableRow>
-              <StyledTableCell>Program</StyledTableCell>
-              <StyledTableCell align="left">Skola</StyledTableCell>
-              <StyledTableCell align="right">Termin</StyledTableCell>
-              <StyledTableCell align="right">Program/Kurs</StyledTableCell>
-              <StyledTableCell align="right">Kod</StyledTableCell>
-            </StyledTableRow>
-          </TableHead>
-          <TableBody>
-            {allValues.queryResults.map((item, index) => (
-              <StyledTableRow key={index} onClick={() => handleSelection(item[3], item[2], item[4])}>
-                <StyledTableCell component="th" scope="row">
-                  {item[2]}
-                </StyledTableCell>
-                <StyledTableCell align="left">{item[4]}</StyledTableCell>
-                <StyledTableCell align="right">{item[0]}</StyledTableCell>
-                <StyledTableCell align="right">{item[1]}</StyledTableCell>
-                <StyledTableCell align="right">{item[3]}</StyledTableCell>
-              </StyledTableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
-
-
-      <Modal
-        aria-labelledby="transition-modal-title"
-        aria-describedby="transition-modal-description"
-        className={classes.modal}
-        open={allValues.open}
-        onClose={handleClose}
-        closeAfterTransition
-        BackdropComponent={Backdrop}
-        BackdropProps={{
-          timeout: 500,
-        }}
-      >
-        <Fade in={allValues.open}>
-          <Paper className={classes.paper}>
-            <h2 id="transition-modal-title">Hey!</h2>
-            <h1 id="transition-modal-description">coming soon</h1>
-            <p>{allValues.programData}</p>
-            <p>{"test"}</p>
+          <form onSubmit={this.handleSubmit}>
+          <Paper className={classes.searchBar} style={{textAlign:"left",}}>
+              <InputBase
+                className={classes.input}
+                placeholder="Läkarprogrammet Karolinska"
+                value={this.state.queryString}
+                name="queryString"
+                onChange={this.handleSearchBarChange}
+                inputProps={{ 'aria-label': 'sök efter utbildningar' }}
+              />
+              <IconButton type="submit" className={classes.iconButton} aria-label="search">
+                <SearchIcon />
+              </IconButton>
           </Paper>
-        </Fade>
-      </Modal>
-    </div>
-  );
+          </form>
+  
+        </Container>
+        
+        {this.state.queryResults.length > 0 &&
+          <TableContainer component={Paper} className={classes.table} display="false">
+            <Table size="small" aria-label="customized table">
+              <TableHead>
+                <StyledTableRow>
+                  <StyledTableCell>Program</StyledTableCell>
+                  <StyledTableCell align="left">Skola</StyledTableCell>
+                  <StyledTableCell align="right">Termin</StyledTableCell>
+                  <StyledTableCell align="right">Program/Kurs</StyledTableCell>
+                  <StyledTableCell align="right">Kod</StyledTableCell>
+                </StyledTableRow>
+              </TableHead>
+              <TableBody>
+                {this.state.queryResults.map((item, index) => (
+                  <StyledTableRow key={index} onClick={() => this.handleSelection(item[3], item[2], item[4])}>
+                    <StyledTableCell component="th" scope="row">
+                      {item[2]}
+                    </StyledTableCell>
+                    <StyledTableCell align="left">{item[4]}</StyledTableCell>
+                    <StyledTableCell align="right">{item[0]}</StyledTableCell>
+                    <StyledTableCell align="right">{item[1]}</StyledTableCell>
+                    <StyledTableCell align="right">{item[3]}</StyledTableCell>
+                  </StyledTableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </TableContainer>
+        }
+        
+  
+        <Modal
+          aria-labelledby="transition-modal-title"
+          aria-describedby="transition-modal-description"
+          className={classes.modal}
+          open={this.state.open}
+          onClose={this.handleModalClose}
+          closeAfterTransition
+          BackdropComponent={Backdrop}
+          BackdropProps={{
+            timeout: 500,
+          }}
+        >
+          <Fade in={this.state.open}>
+            
+            <Paper className={classes.paper}>
+              <LoadingIndicator/>
+
+              {!this.state.loading &&
+                <Container>
+                  <h2 style={{marginBottom:"0.1em"}}>Statistik</h2>
+                  <h5 style={{marginTop:"0.1em", color:"gray",}}>{this.state.program} vid {this.state.school}</h5>
+                  
+
+
+                  <div>
+                    {
+                      this.state.programData.map((item, index) => {
+                        return (
+                          <div>
+                            <br></br>
+                            <h4>{["Kommentar", "HT", "VT"][index]}</h4>
+                            {
+                              item.map(row => {
+                                if(row !== "Ingen statistik" && row !== "Ingen kommentar") {
+                                  return(<p><b>{row[0]}</b>: &nbsp;&nbsp;BI {row[2]} &nbsp;&nbsp;&nbsp; BII {row[3]} &nbsp;&nbsp;&nbsp; HP {row[4]}</p>)
+                                } else {
+                                  return(<p>{row}</p>)
+                                }
+                              })
+                            }
+                          </div>
+                        )
+                      })
+                    }
+                  </div>
+                </Container>
+              }
+            </Paper>
+          </Fade>
+        </Modal>
+      </div>
+    );
+  }
 }
 
-export default App;
+export default withStyles(useStyles2)(App);
