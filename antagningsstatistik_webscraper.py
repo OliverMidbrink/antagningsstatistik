@@ -126,7 +126,11 @@ def get_program_data(kurskod_ht, school, program):
                     admission_data_points[row[5]] = row[6]
                     #print(admission_data_points)
 
+                # for HHS and company
                 if row[5] == 'HJ':
+                    admission_data_points['HP'] = row[6]
+                
+                if row[5][:2] == 'HP':
                     admission_data_points['HP'] = row[6]
 
             print(semester_list)
@@ -136,7 +140,7 @@ def get_program_data(kurskod_ht, school, program):
             semester_list.append(admission_data_points['HP'])
 
             # skip if there is no relevant data
-            if len(semester_data) == 0 or admission_data_points['BI'] == 'Not Found' or admission_data_points['HP'] == 'Not Found':
+            if len(semester_data) == 0 or (admission_data_points['BI'] == 'Not Found' and admission_data_points['HP'] == 'Not Found'):
                 continue
             
             print(semester_list)
