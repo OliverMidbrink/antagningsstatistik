@@ -84,8 +84,8 @@ def get_program_data(kurskod_ht, school, program):
             'antagningsomgang':semester + str(year),
             'larosateId':'',
             'utbildningstyp':'',
-            'fritextFilter':kurskoder[semester],
-            'urvalsGrupp':'','firstResult':'0','maxResults':'100','sorteringsKolumn':'1','sorteringsOrdningDesc':'false',
+            'fritextFilter':school, ## DANGER MIGHT BREAK THE PROGRAM!!!
+            'urvalsGrupp':'','firstResult':'0','maxResults':'10000','sorteringsKolumn':'1','sorteringsOrdningDesc':'false',
             'requestNumber':'1','paginate':'true'}
 
             query_object = json.dumps(query_object)
@@ -94,6 +94,7 @@ def get_program_data(kurskod_ht, school, program):
             encoded_query = urlencode(q_dict)
 
             query_url = "https://statistik.uhr.se/rest/stats/tableData?" + encoded_query
+            print(query_url)
             response = requests.get(query_url, verify=False)
 
             semester_data = response.json()["aaData"]
@@ -104,12 +105,23 @@ def get_program_data(kurskod_ht, school, program):
                 should_break = True
                 break
 
-        
+            
             semester_list = [year, semester]
             
             admission_data_points = {'BI': 'Not Found', 'BII':'Not Found', 'HP': 'Not Found'}
             for row in semester_data:
                 #print(row)
+                # Skip if the row is not from the requested school
+                if row[4] != school:
+                    #print("wrong school")
+                    continue
+                
+                # skip if it is not the requested program or course code
+                if kurskoder[semester] != row[3] and row[2] != program:
+                    #print("wrong code or program name")
+                    continue
+
+                print(row)
                 if row[5] == 'BI' or row[5] == 'HP' or row[5] == 'BII':
                     admission_data_points[row[5]] = row[6]
                     #print(admission_data_points)
@@ -133,7 +145,8 @@ def get_program_data(kurskod_ht, school, program):
     
     
     with open(file_name, "w+") as file:
-            json.dump(program_data, file)
+        print("Saving: " + program_data)
+        json.dump(program_data, file)
     
 
     return program_data
@@ -165,6 +178,7 @@ def search_for_programs(query_string):
 
 
 #print(get_program_data("HHS-34002", "Handelshögskolan i Stockholm", "Bachelor of Science Program in Business and Economics"))
+#print(get_program_data("GU-1G74A", "Göteborgs universitet", "Psykologprogrammet"))
 
 
 app = Flask(__name__)
