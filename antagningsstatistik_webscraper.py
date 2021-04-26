@@ -67,8 +67,8 @@ def get_program_data(kurskod_ht, school, program):
     program_data = {"VT": [], "HT": [], "comment":""}
     kurskoder = {"HT": kurskod_ht, "VT": kurskod_vt}
 
-    if kurskod_ht == "HHS-34002":
-        program_data["comment"] = "Tänk på att handelshögskolan ej räknar med meritpoäng! Lägg därför inte till meritpoäng."
+    if kurskod_ht == "HHS-34002" or kurskod_ht == 'HHS-34004':
+        program_data["comment"] = "Tänk på att handelshögskolan ej räknar med meritpoäng! Lägg därför inte till din meritpoäng."
 
     for year in range(current_year, 2008, -1):
         for semester in ["VT", "HT"]:
@@ -104,23 +104,37 @@ def get_program_data(kurskod_ht, school, program):
                 should_break = True
                 break
 
- 
-            semester_obj = {"year": year, "semester": semester}
-            for row in semester_data:
-                semester_obj[row[5]] = row[6]
+        
+            semester_list = [year, semester]
             
+            admission_data_points = {'BI': 'Not Found', 'BII':'Not Found', 'HP': 'Not Found'}
+            for row in semester_data:
+                #print(row)
+                if row[5] == 'BI' or row[5] == 'HP' or row[5] == 'BII':
+                    admission_data_points[row[5]] = row[6]
+                    #print(admission_data_points)
+
+                if row[5] == 'HJ':
+                    admission_data_points['HP'] = row[6]
+
+            print(semester_list)
+            
+            semester_list.append(admission_data_points['BI'])
+            semester_list.append(admission_data_points['BII'])
+            semester_list.append(admission_data_points['HP'])
 
             # skip if there is no relevant data
-            if len(semester_data) == 0 or "BI" not in semester_obj:
+            if len(semester_data) == 0 or admission_data_points['BI'] == 'Not Found' or admission_data_points['HP'] == 'Not Found':
                 continue
             
-            print(semester_obj)
-            program_data[semester].append(semester_obj)
+            print(semester_list)
+            program_data[semester].append(semester_list)
             earliest_year_read_successfully = year
     
-
+    
     with open(file_name, "w+") as file:
             json.dump(program_data, file)
+    
 
     return program_data
 
@@ -150,7 +164,8 @@ def search_for_programs(query_string):
     return {"results": response.json()["aaData"]}
 
 
-#print(get_program_data("KI-41006"))
+#print(get_program_data("HHS-34002", "Handelshögskolan i Stockholm", "Bachelor of Science Program in Business and Economics"))
+
 
 app = Flask(__name__)
 CORS(app)
@@ -176,3 +191,4 @@ api.add_resource(Program_data, '/program_data')
 
 if __name__ == '__main__':
     app.run(port='5002')
+
