@@ -277,7 +277,9 @@ class App extends React.Component {
                   <h5 style={{marginTop:"0.1em", color:"gray",}}>{this.state.program} vid {this.state.school}</h5>
                 </Container>
                 
-                <MyLineChart programData={this.state.programData} width={380}/>
+                <div style={{alignItems: "center", display: "flex", justifyContent: "center",}}>
+                  <MyLineChart programData={this.state.programData} width={370}/>
+                </div>
                 
                 <Container>
                   <div>
@@ -307,6 +309,10 @@ class App extends React.Component {
             </Paper>
           </Fade>
         </Modal>
+      
+        <div id="footer" style={{color: "#bcc5d6", backgroundColor: "#374052", alignItems: "center", display: "flex", justifyContent: "center", }}>
+          &copy; {new Date().getFullYear()} Copyright: &nbsp; Oliver Midbrink
+        </div>
       </div>
     );
   }

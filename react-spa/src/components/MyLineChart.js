@@ -9,93 +9,6 @@ import {
   Legend
 } from "recharts";
 
-const data = [
-  {
-    name: "Page A",
-    BI: 4000,
-    BII: 2400,
-    HP: 1.6,
-  },
-  {
-    name: "Page B",
-    BI: 3000,
-    BII: 1398,
-    HP: 1.6,
-  },
-  {
-    name: "Page C",
-    BI: 2000,
-    BII: 9800,
-    HP: 1.6,
-  },
-  {
-    name: "Page D",
-    BI: 2780,
-    BII: 3908,
-    HP: 1.6,
-  },
-  {
-    name: "Page E",
-    BI: 1890,
-    BII: 4800,
-    HP: 1.6,
-  },
-  {
-    name: "Page F",
-    BI: 2390,
-    BII: 3800,
-    HP: 1.6,
-  },
-  {
-    name: "Page G",
-    BI: 3490,
-    BII: 4300,
-    HP: 1.6,
-  },
-  {
-    name: "Page A",
-    BI: 4000,
-    BII: 2400,
-    HP: 1.6,
-  },
-  {
-    name: "Page B",
-    BI: 3000,
-    BII: 1398,
-    HP: 1.6,
-  },
-  {
-    name: "Page C",
-    BI: 2000,
-    BII: 9800,
-    HP: 1.6,
-  },
-  {
-    name: "Page D",
-    BI: 2780,
-    BII: 3908,
-    HP: 1.6,
-  },
-  {
-    name: "Page E",
-    BI: 1890,
-    BII: 4800,
-    HP: 1.6,
-  },
-  {
-    name: "Page F",
-    BI: 2390,
-    BII: 3800,
-    HP: 1.6,
-  },
-  {
-    name: "Page G",
-    BI: 3490,
-    BII: 4300,
-    HP: 1,
-  }
-];
-
 function processData(inputData) {
   var outputData = [];
   console.log(inputData);
@@ -103,7 +16,8 @@ function processData(inputData) {
   if (inputData.length > 0) {
 
     var year;
-    for (year = 2009; year < new Date().getFullYear() + 1; year++) {
+    var endYear = new Date().getFullYear() + 1;
+    for (year = 2009; year < endYear; year++) {
 
       var term;
       for (term = 0; term < 2; term++){
