@@ -89,10 +89,10 @@ const useStyles2 = theme => ({
     justifyContent: 'center',
   },
   paper: {
-    padding: theme.spacing(2, 4, 3),
-    maxWidth: "90%",
+    padding: theme.spacing(2, 0, 3),
+    maxWidth: "100%",
     overflow: "auto",
-    maxHeight: "80%",
+    maxHeight: "70%",
   },
 });
 
@@ -171,7 +171,7 @@ class App extends React.Component {
       .then(response => response.json())
       .then(function(data) {
         const rawData = JSON.parse(data);
-        const comment = "Kvoten BI är till för dig som kommer direkt från gymnasiet. BII är för dig som har kompletterat ditt gymnasiebetyg och HP är för de som har gjort högskoleprovet. (PS. fler betygskvoter finns men dessa är inte vanliga bland dagens gymnasieelever). ";
+        const comment = "Kvoten BI är till för dig som söker med dina gymnasiebetyg. BII är för dig som har kompletterat ditt gymnasiebetyg och HP är för de som har gjort högskoleprovet. (PS. fler betygskvoter finns men dessa är inte vanliga bland dagens gymnasieelever). ";
         const programData = [[rawData.comment.length > 0? (comment + rawData.comment):comment], rawData.HT.length > 0? rawData.HT:["Ingen statistik"], rawData.VT.length > 0? rawData.VT:["Ingen statistik"]];
 
         that.setState({programData: programData, kurskod: kurskod, program: program, school: school, loading: false});
@@ -271,12 +271,15 @@ class App extends React.Component {
               <LoadingIndicator/>
 
               {!this.state.loading &&
+              <div>
                 <Container>
                   <h2 style={{marginBottom:"0.1em"}}>Statistik</h2>
                   <h5 style={{marginTop:"0.1em", color:"gray",}}>{this.state.program} vid {this.state.school}</h5>
-
-                  <MyLineChart/>
-
+                </Container>
+                
+                <MyLineChart programData={this.state.programData} width={380}/>
+                
+                <Container>
                   <div>
                     {
                       this.state.programData.map((item, index) => {
@@ -299,6 +302,7 @@ class App extends React.Component {
                     }
                   </div>
                 </Container>
+                </div>
               }
             </Paper>
           </Fade>
