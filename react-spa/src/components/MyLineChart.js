@@ -12,117 +12,166 @@ import {
 const data = [
   {
     name: "Page A",
-    uv: 4000,
-    pv: 2400,
-    amt: 2400
+    BI: 4000,
+    BII: 2400,
+    HP: 1.6,
   },
   {
     name: "Page B",
-    uv: 3000,
-    pv: 1398,
-    amt: 2210
+    BI: 3000,
+    BII: 1398,
+    HP: 1.6,
   },
   {
     name: "Page C",
-    uv: 2000,
-    pv: 9800,
-    amt: 2290
+    BI: 2000,
+    BII: 9800,
+    HP: 1.6,
   },
   {
     name: "Page D",
-    uv: 2780,
-    pv: 3908,
-    amt: 2000
+    BI: 2780,
+    BII: 3908,
+    HP: 1.6,
   },
   {
     name: "Page E",
-    uv: 1890,
-    pv: 4800,
-    amt: 2181
+    BI: 1890,
+    BII: 4800,
+    HP: 1.6,
   },
   {
     name: "Page F",
-    uv: 2390,
-    pv: 3800,
-    amt: 2500
+    BI: 2390,
+    BII: 3800,
+    HP: 1.6,
   },
   {
     name: "Page G",
-    uv: 3490,
-    pv: 4300,
-    amt: 2100
+    BI: 3490,
+    BII: 4300,
+    HP: 1.6,
   },
   {
     name: "Page A",
-    uv: 4000,
-    pv: 2400,
-    amt: 2400
+    BI: 4000,
+    BII: 2400,
+    HP: 1.6,
   },
   {
     name: "Page B",
-    uv: 3000,
-    pv: 1398,
-    amt: 2210
+    BI: 3000,
+    BII: 1398,
+    HP: 1.6,
   },
   {
     name: "Page C",
-    uv: 2000,
-    pv: 9800,
-    amt: 2290
+    BI: 2000,
+    BII: 9800,
+    HP: 1.6,
   },
   {
     name: "Page D",
-    uv: 2780,
-    pv: 3908,
-    amt: 2000
+    BI: 2780,
+    BII: 3908,
+    HP: 1.6,
   },
   {
     name: "Page E",
-    uv: 1890,
-    pv: 4800,
-    amt: 2181
+    BI: 1890,
+    BII: 4800,
+    HP: 1.6,
   },
   {
     name: "Page F",
-    uv: 2390,
-    pv: 3800,
-    amt: 2500
+    BI: 2390,
+    BII: 3800,
+    HP: 1.6,
   },
   {
     name: "Page G",
-    uv: 3490,
-    pv: 4300,
-    amt: 2100
+    BI: 3490,
+    BII: 4300,
+    HP: 1,
   }
 ];
 
-export default function MyLineChart() {
+function processData(inputData) {
+  var outputData = [];
+  console.log(inputData);
+
+  if (inputData.length > 0) {
+
+    var year;
+    for (year = 2009; year < new Date().getFullYear() + 1; year++) {
+
+      var term;
+      for (term = 0; term < 2; term++){
+        var item = "not found";
+
+        if(term === 0){
+          // VT
+          item = inputData[2].find(element => element[0] === year);
+        } else {
+          // HT
+          item = inputData[1].find(element => element[0] === year);
+        }
+
+        console.log(item);
+
+        if(item === "not found" || item === undefined) {
+          continue;
+        }
+
+        var data_points = {
+          name:item[1] + " " + item[0],
+        };
+  
+        if(parseFloat(item[2]) !== 'NaN') data_points["BI"] = parseFloat(item[2]);
+        if(parseFloat(item[3]) !== 'NaN') data_points["BII"] = parseFloat(item[3]);
+        if(parseFloat(item[4]) !== 'NaN') data_points["HP"] = parseFloat(item[4]);
+  
+        outputData.push(data_points);
+      }
+    }
+
+    return outputData;
+  } else {
+    return inputData;
+  }
+}
+
+
+
+
+export default function MyLineChart(props) {
   return (
     <LineChart
-      width={400}
+      width={props.width}
       height={320}
-      data={data}
+      data={processData(props.programData)}
       margin={{
-        top: 5,
-        right: 0,
+        top: 15,
+        right: 15,
         left: 0,
         bottom: 15
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" interval={1} angle={70} dx={10} dy={30}/>
-      <YAxis yAxisId="left" />
-      <YAxis yAxisId="right" orientation="right" />
+      <XAxis dataKey="name" interval={2} angle={40} height={70} dx={23} dy={20}/>
+      <YAxis yAxisId="left" domain={['auto', 'auto']}/>
+      <YAxis yAxisId="right" orientation="right" domain={['dataMin-0.2', 'auto']} />
       <Tooltip />
       <Legend />
       <Line
         yAxisId="left"
         type="monotone"
-        dataKey="pv"
+        dataKey="BI"
         stroke="#8884d8"
         activeDot={{ r: 8 }}
       />
-      <Line yAxisId="right" type="monotone" dataKey="uv" stroke="#82ca9d" />
+      <Line yAxisId="left" type="monotone" dataKey="BII" stroke="#82ca9d" />
+      <Line yAxisId="right" type="monotone" dataKey="HP" stroke="orange" />
     </LineChart>
   );
 }
