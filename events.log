@@ -1,0 +1,1279 @@
+04/16/2021 09:33:07 PM Created file: karolinska-institutet_lakarprogrammet.json
+04/16/2021 09:33:07 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/16/2021 09:43:55 PM 127.0.0.1 - - [16/Apr/2021 21:43:55] "[33mGET / HTTP/1.1[0m" 404 -
+04/16/2021 09:43:55 PM 127.0.0.1 - - [16/Apr/2021 21:43:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/16/2021 09:44:29 PM 127.0.0.1 - - [16/Apr/2021 21:44:29] "[31m[1mGET /query HTTP/1.1[0m" 400 -
+04/16/2021 09:54:17 PM 127.0.0.1 - - [16/Apr/2021 21:54:17] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 09:54:25 PM 127.0.0.1 - - [16/Apr/2021 21:54:25] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 09:54:48 PM 127.0.0.1 - - [16/Apr/2021 21:54:48] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 09:55:02 PM 127.0.0.1 - - [16/Apr/2021 21:55:02] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 09:58:01 PM File exists: karolinska-institutet_lakarprogrammet.json
+04/16/2021 09:58:01 PM  * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+04/16/2021 09:58:12 PM 127.0.0.1 - - [16/Apr/2021 21:58:12] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 09:58:12 PM 127.0.0.1 - - [16/Apr/2021 21:58:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/16/2021 09:58:19 PM 127.0.0.1 - - [16/Apr/2021 21:58:19] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 09:59:06 PM File exists: karolinska-institutet_lakarprogrammet.json
+04/16/2021 09:59:06 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/16/2021 09:59:11 PM 127.0.0.1 - - [16/Apr/2021 21:59:11] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:05:24 PM 127.0.0.1 - - [16/Apr/2021 22:05:24] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:05:44 PM 127.0.0.1 - - [16/Apr/2021 22:05:44] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:05:48 PM 127.0.0.1 - - [16/Apr/2021 22:05:48] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:05:55 PM 127.0.0.1 - - [16/Apr/2021 22:05:55] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:06:06 PM 127.0.0.1 - - [16/Apr/2021 22:06:06] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:06:14 PM 127.0.0.1 - - [16/Apr/2021 22:06:14] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:06:53 PM 127.0.0.1 - - [16/Apr/2021 22:06:53] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:07:39 PM File exists: karolinska-institutet_lakarprogrammet.json
+04/16/2021 10:07:39 PM  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+04/16/2021 10:08:00 PM 127.0.0.1 - - [16/Apr/2021 22:08:00] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:00 PM 127.0.0.1 - - [16/Apr/2021 22:08:00] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:00 PM 127.0.0.1 - - [16/Apr/2021 22:08:00] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:01 PM 127.0.0.1 - - [16/Apr/2021 22:08:01] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:01 PM 127.0.0.1 - - [16/Apr/2021 22:08:01] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:01 PM 127.0.0.1 - - [16/Apr/2021 22:08:01] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:01 PM 127.0.0.1 - - [16/Apr/2021 22:08:01] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:01 PM 127.0.0.1 - - [16/Apr/2021 22:08:01] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:01 PM 127.0.0.1 - - [16/Apr/2021 22:08:01] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:02 PM 127.0.0.1 - - [16/Apr/2021 22:08:02] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:02 PM 127.0.0.1 - - [16/Apr/2021 22:08:02] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:02 PM 127.0.0.1 - - [16/Apr/2021 22:08:02] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:02 PM 127.0.0.1 - - [16/Apr/2021 22:08:02] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:02 PM 127.0.0.1 - - [16/Apr/2021 22:08:02] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:02 PM 127.0.0.1 - - [16/Apr/2021 22:08:02] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:02 PM 127.0.0.1 - - [16/Apr/2021 22:08:02] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:03 PM 127.0.0.1 - - [16/Apr/2021 22:08:03] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:03 PM 127.0.0.1 - - [16/Apr/2021 22:08:03] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:03 PM 127.0.0.1 - - [16/Apr/2021 22:08:03] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:03 PM 127.0.0.1 - - [16/Apr/2021 22:08:03] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:03 PM 127.0.0.1 - - [16/Apr/2021 22:08:03] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:03 PM 127.0.0.1 - - [16/Apr/2021 22:08:03] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:03 PM 127.0.0.1 - - [16/Apr/2021 22:08:03] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:04 PM 127.0.0.1 - - [16/Apr/2021 22:08:04] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:04 PM 127.0.0.1 - - [16/Apr/2021 22:08:04] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:04 PM 127.0.0.1 - - [16/Apr/2021 22:08:04] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:04 PM 127.0.0.1 - - [16/Apr/2021 22:08:04] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:04 PM 127.0.0.1 - - [16/Apr/2021 22:08:04] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:04 PM 127.0.0.1 - - [16/Apr/2021 22:08:04] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:05 PM 127.0.0.1 - - [16/Apr/2021 22:08:05] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:05 PM 127.0.0.1 - - [16/Apr/2021 22:08:05] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:05 PM 127.0.0.1 - - [16/Apr/2021 22:08:05] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:05 PM 127.0.0.1 - - [16/Apr/2021 22:08:05] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:05 PM 127.0.0.1 - - [16/Apr/2021 22:08:05] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:05 PM 127.0.0.1 - - [16/Apr/2021 22:08:05] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:06 PM 127.0.0.1 - - [16/Apr/2021 22:08:06] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:06 PM 127.0.0.1 - - [16/Apr/2021 22:08:06] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:06 PM 127.0.0.1 - - [16/Apr/2021 22:08:06] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:06 PM 127.0.0.1 - - [16/Apr/2021 22:08:06] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:06 PM 127.0.0.1 - - [16/Apr/2021 22:08:06] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:06 PM 127.0.0.1 - - [16/Apr/2021 22:08:06] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:07 PM 127.0.0.1 - - [16/Apr/2021 22:08:07] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:07 PM 127.0.0.1 - - [16/Apr/2021 22:08:07] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:07 PM 127.0.0.1 - - [16/Apr/2021 22:08:07] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:07 PM 127.0.0.1 - - [16/Apr/2021 22:08:07] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:07 PM 127.0.0.1 - - [16/Apr/2021 22:08:07] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:07 PM 127.0.0.1 - - [16/Apr/2021 22:08:07] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:07 PM 127.0.0.1 - - [16/Apr/2021 22:08:07] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:08 PM 127.0.0.1 - - [16/Apr/2021 22:08:08] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:08 PM 127.0.0.1 - - [16/Apr/2021 22:08:08] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:08 PM 127.0.0.1 - - [16/Apr/2021 22:08:08] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:08 PM 127.0.0.1 - - [16/Apr/2021 22:08:08] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:08 PM 127.0.0.1 - - [16/Apr/2021 22:08:08] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:08 PM 127.0.0.1 - - [16/Apr/2021 22:08:08] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:09 PM 127.0.0.1 - - [16/Apr/2021 22:08:09] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:09 PM 127.0.0.1 - - [16/Apr/2021 22:08:09] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:09 PM 127.0.0.1 - - [16/Apr/2021 22:08:09] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:09 PM 127.0.0.1 - - [16/Apr/2021 22:08:09] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:09 PM 127.0.0.1 - - [16/Apr/2021 22:08:09] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:09 PM 127.0.0.1 - - [16/Apr/2021 22:08:09] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:09 PM 127.0.0.1 - - [16/Apr/2021 22:08:09] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:10 PM 127.0.0.1 - - [16/Apr/2021 22:08:10] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:10 PM 127.0.0.1 - - [16/Apr/2021 22:08:10] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:10 PM 127.0.0.1 - - [16/Apr/2021 22:08:10] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:10 PM 127.0.0.1 - - [16/Apr/2021 22:08:10] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:10 PM 127.0.0.1 - - [16/Apr/2021 22:08:10] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:10 PM 127.0.0.1 - - [16/Apr/2021 22:08:10] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:11 PM 127.0.0.1 - - [16/Apr/2021 22:08:11] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:11 PM 127.0.0.1 - - [16/Apr/2021 22:08:11] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:11 PM 127.0.0.1 - - [16/Apr/2021 22:08:11] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:11 PM 127.0.0.1 - - [16/Apr/2021 22:08:11] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:11 PM 127.0.0.1 - - [16/Apr/2021 22:08:11] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:11 PM 127.0.0.1 - - [16/Apr/2021 22:08:11] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:12 PM 127.0.0.1 - - [16/Apr/2021 22:08:12] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:12 PM 127.0.0.1 - - [16/Apr/2021 22:08:12] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:12 PM 127.0.0.1 - - [16/Apr/2021 22:08:12] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:12 PM 127.0.0.1 - - [16/Apr/2021 22:08:12] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:12 PM 127.0.0.1 - - [16/Apr/2021 22:08:12] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:12 PM 127.0.0.1 - - [16/Apr/2021 22:08:12] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:13 PM 127.0.0.1 - - [16/Apr/2021 22:08:13] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:13 PM 127.0.0.1 - - [16/Apr/2021 22:08:13] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:13 PM 127.0.0.1 - - [16/Apr/2021 22:08:13] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:13 PM 127.0.0.1 - - [16/Apr/2021 22:08:13] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:13 PM 127.0.0.1 - - [16/Apr/2021 22:08:13] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:13 PM 127.0.0.1 - - [16/Apr/2021 22:08:13] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:13 PM 127.0.0.1 - - [16/Apr/2021 22:08:13] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:14 PM 127.0.0.1 - - [16/Apr/2021 22:08:14] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:14 PM 127.0.0.1 - - [16/Apr/2021 22:08:14] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:14 PM 127.0.0.1 - - [16/Apr/2021 22:08:14] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:14 PM 127.0.0.1 - - [16/Apr/2021 22:08:14] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:14 PM 127.0.0.1 - - [16/Apr/2021 22:08:14] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:14 PM 127.0.0.1 - - [16/Apr/2021 22:08:14] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:14 PM 127.0.0.1 - - [16/Apr/2021 22:08:14] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:15 PM 127.0.0.1 - - [16/Apr/2021 22:08:15] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:15 PM 127.0.0.1 - - [16/Apr/2021 22:08:15] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:15 PM 127.0.0.1 - - [16/Apr/2021 22:08:15] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:15 PM 127.0.0.1 - - [16/Apr/2021 22:08:15] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:15 PM 127.0.0.1 - - [16/Apr/2021 22:08:15] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:15 PM 127.0.0.1 - - [16/Apr/2021 22:08:15] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:16 PM 127.0.0.1 - - [16/Apr/2021 22:08:16] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:16 PM 127.0.0.1 - - [16/Apr/2021 22:08:16] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:16 PM 127.0.0.1 - - [16/Apr/2021 22:08:16] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:16 PM 127.0.0.1 - - [16/Apr/2021 22:08:16] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:16 PM 127.0.0.1 - - [16/Apr/2021 22:08:16] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:16 PM 127.0.0.1 - - [16/Apr/2021 22:08:16] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:17 PM 127.0.0.1 - - [16/Apr/2021 22:08:17] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:17 PM 127.0.0.1 - - [16/Apr/2021 22:08:17] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:17 PM 127.0.0.1 - - [16/Apr/2021 22:08:17] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:17 PM 127.0.0.1 - - [16/Apr/2021 22:08:17] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:17 PM 127.0.0.1 - - [16/Apr/2021 22:08:17] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:17 PM 127.0.0.1 - - [16/Apr/2021 22:08:17] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:18 PM 127.0.0.1 - - [16/Apr/2021 22:08:18] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:18 PM 127.0.0.1 - - [16/Apr/2021 22:08:18] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:18 PM 127.0.0.1 - - [16/Apr/2021 22:08:18] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:18 PM 127.0.0.1 - - [16/Apr/2021 22:08:18] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:18 PM 127.0.0.1 - - [16/Apr/2021 22:08:18] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:18 PM 127.0.0.1 - - [16/Apr/2021 22:08:18] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:18 PM 127.0.0.1 - - [16/Apr/2021 22:08:18] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:19 PM 127.0.0.1 - - [16/Apr/2021 22:08:19] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:19 PM 127.0.0.1 - - [16/Apr/2021 22:08:19] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:19 PM 127.0.0.1 - - [16/Apr/2021 22:08:19] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:19 PM 127.0.0.1 - - [16/Apr/2021 22:08:19] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:19 PM 127.0.0.1 - - [16/Apr/2021 22:08:19] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:19 PM 127.0.0.1 - - [16/Apr/2021 22:08:19] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:20 PM 127.0.0.1 - - [16/Apr/2021 22:08:20] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:20 PM 127.0.0.1 - - [16/Apr/2021 22:08:20] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:20 PM 127.0.0.1 - - [16/Apr/2021 22:08:20] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:20 PM 127.0.0.1 - - [16/Apr/2021 22:08:20] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:20 PM 127.0.0.1 - - [16/Apr/2021 22:08:20] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:20 PM 127.0.0.1 - - [16/Apr/2021 22:08:20] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:21 PM 127.0.0.1 - - [16/Apr/2021 22:08:21] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:21 PM 127.0.0.1 - - [16/Apr/2021 22:08:21] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:21 PM 127.0.0.1 - - [16/Apr/2021 22:08:21] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:21 PM 127.0.0.1 - - [16/Apr/2021 22:08:21] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:21 PM 127.0.0.1 - - [16/Apr/2021 22:08:21] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:21 PM 127.0.0.1 - - [16/Apr/2021 22:08:21] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:21 PM 127.0.0.1 - - [16/Apr/2021 22:08:21] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:22 PM 127.0.0.1 - - [16/Apr/2021 22:08:22] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:22 PM 127.0.0.1 - - [16/Apr/2021 22:08:22] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:22 PM 127.0.0.1 - - [16/Apr/2021 22:08:22] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:22 PM 127.0.0.1 - - [16/Apr/2021 22:08:22] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:22 PM 127.0.0.1 - - [16/Apr/2021 22:08:22] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:22 PM 127.0.0.1 - - [16/Apr/2021 22:08:22] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:23 PM 127.0.0.1 - - [16/Apr/2021 22:08:23] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:23 PM 127.0.0.1 - - [16/Apr/2021 22:08:23] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:23 PM 127.0.0.1 - - [16/Apr/2021 22:08:23] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:23 PM 127.0.0.1 - - [16/Apr/2021 22:08:23] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:23 PM 127.0.0.1 - - [16/Apr/2021 22:08:23] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:23 PM 127.0.0.1 - - [16/Apr/2021 22:08:23] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:23 PM 127.0.0.1 - - [16/Apr/2021 22:08:23] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:24 PM 127.0.0.1 - - [16/Apr/2021 22:08:24] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:24 PM 127.0.0.1 - - [16/Apr/2021 22:08:24] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:24 PM 127.0.0.1 - - [16/Apr/2021 22:08:24] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:24 PM 127.0.0.1 - - [16/Apr/2021 22:08:24] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:24 PM 127.0.0.1 - - [16/Apr/2021 22:08:24] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:24 PM 127.0.0.1 - - [16/Apr/2021 22:08:24] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:25 PM 127.0.0.1 - - [16/Apr/2021 22:08:25] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:25 PM 127.0.0.1 - - [16/Apr/2021 22:08:25] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:25 PM 127.0.0.1 - - [16/Apr/2021 22:08:25] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:25 PM 127.0.0.1 - - [16/Apr/2021 22:08:25] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:25 PM 127.0.0.1 - - [16/Apr/2021 22:08:25] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:25 PM 127.0.0.1 - - [16/Apr/2021 22:08:25] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:26 PM 127.0.0.1 - - [16/Apr/2021 22:08:26] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:26 PM 127.0.0.1 - - [16/Apr/2021 22:08:26] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:26 PM 127.0.0.1 - - [16/Apr/2021 22:08:26] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:26 PM 127.0.0.1 - - [16/Apr/2021 22:08:26] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:26 PM 127.0.0.1 - - [16/Apr/2021 22:08:26] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:26 PM 127.0.0.1 - - [16/Apr/2021 22:08:26] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:26 PM 127.0.0.1 - - [16/Apr/2021 22:08:26] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:27 PM 127.0.0.1 - - [16/Apr/2021 22:08:27] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:27 PM 127.0.0.1 - - [16/Apr/2021 22:08:27] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:27 PM 127.0.0.1 - - [16/Apr/2021 22:08:27] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:27 PM 127.0.0.1 - - [16/Apr/2021 22:08:27] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:27 PM 127.0.0.1 - - [16/Apr/2021 22:08:27] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:27 PM 127.0.0.1 - - [16/Apr/2021 22:08:27] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:28 PM 127.0.0.1 - - [16/Apr/2021 22:08:28] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:28 PM 127.0.0.1 - - [16/Apr/2021 22:08:28] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:28 PM 127.0.0.1 - - [16/Apr/2021 22:08:28] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:28 PM 127.0.0.1 - - [16/Apr/2021 22:08:28] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:28 PM 127.0.0.1 - - [16/Apr/2021 22:08:28] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:28 PM 127.0.0.1 - - [16/Apr/2021 22:08:28] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:28 PM 127.0.0.1 - - [16/Apr/2021 22:08:28] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:29 PM 127.0.0.1 - - [16/Apr/2021 22:08:29] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:29 PM 127.0.0.1 - - [16/Apr/2021 22:08:29] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:29 PM 127.0.0.1 - - [16/Apr/2021 22:08:29] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:29 PM 127.0.0.1 - - [16/Apr/2021 22:08:29] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:29 PM 127.0.0.1 - - [16/Apr/2021 22:08:29] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:29 PM 127.0.0.1 - - [16/Apr/2021 22:08:29] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:30 PM 127.0.0.1 - - [16/Apr/2021 22:08:30] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:30 PM 127.0.0.1 - - [16/Apr/2021 22:08:30] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:30 PM 127.0.0.1 - - [16/Apr/2021 22:08:30] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:30 PM 127.0.0.1 - - [16/Apr/2021 22:08:30] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:30 PM 127.0.0.1 - - [16/Apr/2021 22:08:30] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:30 PM 127.0.0.1 - - [16/Apr/2021 22:08:30] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:31 PM 127.0.0.1 - - [16/Apr/2021 22:08:31] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:31 PM 127.0.0.1 - - [16/Apr/2021 22:08:31] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:31 PM 127.0.0.1 - - [16/Apr/2021 22:08:31] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:31 PM 127.0.0.1 - - [16/Apr/2021 22:08:31] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:31 PM 127.0.0.1 - - [16/Apr/2021 22:08:31] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:31 PM 127.0.0.1 - - [16/Apr/2021 22:08:31] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:31 PM 127.0.0.1 - - [16/Apr/2021 22:08:31] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:32 PM 127.0.0.1 - - [16/Apr/2021 22:08:32] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:32 PM 127.0.0.1 - - [16/Apr/2021 22:08:32] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:32 PM 127.0.0.1 - - [16/Apr/2021 22:08:32] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:32 PM 127.0.0.1 - - [16/Apr/2021 22:08:32] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:32 PM 127.0.0.1 - - [16/Apr/2021 22:08:32] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:32 PM 127.0.0.1 - - [16/Apr/2021 22:08:32] "[33mGET /ad0682ad2d6e74f38da5.hot-update.json HTTP/1.1[0m" 404 -
+04/16/2021 10:08:33 PM 127.0.0.1 - - [16/Apr/2021 22:08:33] "[33mGET / HTTP/1.1[0m" 404 -
+04/16/2021 10:08:33 PM 127.0.0.1 - - [16/Apr/2021 22:08:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/16/2021 10:08:34 PM 127.0.0.1 - - [16/Apr/2021 22:08:34] "[33mGET / HTTP/1.1[0m" 404 -
+04/16/2021 10:08:36 PM 127.0.0.1 - - [16/Apr/2021 22:08:36] "[33mGET / HTTP/1.1[0m" 404 -
+04/16/2021 10:09:55 PM File exists: karolinska-institutet_lakarprogrammet.json
+04/16/2021 10:09:56 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/16/2021 10:09:58 PM 127.0.0.1 - - [16/Apr/2021 22:09:58] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:10:03 PM 127.0.0.1 - - [16/Apr/2021 22:10:03] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:10:34 PM 127.0.0.1 - - [16/Apr/2021 22:10:34] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:12:01 PM 127.0.0.1 - - [16/Apr/2021 22:12:01] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:12:02 PM 127.0.0.1 - - [16/Apr/2021 22:12:02] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:12:09 PM File exists: karolinska-institutet_lakarprogrammet.json
+04/16/2021 10:12:55 PM File exists: karolinska-institutet_lakarprogrammet.json
+04/16/2021 10:12:55 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/16/2021 10:12:57 PM 127.0.0.1 - - [16/Apr/2021 22:12:57] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:12:59 PM 127.0.0.1 - - [16/Apr/2021 22:12:59] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:13:04 PM 127.0.0.1 - - [16/Apr/2021 22:13:04] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:13:12 PM 127.0.0.1 - - [16/Apr/2021 22:13:12] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:13:13 PM 127.0.0.1 - - [16/Apr/2021 22:13:13] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:13:26 PM 127.0.0.1 - - [16/Apr/2021 22:13:26] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:13:26 PM 127.0.0.1 - - [16/Apr/2021 22:13:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/16/2021 10:13:28 PM 127.0.0.1 - - [16/Apr/2021 22:13:28] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:13:29 PM 127.0.0.1 - - [16/Apr/2021 22:13:29] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:13:29 PM 127.0.0.1 - - [16/Apr/2021 22:13:29] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:13:42 PM File exists: karolinska-institutet_lakarprogrammet.json
+04/16/2021 10:13:43 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/16/2021 10:13:46 PM 127.0.0.1 - - [16/Apr/2021 22:13:46] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:14:20 PM 127.0.0.1 - - [16/Apr/2021 22:14:20] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:14:35 PM 127.0.0.1 - - [16/Apr/2021 22:14:35] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:27:15 PM 127.0.0.1 - - [16/Apr/2021 22:27:15] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:31:43 PM File exists: karolinska-institutet_lakarprogrammet.json
+04/16/2021 10:31:44 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/16/2021 10:31:49 PM 127.0.0.1 - - [16/Apr/2021 22:31:49] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:31:52 PM 127.0.0.1 - - [16/Apr/2021 22:31:52] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:31:54 PM 127.0.0.1 - - [16/Apr/2021 22:31:54] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:31:54 PM 127.0.0.1 - - [16/Apr/2021 22:31:54] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:31:55 PM 127.0.0.1 - - [16/Apr/2021 22:31:55] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:31:55 PM 127.0.0.1 - - [16/Apr/2021 22:31:55] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:31:56 PM 127.0.0.1 - - [16/Apr/2021 22:31:56] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:31:56 PM 127.0.0.1 - - [16/Apr/2021 22:31:56] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:31:57 PM 127.0.0.1 - - [16/Apr/2021 22:31:57] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:31:57 PM 127.0.0.1 - - [16/Apr/2021 22:31:57] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:31:58 PM 127.0.0.1 - - [16/Apr/2021 22:31:58] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:32:24 PM 127.0.0.1 - - [16/Apr/2021 22:32:24] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:33:03 PM 127.0.0.1 - - [16/Apr/2021 22:33:03] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:33:15 PM 127.0.0.1 - - [16/Apr/2021 22:33:15] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 10:33:25 PM 127.0.0.1 - - [16/Apr/2021 22:33:25] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/16/2021 10:35:49 PM 127.0.0.1 - - [16/Apr/2021 22:35:49] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/16/2021 10:35:56 PM 127.0.0.1 - - [16/Apr/2021 22:35:56] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/16/2021 11:19:58 PM 127.0.0.1 - - [16/Apr/2021 23:19:58] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 11:20:06 PM 127.0.0.1 - - [16/Apr/2021 23:20:06] "[37mGET /query?q=jurist+uppsala HTTP/1.1[0m" 200 -
+04/16/2021 11:20:10 PM 127.0.0.1 - - [16/Apr/2021 23:20:10] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/16/2021 11:24:54 PM 127.0.0.1 - - [16/Apr/2021 23:24:54] "[37mGET /query?q=asdfasdf HTTP/1.1[0m" 200 -
+04/16/2021 11:25:05 PM 127.0.0.1 - - [16/Apr/2021 23:25:05] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/16/2021 11:26:49 PM 127.0.0.1 - - [16/Apr/2021 23:26:49] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/16/2021 11:27:09 PM 127.0.0.1 - - [16/Apr/2021 23:27:09] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/16/2021 11:27:13 PM 127.0.0.1 - - [16/Apr/2021 23:27:13] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/16/2021 11:28:19 PM 127.0.0.1 - - [16/Apr/2021 23:28:19] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/16/2021 11:28:40 PM 127.0.0.1 - - [16/Apr/2021 23:28:40] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:28:43 PM 127.0.0.1 - - [16/Apr/2021 23:28:43] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:28:44 PM 127.0.0.1 - - [16/Apr/2021 23:28:44] "[37mGET /query?q=t HTTP/1.1[0m" 200 -
+04/16/2021 11:28:58 PM 127.0.0.1 - - [16/Apr/2021 23:28:58] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:29:07 PM 127.0.0.1 - - [16/Apr/2021 23:29:07] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:29:45 PM 127.0.0.1 - - [16/Apr/2021 23:29:45] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:30:08 PM 127.0.0.1 - - [16/Apr/2021 23:30:08] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:30:18 PM 127.0.0.1 - - [16/Apr/2021 23:30:18] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:30:20 PM 127.0.0.1 - - [16/Apr/2021 23:30:20] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:30:22 PM 127.0.0.1 - - [16/Apr/2021 23:30:22] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:30:31 PM 127.0.0.1 - - [16/Apr/2021 23:30:31] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:30:44 PM 127.0.0.1 - - [16/Apr/2021 23:30:44] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:30:54 PM 127.0.0.1 - - [16/Apr/2021 23:30:54] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:31:05 PM 127.0.0.1 - - [16/Apr/2021 23:31:05] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:31:07 PM 127.0.0.1 - - [16/Apr/2021 23:31:07] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:31:27 PM 127.0.0.1 - - [16/Apr/2021 23:31:27] "[37mGET /query?q=läkare HTTP/1.1[0m" 200 -
+04/16/2021 11:31:31 PM 127.0.0.1 - - [16/Apr/2021 23:31:31] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:31:41 PM 127.0.0.1 - - [16/Apr/2021 23:31:41] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:31:43 PM 127.0.0.1 - - [16/Apr/2021 23:31:43] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:32:06 PM 127.0.0.1 - - [16/Apr/2021 23:32:06] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:32:11 PM 127.0.0.1 - - [16/Apr/2021 23:32:11] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:32:31 PM 127.0.0.1 - - [16/Apr/2021 23:32:31] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:33:00 PM 127.0.0.1 - - [16/Apr/2021 23:33:00] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:35:14 PM 127.0.0.1 - - [16/Apr/2021 23:35:14] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:35:24 PM 127.0.0.1 - - [16/Apr/2021 23:35:24] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:35:36 PM 127.0.0.1 - - [16/Apr/2021 23:35:36] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:37:37 PM File exists: karolinska-institutet_lakarprogrammet.json
+04/16/2021 11:37:37 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/16/2021 11:38:00 PM 127.0.0.1 - - [16/Apr/2021 23:38:00] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:38:37 PM 127.0.0.1 - - [16/Apr/2021 23:38:37] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:38:52 PM 127.0.0.1 - - [16/Apr/2021 23:38:52] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:39:28 PM 127.0.0.1 - - [16/Apr/2021 23:39:28] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:40:51 PM 127.0.0.1 - - [16/Apr/2021 23:40:51] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:41:26 PM 127.0.0.1 - - [16/Apr/2021 23:41:26] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:41:48 PM 127.0.0.1 - - [16/Apr/2021 23:41:48] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:42:30 PM 127.0.0.1 - - [16/Apr/2021 23:42:30] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:42:49 PM 127.0.0.1 - - [16/Apr/2021 23:42:49] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/16/2021 11:43:09 PM 127.0.0.1 - - [16/Apr/2021 23:43:09] "[37mGET /query?q=handelshögskolan HTTP/1.1[0m" 200 -
+04/16/2021 11:43:59 PM 127.0.0.1 - - [16/Apr/2021 23:43:59] "[37mGET /query?q=handelshögskolan HTTP/1.1[0m" 200 -
+04/16/2021 11:45:26 PM 127.0.0.1 - - [16/Apr/2021 23:45:26] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:45:58 PM 127.0.0.1 - - [16/Apr/2021 23:45:58] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:48:00 PM 127.0.0.1 - - [16/Apr/2021 23:48:00] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:48:25 PM 127.0.0.1 - - [16/Apr/2021 23:48:25] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:48:50 PM 127.0.0.1 - - [16/Apr/2021 23:48:50] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:49:14 PM 127.0.0.1 - - [16/Apr/2021 23:49:14] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/16/2021 11:57:44 PM 127.0.0.1 - - [16/Apr/2021 23:57:44] "[37mGET /query?q=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/16/2021 11:58:08 PM 127.0.0.1 - - [16/Apr/2021 23:58:08] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/16/2021 11:58:13 PM 127.0.0.1 - - [16/Apr/2021 23:58:13] "[37mGET /query?q=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/17/2021 12:07:38 AM 127.0.0.1 - - [17/Apr/2021 00:07:38] "[37mGET /query?q=Jurist+uppsala HTTP/1.1[0m" 200 -
+04/17/2021 12:15:22 AM 127.0.0.1 - - [17/Apr/2021 00:15:22] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/17/2021 12:24:01 AM 127.0.0.1 - - [17/Apr/2021 00:24:01] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/17/2021 12:24:09 AM 127.0.0.1 - - [17/Apr/2021 00:24:09] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 12:25:22 AM 127.0.0.1 - - [17/Apr/2021 00:25:22] "[37mGET /query?q=jurist+uppsala HTTP/1.1[0m" 200 -
+04/17/2021 12:26:09 AM 127.0.0.1 - - [17/Apr/2021 00:26:09] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 12:38:01 AM 127.0.0.1 - - [17/Apr/2021 00:38:01] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 12:38:59 AM 127.0.0.1 - - [17/Apr/2021 00:38:59] "[37mGET /query?q=läkare+karolinska HTTP/1.1[0m" 200 -
+04/17/2021 12:39:12 AM 127.0.0.1 - - [17/Apr/2021 00:39:12] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 12:39:57 AM 127.0.0.1 - - [17/Apr/2021 00:39:57] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 12:41:22 AM 127.0.0.1 - - [17/Apr/2021 00:41:22] "[37mGET /query?q=ajsdflökjaösdlkfjaölkjdflkjsdkdfkjdfkjdfk HTTP/1.1[0m" 200 -
+04/17/2021 12:41:42 AM 127.0.0.1 - - [17/Apr/2021 00:41:42] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 12:43:41 AM 127.0.0.1 - - [17/Apr/2021 00:43:41] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/17/2021 12:49:48 AM 127.0.0.1 - - [17/Apr/2021 00:49:48] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/17/2021 12:53:51 AM 127.0.0.1 - - [17/Apr/2021 00:53:51] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/17/2021 12:56:25 AM 127.0.0.1 - - [17/Apr/2021 00:56:25] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/17/2021 01:02:43 AM 127.0.0.1 - - [17/Apr/2021 01:02:43] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/17/2021 01:02:55 AM 127.0.0.1 - - [17/Apr/2021 01:02:55] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 01:03:32 AM 127.0.0.1 - - [17/Apr/2021 01:03:32] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 01:05:46 AM 127.0.0.1 - - [17/Apr/2021 01:05:46] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 01:14:33 AM 127.0.0.1 - - [17/Apr/2021 01:14:33] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 01:14:40 AM 127.0.0.1 - - [17/Apr/2021 01:14:40] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 01:17:19 AM 127.0.0.1 - - [17/Apr/2021 01:17:19] "[37mGET /query?q=teknik HTTP/1.1[0m" 200 -
+04/17/2021 01:17:53 AM 127.0.0.1 - - [17/Apr/2021 01:17:53] "[37mGET /query?q=karolinska+institutet HTTP/1.1[0m" 200 -
+04/17/2021 01:26:39 AM 127.0.0.1 - - [17/Apr/2021 01:26:39] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 01:29:41 AM 127.0.0.1 - - [17/Apr/2021 01:29:41] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 01:32:45 AM 127.0.0.1 - - [17/Apr/2021 01:32:45] "[37mGET /query?q= HTTP/1.1[0m" 200 -
+04/17/2021 01:32:49 AM 127.0.0.1 - - [17/Apr/2021 01:32:49] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/17/2021 01:33:04 AM 127.0.0.1 - - [17/Apr/2021 01:33:04] "[37mGET /query?q=lantbruk HTTP/1.1[0m" 200 -
+04/17/2021 01:45:18 AM 127.0.0.1 - - [17/Apr/2021 01:45:18] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 01:46:36 AM 127.0.0.1 - - [17/Apr/2021 01:46:36] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 01:47:00 AM 127.0.0.1 - - [17/Apr/2021 01:47:00] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/17/2021 01:51:05 AM 127.0.0.1 - - [17/Apr/2021 01:51:05] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/17/2021 01:51:24 AM 127.0.0.1 - - [17/Apr/2021 01:51:24] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/17/2021 01:51:43 AM 127.0.0.1 - - [17/Apr/2021 01:51:43] "[37mGET /query?q=data+kungliga HTTP/1.1[0m" 200 -
+04/17/2021 01:52:27 AM 127.0.0.1 - - [17/Apr/2021 01:52:27] "[37mGET /query?q=data+kungliga HTTP/1.1[0m" 200 -
+04/17/2021 01:59:38 AM 127.0.0.1 - - [17/Apr/2021 01:59:38] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 01:59:42 AM 127.0.0.1 - - [17/Apr/2021 01:59:42] "[37mGET /query?q=läkar HTTP/1.1[0m" 200 -
+04/17/2021 01:59:54 AM 127.0.0.1 - - [17/Apr/2021 01:59:54] "[37mGET /query?q=idrott HTTP/1.1[0m" 200 -
+04/17/2021 02:01:01 AM 127.0.0.1 - - [17/Apr/2021 02:01:01] "[37mGET /query?q=matte HTTP/1.1[0m" 200 -
+04/17/2021 02:01:12 AM 127.0.0.1 - - [17/Apr/2021 02:01:12] "[37mGET /query?q=matematik HTTP/1.1[0m" 200 -
+04/17/2021 02:01:23 AM 127.0.0.1 - - [17/Apr/2021 02:01:23] "[37mGET /query?q=teknisk+matematik HTTP/1.1[0m" 200 -
+04/17/2021 02:02:23 AM 127.0.0.1 - - [17/Apr/2021 02:02:23] "[37mGET /query?q=teknisk+matematik+kungliga+tekniska+högskolan HTTP/1.1[0m" 200 -
+04/17/2021 02:05:56 AM 127.0.0.1 - - [17/Apr/2021 02:05:56] "[37mGET /query?q=teknisk+matematik HTTP/1.1[0m" 200 -
+04/17/2021 02:06:10 AM 127.0.0.1 - - [17/Apr/2021 02:06:10] "[37mGET /query?q=teknisk+matematik HTTP/1.1[0m" 200 -
+04/17/2021 02:09:43 AM 127.0.0.1 - - [17/Apr/2021 02:09:43] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 02:10:31 AM 127.0.0.1 - - [17/Apr/2021 02:10:31] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 02:11:57 AM 127.0.0.1 - - [17/Apr/2021 02:11:57] "[37mGET /query?q=industriell+ekonomi HTTP/1.1[0m" 200 -
+04/17/2021 02:28:36 AM 127.0.0.1 - - [17/Apr/2021 02:28:36] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 02:29:43 AM 127.0.0.1 - - [17/Apr/2021 02:29:43] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/17/2021 02:31:24 AM 127.0.0.1 - - [17/Apr/2021 02:31:24] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/21/2021 11:20:47 PM File exists: karolinska-institutet_lakarprogrammet.json
+04/21/2021 11:20:47 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/21/2021 11:20:51 PM 127.0.0.1 - - [21/Apr/2021 23:20:51] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 12:30:07 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/22/2021 12:34:59 AM 127.0.0.1 - - [22/Apr/2021 00:34:59] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/22/2021 12:36:11 AM 127.0.0.1 - - [22/Apr/2021 00:36:11] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/22/2021 12:36:18 AM 127.0.0.1 - - [22/Apr/2021 00:36:18] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 12:39:32 AM 127.0.0.1 - - [22/Apr/2021 00:39:32] "[37mGET /query?q=teknisk+fysik+ HTTP/1.1[0m" 200 -
+04/22/2021 12:39:36 AM 127.0.0.1 - - [22/Apr/2021 00:39:36] "[37mGET /query?q=teknisk+fysik+kth HTTP/1.1[0m" 200 -
+04/22/2021 12:39:51 AM 127.0.0.1 - - [22/Apr/2021 00:39:51] "[37mGET /query?q=Läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/22/2021 12:39:57 AM 127.0.0.1 - - [22/Apr/2021 00:39:57] "[37mGET /query?q=datat HTTP/1.1[0m" 200 -
+04/22/2021 12:39:59 AM 127.0.0.1 - - [22/Apr/2021 00:39:59] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 12:47:32 AM 127.0.0.1 - - [22/Apr/2021 00:47:32] "[37mGET /query?q=teknisk+fysik HTTP/1.1[0m" 200 -
+04/22/2021 12:47:43 AM 127.0.0.1 - - [22/Apr/2021 00:47:43] "[37mGET /query?q=teknisk+fysiksdfsdf+test+ HTTP/1.1[0m" 200 -
+04/22/2021 12:47:48 AM 127.0.0.1 - - [22/Apr/2021 00:47:48] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 12:47:58 AM 127.0.0.1 - - [22/Apr/2021 00:47:58] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 12:49:05 AM 127.0.0.1 - - [22/Apr/2021 00:49:05] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 12:49:10 AM 127.0.0.1 - - [22/Apr/2021 00:49:10] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 12:49:37 AM 127.0.0.1 - - [22/Apr/2021 00:49:37] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 12:49:51 AM 127.0.0.1 - - [22/Apr/2021 00:49:51] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 12:50:13 AM 127.0.0.1 - - [22/Apr/2021 00:50:13] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 12:58:07 AM 127.0.0.1 - - [22/Apr/2021 00:58:07] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:00:02 AM 127.0.0.1 - - [22/Apr/2021 01:00:02] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:00:03 AM 127.0.0.1 - - [22/Apr/2021 01:00:03] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:00:08 AM 127.0.0.1 - - [22/Apr/2021 01:00:08] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:01:37 AM 127.0.0.1 - - [22/Apr/2021 01:01:37] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:01:52 AM 127.0.0.1 - - [22/Apr/2021 01:01:52] "[37mGET /query?q=data+teknik+kth HTTP/1.1[0m" 200 -
+04/22/2021 01:04:31 AM 127.0.0.1 - - [22/Apr/2021 01:04:31] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:04:37 AM 127.0.0.1 - - [22/Apr/2021 01:04:37] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:15:25 AM 127.0.0.1 - - [22/Apr/2021 01:15:25] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:16:37 AM 127.0.0.1 - - [22/Apr/2021 01:16:37] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:18:44 AM 127.0.0.1 - - [22/Apr/2021 01:18:44] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:19:52 AM 127.0.0.1 - - [22/Apr/2021 01:19:52] "[37mGET /query?q=teknisk+fysik HTTP/1.1[0m" 200 -
+04/22/2021 01:25:24 AM 127.0.0.1 - - [22/Apr/2021 01:25:24] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:25:44 AM 127.0.0.1 - - [22/Apr/2021 01:25:44] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:25:45 AM 127.0.0.1 - - [22/Apr/2021 01:25:45] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:25:46 AM 127.0.0.1 - - [22/Apr/2021 01:25:46] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:25:49 AM 127.0.0.1 - - [22/Apr/2021 01:25:49] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:25:49 AM 127.0.0.1 - - [22/Apr/2021 01:25:49] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:25:50 AM 127.0.0.1 - - [22/Apr/2021 01:25:50] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/22/2021 01:25:55 AM 127.0.0.1 - - [22/Apr/2021 01:25:55] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/24/2021 12:21:35 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 12:21:37 AM 127.0.0.1 - - [24/Apr/2021 00:21:37] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/24/2021 12:21:44 AM 127.0.0.1 - - [24/Apr/2021 00:21:44] "[37mGET /query?q=teknisk+fysik HTTP/1.1[0m" 200 -
+04/24/2021 12:26:23 AM 127.0.0.1 - - [24/Apr/2021 00:26:23] "[37mGET /query?q=teknisk+fysik HTTP/1.1[0m" 200 -
+04/24/2021 12:26:24 AM 127.0.0.1 - - [24/Apr/2021 00:26:24] "[37mGET /query?q=teknisk+fysik HTTP/1.1[0m" 200 -
+04/24/2021 12:26:27 AM 127.0.0.1 - - [24/Apr/2021 00:26:27] "[37mGET /query?q=teknisk+fysik HTTP/1.1[0m" 200 -
+04/24/2021 03:53:16 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 03:53:30 AM 127.0.0.1 - - [24/Apr/2021 03:53:30] "[37mGET /query?q=teknisk+matematik HTTP/1.1[0m" 200 -
+04/24/2021 03:53:36 AM 127.0.0.1 - - [24/Apr/2021 03:53:36] "[37mGET /query?q=teknisk+matematik+kth HTTP/1.1[0m" 200 -
+04/24/2021 03:53:41 AM 127.0.0.1 - - [24/Apr/2021 03:53:41] "[37mGET /query?q=undefined HTTP/1.1[0m" 200 -
+04/24/2021 03:54:07 AM 127.0.0.1 - - [24/Apr/2021 03:54:07] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/24/2021 03:54:23 AM 127.0.0.1 - - [24/Apr/2021 03:54:23] "[37mGET /query?q=teknisk+matematik+kth HTTP/1.1[0m" 200 -
+04/24/2021 03:54:29 AM 127.0.0.1 - - [24/Apr/2021 03:54:29] "[37mGET /query?q=undefined HTTP/1.1[0m" 200 -
+04/24/2021 03:54:31 AM 127.0.0.1 - - [24/Apr/2021 03:54:31] "[37mGET /query?q=undefined HTTP/1.1[0m" 200 -
+04/24/2021 03:55:10 AM 127.0.0.1 - - [24/Apr/2021 03:55:10] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 03:55:13 AM 127.0.0.1 - - [24/Apr/2021 03:55:13] "[37mGET /query?q= HTTP/1.1[0m" 200 -
+04/24/2021 03:56:16 AM 127.0.0.1 - - [24/Apr/2021 03:56:16] "[37mGET /program_data?q=KI-41006 HTTP/1.1[0m" 200 -
+04/24/2021 03:57:24 AM 127.0.0.1 - - [24/Apr/2021 03:57:24] "[37mGET /program_data?q=KI-41006 HTTP/1.1[0m" 200 -
+04/24/2021 03:57:25 AM 127.0.0.1 - - [24/Apr/2021 03:57:25] "[37mGET /program_data?q=KI-41006 HTTP/1.1[0m" 200 -
+04/24/2021 03:57:26 AM 127.0.0.1 - - [24/Apr/2021 03:57:26] "[37mGET /program_data?q=KI-41006 HTTP/1.1[0m" 200 -
+04/24/2021 04:00:07 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 04:00:14 AM 127.0.0.1 - - [24/Apr/2021 04:00:14] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 04:00:31 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 04:00:33 AM 127.0.0.1 - - [24/Apr/2021 04:00:33] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 04:21:58 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 04:22:04 AM Exception on /program_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 158, in get
+    results = get_program_data(args['q'], args['school'], args['program'])
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 40, in get_program_data
+    'antagningsomgang':'VT' + current_year,
+TypeError: can only concatenate str (not "int") to str
+04/24/2021 04:22:04 AM 127.0.0.1 - - [24/Apr/2021 04:22:04] "[35m[1mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 500 -
+04/24/2021 04:22:50 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 04:23:00 AM Exception on /program_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 159, in get
+    results = get_program_data(args['q'], args['school'], args['program'])
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 40, in get_program_data
+    'antagningsomgang':'VT' + current_year,
+TypeError: can only concatenate str (not "int") to str
+04/24/2021 04:23:00 AM 127.0.0.1 - - [24/Apr/2021 04:23:00] "[35m[1mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 500 -
+04/24/2021 04:23:15 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 04:23:17 AM Exception on /program_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 159, in get
+    results = get_program_data(args['q'], args['school'], args['program'])
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 40, in get_program_data
+    'antagningsomgang':'VT' + current_year,
+TypeError: can only concatenate str (not "int") to str
+04/24/2021 04:23:17 AM 127.0.0.1 - - [24/Apr/2021 04:23:17] "[35m[1mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 500 -
+04/24/2021 04:23:58 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 04:24:06 AM 127.0.0.1 - - [24/Apr/2021 04:24:06] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 04:25:09 AM 127.0.0.1 - - [24/Apr/2021 04:25:09] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 04:29:41 AM 127.0.0.1 - - [24/Apr/2021 04:29:41] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 04:33:35 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 04:33:51 AM 127.0.0.1 - - [24/Apr/2021 04:33:51] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 04:35:12 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 04:35:16 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 04:35:31 AM 127.0.0.1 - - [24/Apr/2021 04:35:31] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 04:35:55 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 04:36:09 AM 127.0.0.1 - - [24/Apr/2021 04:36:09] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 04:46:04 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 04:46:19 AM 127.0.0.1 - - [24/Apr/2021 04:46:19] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 04:48:45 AM 127.0.0.1 - - [24/Apr/2021 04:48:45] "[37mGET /query?q=teknisk+matematik+kth HTTP/1.1[0m" 200 -
+04/24/2021 04:48:47 AM 127.0.0.1 - - [24/Apr/2021 04:48:47] "[37mGET /program_data?q=KI-41006&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+matematik HTTP/1.1[0m" 200 -
+04/24/2021 04:49:06 AM 127.0.0.1 - - [24/Apr/2021 04:49:06] "[37mGET /program_data?q=KTH-32116&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+matematik HTTP/1.1[0m" 200 -
+04/24/2021 04:50:39 AM 127.0.0.1 - - [24/Apr/2021 04:50:39] "[37mGET /query?q=teknisk+fysik+kth HTTP/1.1[0m" 200 -
+04/24/2021 04:50:42 AM 127.0.0.1 - - [24/Apr/2021 04:50:42] "[37mGET /program_data?q=KTH-32116&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+04/24/2021 04:52:06 AM 127.0.0.1 - - [24/Apr/2021 04:52:06] "[37mGET /program_data?q=KTH-32114&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+04/24/2021 04:56:28 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 04:56:36 AM 127.0.0.1 - - [24/Apr/2021 04:56:36] "[37mGET /program_data?q=KTH-32114&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+04/24/2021 04:59:58 AM 127.0.0.1 - - [24/Apr/2021 04:59:58] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 05:00:07 AM 127.0.0.1 - - [24/Apr/2021 05:00:07] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 05:00:51 AM 127.0.0.1 - - [24/Apr/2021 05:00:51] "[37mGET /query?q=business+and+economics HTTP/1.1[0m" 200 -
+04/24/2021 05:00:58 AM 127.0.0.1 - - [24/Apr/2021 05:00:58] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/24/2021 05:04:10 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 05:04:46 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 05:04:54 AM 127.0.0.1 - - [24/Apr/2021 05:04:54] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/24/2021 05:05:09 AM 127.0.0.1 - - [24/Apr/2021 05:05:09] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 05:05:17 AM 127.0.0.1 - - [24/Apr/2021 05:05:17] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 05:06:06 AM 127.0.0.1 - - [24/Apr/2021 05:06:06] "[37mGET /query?q=industriell+ekonomi HTTP/1.1[0m" 200 -
+04/24/2021 05:06:11 AM 127.0.0.1 - - [24/Apr/2021 05:06:11] "[37mGET /query?q=industriell+ekonomi+kth HTTP/1.1[0m" 200 -
+04/24/2021 05:06:19 AM 127.0.0.1 - - [24/Apr/2021 05:06:19] "[37mGET /program_data?q=KTH-32106&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+04/24/2021 06:42:07 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/24/2021 06:42:46 PM 127.0.0.1 - - [24/Apr/2021 18:42:46] "[37mGET /query?q=handels HTTP/1.1[0m" 200 -
+04/24/2021 06:42:49 PM 127.0.0.1 - - [24/Apr/2021 18:42:49] "[37mGET /query?q=handels+stockholm HTTP/1.1[0m" 200 -
+04/24/2021 06:43:23 PM 127.0.0.1 - - [24/Apr/2021 18:43:23] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/24/2021 06:44:11 PM 127.0.0.1 - - [24/Apr/2021 18:44:11] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/24/2021 06:44:20 PM 127.0.0.1 - - [24/Apr/2021 18:44:20] "[37mGET /program_data?q=LU-80300&school=Lunds+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 06:46:56 PM 127.0.0.1 - - [24/Apr/2021 18:46:56] "[37mGET /query?q=teknisk+fysik+kth HTTP/1.1[0m" 200 -
+04/24/2021 06:52:25 PM 127.0.0.1 - - [24/Apr/2021 18:52:25] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/24/2021 06:52:26 PM 127.0.0.1 - - [24/Apr/2021 18:52:26] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:52:30 PM 127.0.0.1 - - [24/Apr/2021 18:52:30] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:52:32 PM 127.0.0.1 - - [24/Apr/2021 18:52:32] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:52:34 PM 127.0.0.1 - - [24/Apr/2021 18:52:34] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:55:01 PM 127.0.0.1 - - [24/Apr/2021 18:55:01] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:55:03 PM 127.0.0.1 - - [24/Apr/2021 18:55:03] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:55:21 PM 127.0.0.1 - - [24/Apr/2021 18:55:21] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:55:22 PM 127.0.0.1 - - [24/Apr/2021 18:55:22] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:55:55 PM 127.0.0.1 - - [24/Apr/2021 18:55:55] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:55:57 PM 127.0.0.1 - - [24/Apr/2021 18:55:57] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:56:36 PM 127.0.0.1 - - [24/Apr/2021 18:56:36] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:56:38 PM 127.0.0.1 - - [24/Apr/2021 18:56:38] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:56:42 PM 127.0.0.1 - - [24/Apr/2021 18:56:42] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:57:03 PM 127.0.0.1 - - [24/Apr/2021 18:57:03] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:57:05 PM 127.0.0.1 - - [24/Apr/2021 18:57:05] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 06:57:10 PM 127.0.0.1 - - [24/Apr/2021 18:57:10] "[37mGET /program_data?q=CTH-62005&school=Chalmers+tekniska+högskola&program=Datateknik%2C+högskoleingenjör%2C+senare+del+av+program+%28EJ+åk+1%29 HTTP/1.1[0m" 200 -
+04/24/2021 06:57:38 PM 127.0.0.1 - - [24/Apr/2021 18:57:38] "[37mGET /program_data?q=CTH-49000&school=Chalmers+tekniska+högskola&program=DATATEKNIK%2C+CIVILINGENJÖR HTTP/1.1[0m" 200 -
+04/24/2021 06:57:47 PM 127.0.0.1 - - [24/Apr/2021 18:57:47] "[37mGET /query?q=handelshögskolan HTTP/1.1[0m" 200 -
+04/24/2021 06:57:49 PM 127.0.0.1 - - [24/Apr/2021 18:57:49] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/24/2021 06:58:34 PM 127.0.0.1 - - [24/Apr/2021 18:58:34] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/24/2021 06:58:37 PM 127.0.0.1 - - [24/Apr/2021 18:58:37] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/24/2021 06:59:56 PM 127.0.0.1 - - [24/Apr/2021 18:59:56] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 06:59:57 PM 127.0.0.1 - - [24/Apr/2021 18:59:57] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:00:03 PM 127.0.0.1 - - [24/Apr/2021 19:00:03] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:01:22 PM 127.0.0.1 - - [24/Apr/2021 19:01:22] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:01:26 PM 127.0.0.1 - - [24/Apr/2021 19:01:26] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:02:28 PM 127.0.0.1 - - [24/Apr/2021 19:02:28] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:02:31 PM 127.0.0.1 - - [24/Apr/2021 19:02:31] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:02:33 PM 127.0.0.1 - - [24/Apr/2021 19:02:33] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:02:53 PM 127.0.0.1 - - [24/Apr/2021 19:02:53] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:03:18 PM 127.0.0.1 - - [24/Apr/2021 19:03:18] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:03:20 PM 127.0.0.1 - - [24/Apr/2021 19:03:20] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:03:32 PM 127.0.0.1 - - [24/Apr/2021 19:03:32] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:03:33 PM 127.0.0.1 - - [24/Apr/2021 19:03:33] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:06:20 PM 127.0.0.1 - - [24/Apr/2021 19:06:20] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:06:30 PM 127.0.0.1 - - [24/Apr/2021 19:06:30] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:07:55 PM 127.0.0.1 - - [24/Apr/2021 19:07:55] "[37mGET /query?q=karate+program HTTP/1.1[0m" 200 -
+04/24/2021 07:07:58 PM 127.0.0.1 - - [24/Apr/2021 19:07:58] "[37mGET /query?q=karate HTTP/1.1[0m" 200 -
+04/24/2021 07:08:00 PM 127.0.0.1 - - [24/Apr/2021 19:08:00] "[37mGET /query?q=karat HTTP/1.1[0m" 200 -
+04/24/2021 07:08:01 PM 127.0.0.1 - - [24/Apr/2021 19:08:01] "[37mGET /query?q=kar HTTP/1.1[0m" 200 -
+04/24/2021 07:08:07 PM 127.0.0.1 - - [24/Apr/2021 19:08:07] "[37mGET /query?q=läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:08:56 PM 127.0.0.1 - - [24/Apr/2021 19:08:56] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:08:59 PM 127.0.0.1 - - [24/Apr/2021 19:08:59] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:09:06 PM 127.0.0.1 - - [24/Apr/2021 19:09:06] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:09:11 PM 127.0.0.1 - - [24/Apr/2021 19:09:11] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:09:26 PM 127.0.0.1 - - [24/Apr/2021 19:09:26] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:10:59 PM 127.0.0.1 - - [24/Apr/2021 19:10:59] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:11:01 PM 127.0.0.1 - - [24/Apr/2021 19:11:01] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:11:19 PM 127.0.0.1 - - [24/Apr/2021 19:11:19] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:13:26 PM 127.0.0.1 - - [24/Apr/2021 19:13:26] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/24/2021 07:13:27 PM 127.0.0.1 - - [24/Apr/2021 19:13:27] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 07:13:34 PM 127.0.0.1 - - [24/Apr/2021 19:13:34] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/24/2021 07:13:39 PM 127.0.0.1 - - [24/Apr/2021 19:13:39] "[37mGET /program_data?q=BTH-D5834&school=Blekinge+tekniska+högskola&program=Kandidatarbete+i+Programvaruteknik HTTP/1.1[0m" 200 -
+04/24/2021 07:13:50 PM 127.0.0.1 - - [24/Apr/2021 19:13:50] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:13:51 PM 127.0.0.1 - - [24/Apr/2021 19:13:51] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:14:30 PM 127.0.0.1 - - [24/Apr/2021 19:14:30] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:15:13 PM 127.0.0.1 - - [24/Apr/2021 19:15:13] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:15:13 PM 127.0.0.1 - - [24/Apr/2021 19:15:13] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:15:20 PM 127.0.0.1 - - [24/Apr/2021 19:15:20] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:15:32 PM 127.0.0.1 - - [24/Apr/2021 19:15:32] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:15:33 PM 127.0.0.1 - - [24/Apr/2021 19:15:33] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:16:01 PM 127.0.0.1 - - [24/Apr/2021 19:16:01] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:16:18 PM 127.0.0.1 - - [24/Apr/2021 19:16:18] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:17:35 PM 127.0.0.1 - - [24/Apr/2021 19:17:35] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:17:42 PM 127.0.0.1 - - [24/Apr/2021 19:17:42] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:17:43 PM 127.0.0.1 - - [24/Apr/2021 19:17:43] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:18:29 PM 127.0.0.1 - - [24/Apr/2021 19:18:29] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:18:29 PM 127.0.0.1 - - [24/Apr/2021 19:18:29] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:18:32 PM 127.0.0.1 - - [24/Apr/2021 19:18:32] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:18:59 PM 127.0.0.1 - - [24/Apr/2021 19:18:59] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:19:02 PM 127.0.0.1 - - [24/Apr/2021 19:19:02] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:19:15 PM 127.0.0.1 - - [24/Apr/2021 19:19:15] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:19:33 PM 127.0.0.1 - - [24/Apr/2021 19:19:33] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:21:34 PM 127.0.0.1 - - [24/Apr/2021 19:21:34] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:21:38 PM 127.0.0.1 - - [24/Apr/2021 19:21:38] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:21:41 PM 127.0.0.1 - - [24/Apr/2021 19:21:41] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:21:57 PM 127.0.0.1 - - [24/Apr/2021 19:21:57] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:22:00 PM 127.0.0.1 - - [24/Apr/2021 19:22:00] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:22:07 PM 127.0.0.1 - - [24/Apr/2021 19:22:07] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:22:19 PM 127.0.0.1 - - [24/Apr/2021 19:22:19] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:22:30 PM 127.0.0.1 - - [24/Apr/2021 19:22:30] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:23:18 PM 127.0.0.1 - - [24/Apr/2021 19:23:18] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:23:21 PM 127.0.0.1 - - [24/Apr/2021 19:23:21] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:26:15 PM 127.0.0.1 - - [24/Apr/2021 19:26:15] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:26:18 PM 127.0.0.1 - - [24/Apr/2021 19:26:18] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:26:36 PM 127.0.0.1 - - [24/Apr/2021 19:26:36] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:26:39 PM 127.0.0.1 - - [24/Apr/2021 19:26:39] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:26:46 PM 127.0.0.1 - - [24/Apr/2021 19:26:46] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:26:56 PM 127.0.0.1 - - [24/Apr/2021 19:26:56] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:26:58 PM 127.0.0.1 - - [24/Apr/2021 19:26:58] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:26:59 PM 127.0.0.1 - - [24/Apr/2021 19:26:59] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:27:07 PM 127.0.0.1 - - [24/Apr/2021 19:27:07] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:27:15 PM 127.0.0.1 - - [24/Apr/2021 19:27:15] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:27:35 PM 127.0.0.1 - - [24/Apr/2021 19:27:35] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:27:36 PM 127.0.0.1 - - [24/Apr/2021 19:27:36] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:27:37 PM 127.0.0.1 - - [24/Apr/2021 19:27:37] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:27:41 PM 127.0.0.1 - - [24/Apr/2021 19:27:41] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:27:42 PM 127.0.0.1 - - [24/Apr/2021 19:27:42] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:27:49 PM 127.0.0.1 - - [24/Apr/2021 19:27:49] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:27:51 PM 127.0.0.1 - - [24/Apr/2021 19:27:51] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:29:31 PM 127.0.0.1 - - [24/Apr/2021 19:29:31] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:29:46 PM 127.0.0.1 - - [24/Apr/2021 19:29:46] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:29:57 PM 127.0.0.1 - - [24/Apr/2021 19:29:57] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:30:01 PM 127.0.0.1 - - [24/Apr/2021 19:30:01] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:30:14 PM 127.0.0.1 - - [24/Apr/2021 19:30:14] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:30:44 PM 127.0.0.1 - - [24/Apr/2021 19:30:44] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:30:45 PM 127.0.0.1 - - [24/Apr/2021 19:30:45] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:32:32 PM 127.0.0.1 - - [24/Apr/2021 19:32:32] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:32:32 PM 127.0.0.1 - - [24/Apr/2021 19:32:32] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:32:35 PM 127.0.0.1 - - [24/Apr/2021 19:32:35] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:32:55 PM 127.0.0.1 - - [24/Apr/2021 19:32:55] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:32:56 PM 127.0.0.1 - - [24/Apr/2021 19:32:56] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:34:02 PM 127.0.0.1 - - [24/Apr/2021 19:34:02] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:40:50 PM 127.0.0.1 - - [24/Apr/2021 19:40:50] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:40:56 PM 127.0.0.1 - - [24/Apr/2021 19:40:56] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:41:20 PM 127.0.0.1 - - [24/Apr/2021 19:41:20] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:41:42 PM 127.0.0.1 - - [24/Apr/2021 19:41:42] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:42:24 PM 127.0.0.1 - - [24/Apr/2021 19:42:24] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:42:24 PM 127.0.0.1 - - [24/Apr/2021 19:42:24] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:42:26 PM 127.0.0.1 - - [24/Apr/2021 19:42:26] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:42:33 PM 127.0.0.1 - - [24/Apr/2021 19:42:33] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:42:49 PM 127.0.0.1 - - [24/Apr/2021 19:42:49] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:42:52 PM 127.0.0.1 - - [24/Apr/2021 19:42:52] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:44:38 PM 127.0.0.1 - - [24/Apr/2021 19:44:38] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:44:48 PM 127.0.0.1 - - [24/Apr/2021 19:44:48] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:45:21 PM 127.0.0.1 - - [24/Apr/2021 19:45:21] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:46:12 PM 127.0.0.1 - - [24/Apr/2021 19:46:12] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:46:24 PM 127.0.0.1 - - [24/Apr/2021 19:46:24] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:47:00 PM 127.0.0.1 - - [24/Apr/2021 19:47:00] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:47:09 PM 127.0.0.1 - - [24/Apr/2021 19:47:09] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:47:41 PM 127.0.0.1 - - [24/Apr/2021 19:47:41] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:47:55 PM 127.0.0.1 - - [24/Apr/2021 19:47:55] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:47:58 PM 127.0.0.1 - - [24/Apr/2021 19:47:58] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:48:01 PM 127.0.0.1 - - [24/Apr/2021 19:48:01] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:48:03 PM 127.0.0.1 - - [24/Apr/2021 19:48:03] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:48:04 PM 127.0.0.1 - - [24/Apr/2021 19:48:04] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:48:05 PM 127.0.0.1 - - [24/Apr/2021 19:48:05] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:48:06 PM 127.0.0.1 - - [24/Apr/2021 19:48:06] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:48:07 PM 127.0.0.1 - - [24/Apr/2021 19:48:07] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:48:08 PM 127.0.0.1 - - [24/Apr/2021 19:48:08] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:48:09 PM 127.0.0.1 - - [24/Apr/2021 19:48:09] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:49:07 PM 127.0.0.1 - - [24/Apr/2021 19:49:07] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:49:16 PM 127.0.0.1 - - [24/Apr/2021 19:49:16] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:49:18 PM 127.0.0.1 - - [24/Apr/2021 19:49:18] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:49:42 PM 127.0.0.1 - - [24/Apr/2021 19:49:42] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:50:57 PM 127.0.0.1 - - [24/Apr/2021 19:50:57] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/24/2021 07:50:58 PM 127.0.0.1 - - [24/Apr/2021 19:50:58] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:51:03 PM 127.0.0.1 - - [24/Apr/2021 19:51:03] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:51:17 PM 127.0.0.1 - - [24/Apr/2021 19:51:17] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:51:44 PM 127.0.0.1 - - [24/Apr/2021 19:51:44] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:51:46 PM 127.0.0.1 - - [24/Apr/2021 19:51:46] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/24/2021 07:51:48 PM 127.0.0.1 - - [24/Apr/2021 19:51:48] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 10:41:08 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/26/2021 10:41:24 AM 127.0.0.1 - - [26/Apr/2021 10:41:24] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/26/2021 10:41:47 AM 127.0.0.1 - - [26/Apr/2021 10:41:47] "[37mGET /program_data?q=BTH-D5830&school=Blekinge+tekniska+högskola&program=Maskininlärning+för+strömmande+data HTTP/1.1[0m" 200 -
+04/26/2021 11:45:42 AM 127.0.0.1 - - [26/Apr/2021 11:45:42] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 11:45:44 AM 127.0.0.1 - - [26/Apr/2021 11:45:44] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 11:46:17 AM 127.0.0.1 - - [26/Apr/2021 11:46:17] "[37mGET /query?q= HTTP/1.1[0m" 200 -
+04/26/2021 11:46:20 AM 127.0.0.1 - - [26/Apr/2021 11:46:20] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 11:47:51 AM 127.0.0.1 - - [26/Apr/2021 11:47:51] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 11:47:56 AM 127.0.0.1 - - [26/Apr/2021 11:47:56] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 11:51:17 AM 127.0.0.1 - - [26/Apr/2021 11:51:17] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 11:52:26 AM 127.0.0.1 - - [26/Apr/2021 11:52:26] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 11:53:01 AM 127.0.0.1 - - [26/Apr/2021 11:53:01] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 11:58:19 AM 127.0.0.1 - - [26/Apr/2021 11:58:19] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 12:04:41 PM 127.0.0.1 - - [26/Apr/2021 12:04:41] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 12:10:00 PM 127.0.0.1 - - [26/Apr/2021 12:10:00] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 12:10:13 PM 127.0.0.1 - - [26/Apr/2021 12:10:13] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/26/2021 12:12:50 PM 127.0.0.1 - - [26/Apr/2021 12:12:50] "[37mGET /query?q=teknisk+fysik+kth HTTP/1.1[0m" 200 -
+04/26/2021 12:12:56 PM 127.0.0.1 - - [26/Apr/2021 12:12:56] "[37mGET /program_data?q=KTH-32114&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+04/26/2021 12:13:02 PM 127.0.0.1 - - [26/Apr/2021 12:13:02] "[37mGET /program_data?q=KTH-32114&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+04/26/2021 12:13:25 PM 127.0.0.1 - - [26/Apr/2021 12:13:25] "[37mGET /query?q=teknisk+fysik+kth HTTP/1.1[0m" 200 -
+04/26/2021 12:13:26 PM 127.0.0.1 - - [26/Apr/2021 12:13:26] "[37mGET /program_data?q=KTH-32114&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+04/26/2021 12:15:12 PM 127.0.0.1 - - [26/Apr/2021 12:15:12] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 12:15:13 PM 127.0.0.1 - - [26/Apr/2021 12:15:13] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 12:15:41 PM 127.0.0.1 - - [26/Apr/2021 12:15:41] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 12:15:42 PM 127.0.0.1 - - [26/Apr/2021 12:15:42] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 12:15:44 PM 127.0.0.1 - - [26/Apr/2021 12:15:44] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 12:15:46 PM 127.0.0.1 - - [26/Apr/2021 12:15:46] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 12:15:50 PM 127.0.0.1 - - [26/Apr/2021 12:15:50] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 12:16:08 PM 127.0.0.1 - - [26/Apr/2021 12:16:08] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 12:16:09 PM 127.0.0.1 - - [26/Apr/2021 12:16:09] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 12:23:27 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/26/2021 12:23:32 PM 127.0.0.1 - - [26/Apr/2021 12:23:32] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 12:23:34 PM 127.0.0.1 - - [26/Apr/2021 12:23:34] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 12:24:10 PM 127.0.0.1 - - [26/Apr/2021 12:24:10] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 12:24:12 PM Exception on /program_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 169, in get
+    results = get_program_data(args['q'], args['school'], args['program'])
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 114, in get_program_data
+    if len(semester_data) == 0 or "BI" not in semester_obj:
+NameError: name 'semester_obj' is not defined
+04/26/2021 12:24:12 PM 127.0.0.1 - - [26/Apr/2021 12:24:12] "[35m[1mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 500 -
+04/26/2021 01:05:19 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/26/2021 01:10:47 PM 127.0.0.1 - - [26/Apr/2021 13:10:47] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 01:10:49 PM 127.0.0.1 - - [26/Apr/2021 13:10:49] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 01:11:15 PM 127.0.0.1 - - [26/Apr/2021 13:11:15] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 01:11:27 PM 127.0.0.1 - - [26/Apr/2021 13:11:27] "[37mGET /query?q=handels+stockholm HTTP/1.1[0m" 200 -
+04/26/2021 01:11:30 PM 127.0.0.1 - - [26/Apr/2021 13:11:30] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/26/2021 01:14:26 PM 127.0.0.1 - - [26/Apr/2021 13:14:26] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/26/2021 01:14:29 PM 127.0.0.1 - - [26/Apr/2021 13:14:29] "[37mGET /program_data?q=HHS-34004&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Retail+Management HTTP/1.1[0m" 200 -
+04/26/2021 01:16:33 PM 127.0.0.1 - - [26/Apr/2021 13:16:33] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/26/2021 01:17:14 PM 127.0.0.1 - - [26/Apr/2021 13:17:14] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/26/2021 01:17:24 PM 127.0.0.1 - - [26/Apr/2021 13:17:24] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/26/2021 01:33:10 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/26/2021 01:33:17 PM 127.0.0.1 - - [26/Apr/2021 13:33:17] "[37mGET /query?q=handels+stockholm HTTP/1.1[0m" 200 -
+04/26/2021 01:33:22 PM 127.0.0.1 - - [26/Apr/2021 13:33:22] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/26/2021 01:33:28 PM 127.0.0.1 - - [26/Apr/2021 13:33:28] "[37mGET /program_data?q=HHS-34004&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Retail+Management HTTP/1.1[0m" 200 -
+04/26/2021 01:34:47 PM 127.0.0.1 - - [26/Apr/2021 13:34:47] "[37mGET /program_data?q=HHS-34004&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Retail+Management HTTP/1.1[0m" 200 -
+04/26/2021 01:35:09 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/26/2021 01:35:14 PM 127.0.0.1 - - [26/Apr/2021 13:35:14] "[37mGET /program_data?q=HHS-34004&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Retail+Management HTTP/1.1[0m" 200 -
+04/26/2021 01:35:20 PM 127.0.0.1 - - [26/Apr/2021 13:35:20] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/26/2021 01:35:29 PM 127.0.0.1 - - [26/Apr/2021 13:35:29] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 01:35:36 PM 127.0.0.1 - - [26/Apr/2021 13:35:36] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 01:35:43 PM 127.0.0.1 - - [26/Apr/2021 13:35:43] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 01:40:07 PM 127.0.0.1 - - [26/Apr/2021 13:40:07] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 01:40:09 PM 127.0.0.1 - - [26/Apr/2021 13:40:09] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 01:40:19 PM 127.0.0.1 - - [26/Apr/2021 13:40:19] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 01:40:21 PM 127.0.0.1 - - [26/Apr/2021 13:40:21] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 01:43:21 PM 127.0.0.1 - - [26/Apr/2021 13:43:21] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/26/2021 01:43:27 PM 127.0.0.1 - - [26/Apr/2021 13:43:27] "[37mGET /query?q=data+civilingenjör HTTP/1.1[0m" 200 -
+04/26/2021 01:43:35 PM 127.0.0.1 - - [26/Apr/2021 13:43:35] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 01:44:25 PM 127.0.0.1 - - [26/Apr/2021 13:44:25] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/26/2021 01:44:35 PM 127.0.0.1 - - [26/Apr/2021 13:44:35] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 01:45:38 PM 127.0.0.1 - - [26/Apr/2021 13:45:38] "[37mGET /query?q=datateknik+kth HTTP/1.1[0m" 200 -
+04/26/2021 01:45:43 PM 127.0.0.1 - - [26/Apr/2021 13:45:43] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 01:46:02 PM 127.0.0.1 - - [26/Apr/2021 13:46:02] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 01:49:37 PM 127.0.0.1 - - [26/Apr/2021 13:49:37] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 01:49:39 PM 127.0.0.1 - - [26/Apr/2021 13:49:39] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 01:49:51 PM 127.0.0.1 - - [26/Apr/2021 13:49:51] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 01:49:52 PM 127.0.0.1 - - [26/Apr/2021 13:49:52] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 01:50:20 PM 127.0.0.1 - - [26/Apr/2021 13:50:20] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 01:50:21 PM 127.0.0.1 - - [26/Apr/2021 13:50:21] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 01:50:45 PM 127.0.0.1 - - [26/Apr/2021 13:50:45] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 01:50:46 PM 127.0.0.1 - - [26/Apr/2021 13:50:46] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 01:51:08 PM 127.0.0.1 - - [26/Apr/2021 13:51:08] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 01:51:09 PM 127.0.0.1 - - [26/Apr/2021 13:51:09] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:07:54 PM 127.0.0.1 - - [26/Apr/2021 14:07:54] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:07:55 PM 127.0.0.1 - - [26/Apr/2021 14:07:55] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:08:12 PM 127.0.0.1 - - [26/Apr/2021 14:08:12] "[37mGET /program_data?q=KTH-32435&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Kista HTTP/1.1[0m" 200 -
+04/26/2021 02:09:56 PM 127.0.0.1 - - [26/Apr/2021 14:09:56] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:09:57 PM 127.0.0.1 - - [26/Apr/2021 14:09:57] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:10:15 PM 127.0.0.1 - - [26/Apr/2021 14:10:15] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:10:17 PM 127.0.0.1 - - [26/Apr/2021 14:10:17] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:10:32 PM 127.0.0.1 - - [26/Apr/2021 14:10:32] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:12:25 PM 127.0.0.1 - - [26/Apr/2021 14:12:25] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:12:26 PM 127.0.0.1 - - [26/Apr/2021 14:12:26] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:13:55 PM 127.0.0.1 - - [26/Apr/2021 14:13:55] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:13:56 PM 127.0.0.1 - - [26/Apr/2021 14:13:56] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:15:28 PM 127.0.0.1 - - [26/Apr/2021 14:15:28] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:15:29 PM 127.0.0.1 - - [26/Apr/2021 14:15:29] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:16:23 PM 127.0.0.1 - - [26/Apr/2021 14:16:23] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:16:23 PM 127.0.0.1 - - [26/Apr/2021 14:16:23] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:16:40 PM 127.0.0.1 - - [26/Apr/2021 14:16:40] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:16:41 PM 127.0.0.1 - - [26/Apr/2021 14:16:41] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:17:59 PM 127.0.0.1 - - [26/Apr/2021 14:17:59] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:18:04 PM 127.0.0.1 - - [26/Apr/2021 14:18:04] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:18:43 PM 127.0.0.1 - - [26/Apr/2021 14:18:43] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:18:46 PM 127.0.0.1 - - [26/Apr/2021 14:18:46] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:20:18 PM 127.0.0.1 - - [26/Apr/2021 14:20:18] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:20:19 PM 127.0.0.1 - - [26/Apr/2021 14:20:19] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:20:47 PM 127.0.0.1 - - [26/Apr/2021 14:20:47] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:22:11 PM 127.0.0.1 - - [26/Apr/2021 14:22:11] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:22:12 PM 127.0.0.1 - - [26/Apr/2021 14:22:12] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:22:47 PM 127.0.0.1 - - [26/Apr/2021 14:22:47] "[37mGET /query?q=data HTTP/1.1[0m" 200 -
+04/26/2021 02:22:51 PM 127.0.0.1 - - [26/Apr/2021 14:22:51] "[37mGET /program_data?q=BTH-D5836&school=Blekinge+tekniska+högskola&program=Tillämpad+Cloud+Computing+och+Big+Data HTTP/1.1[0m" 200 -
+04/26/2021 02:22:58 PM 127.0.0.1 - - [26/Apr/2021 14:22:58] "[37mGET /program_data?q=BTH-D5834&school=Blekinge+tekniska+högskola&program=Kandidatarbete+i+Programvaruteknik HTTP/1.1[0m" 200 -
+04/26/2021 02:23:10 PM 127.0.0.1 - - [26/Apr/2021 14:23:10] "[37mGET /program_data?q=GU-11706&school=Göteborgs+universitet&program=Statistisk+databehandling HTTP/1.1[0m" 200 -
+04/26/2021 02:23:13 PM 127.0.0.1 - - [26/Apr/2021 14:23:13] "[37mGET /program_data?q=CTH-62005&school=Chalmers+tekniska+högskola&program=Datateknik%2C+högskoleingenjör%2C+senare+del+av+program+%28EJ+åk+1%29 HTTP/1.1[0m" 200 -
+04/26/2021 02:23:19 PM 127.0.0.1 - - [26/Apr/2021 14:23:19] "[37mGET /program_data?q=CTH-62000&school=Chalmers+tekniska+högskola&program=DATATEKNIK%2C+HÖGSKOLEINGENJÖR HTTP/1.1[0m" 200 -
+04/26/2021 02:23:26 PM 127.0.0.1 - - [26/Apr/2021 14:23:26] "[37mGET /program_data?q=CTH-62005&school=Chalmers+tekniska+högskola&program=Datateknik%2C+högskoleingenjör%2C+senare+del+av+program+%28EJ+åk+1%29 HTTP/1.1[0m" 200 -
+04/26/2021 02:23:31 PM 127.0.0.1 - - [26/Apr/2021 14:23:31] "[37mGET /program_data?q=CTH-62000&school=Chalmers+tekniska+högskola&program=DATATEKNIK%2C+HÖGSKOLEINGENJÖR HTTP/1.1[0m" 200 -
+04/26/2021 02:24:11 PM 127.0.0.1 - - [26/Apr/2021 14:24:11] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:24:12 PM 127.0.0.1 - - [26/Apr/2021 14:24:12] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:24:48 PM 127.0.0.1 - - [26/Apr/2021 14:24:48] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:24:48 PM 127.0.0.1 - - [26/Apr/2021 14:24:48] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:25:16 PM 127.0.0.1 - - [26/Apr/2021 14:25:16] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:25:17 PM 127.0.0.1 - - [26/Apr/2021 14:25:17] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:25:35 PM 127.0.0.1 - - [26/Apr/2021 14:25:35] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:25:36 PM 127.0.0.1 - - [26/Apr/2021 14:25:36] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:27:29 PM 127.0.0.1 - - [26/Apr/2021 14:27:29] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:27:30 PM 127.0.0.1 - - [26/Apr/2021 14:27:30] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:28:16 PM 127.0.0.1 - - [26/Apr/2021 14:28:16] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:28:17 PM 127.0.0.1 - - [26/Apr/2021 14:28:17] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:28:55 PM 127.0.0.1 - - [26/Apr/2021 14:28:55] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:28:56 PM 127.0.0.1 - - [26/Apr/2021 14:28:56] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:29:12 PM 127.0.0.1 - - [26/Apr/2021 14:29:12] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:29:13 PM 127.0.0.1 - - [26/Apr/2021 14:29:13] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:31:16 PM 127.0.0.1 - - [26/Apr/2021 14:31:16] "[37mGET /query?q=data+kt HTTP/1.1[0m" 200 -
+04/26/2021 02:31:18 PM 127.0.0.1 - - [26/Apr/2021 14:31:18] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:31:20 PM 127.0.0.1 - - [26/Apr/2021 14:31:20] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:31:32 PM 127.0.0.1 - - [26/Apr/2021 14:31:32] "[37mGET /query?q=handels+stockholm HTTP/1.1[0m" 200 -
+04/26/2021 02:31:33 PM 127.0.0.1 - - [26/Apr/2021 14:31:33] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/26/2021 02:33:04 PM 127.0.0.1 - - [26/Apr/2021 14:33:04] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:33:05 PM 127.0.0.1 - - [26/Apr/2021 14:33:05] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:34:04 PM 127.0.0.1 - - [26/Apr/2021 14:34:04] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:34:05 PM 127.0.0.1 - - [26/Apr/2021 14:34:05] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 02:34:54 PM 127.0.0.1 - - [26/Apr/2021 14:34:54] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:34:54 PM 127.0.0.1 - - [26/Apr/2021 14:34:54] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:37:32 PM 127.0.0.1 - - [26/Apr/2021 14:37:32] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:37:33 PM 127.0.0.1 - - [26/Apr/2021 14:37:33] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:39:01 PM 127.0.0.1 - - [26/Apr/2021 14:39:01] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:39:01 PM 127.0.0.1 - - [26/Apr/2021 14:39:01] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:39:11 PM 127.0.0.1 - - [26/Apr/2021 14:39:11] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:39:12 PM 127.0.0.1 - - [26/Apr/2021 14:39:12] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:39:31 PM 127.0.0.1 - - [26/Apr/2021 14:39:31] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:39:32 PM 127.0.0.1 - - [26/Apr/2021 14:39:32] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:39:53 PM 127.0.0.1 - - [26/Apr/2021 14:39:53] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:40:03 PM 127.0.0.1 - - [26/Apr/2021 14:40:03] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:40:43 PM 127.0.0.1 - - [26/Apr/2021 14:40:43] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:42:26 PM 127.0.0.1 - - [26/Apr/2021 14:42:26] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:42:27 PM 127.0.0.1 - - [26/Apr/2021 14:42:27] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:42:30 PM 127.0.0.1 - - [26/Apr/2021 14:42:30] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:43:09 PM 127.0.0.1 - - [26/Apr/2021 14:43:09] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 02:43:10 PM 127.0.0.1 - - [26/Apr/2021 14:43:10] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 02:57:27 PM 127.0.0.1 - - [26/Apr/2021 14:57:27] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 02:57:48 PM 127.0.0.1 - - [26/Apr/2021 14:57:48] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 03:02:21 PM 127.0.0.1 - - [26/Apr/2021 15:02:21] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 03:02:25 PM 127.0.0.1 - - [26/Apr/2021 15:02:25] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:02:52 PM 127.0.0.1 - - [26/Apr/2021 15:02:52] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 03:02:53 PM 127.0.0.1 - - [26/Apr/2021 15:02:53] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:06:00 PM 127.0.0.1 - - [26/Apr/2021 15:06:00] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 03:06:01 PM 127.0.0.1 - - [26/Apr/2021 15:06:01] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:06:11 PM 127.0.0.1 - - [26/Apr/2021 15:06:11] "[37mGET /program_data?q=KTH-32435&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Kista HTTP/1.1[0m" 200 -
+04/26/2021 03:06:17 PM 127.0.0.1 - - [26/Apr/2021 15:06:17] "[37mGET /program_data?q=KTH-SD203&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Flemingsberg%2C+%28EJ+åk+1%2C+endast+till+åk+2+eller+3%29%2C+senare HTTP/1.1[0m" 200 -
+04/26/2021 03:06:25 PM 127.0.0.1 - - [26/Apr/2021 15:06:25] "[37mGET /program_data?q=KTH-10042&school=Kungl.+Tekniska+högskolan&program=Dataanalys+av+marknader+och+produkter+I HTTP/1.1[0m" 200 -
+04/26/2021 03:06:32 PM 127.0.0.1 - - [26/Apr/2021 15:06:32] "[37mGET /program_data?q=KTH-SD203&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Flemingsberg%2C+%28EJ+åk+1%2C+endast+till+åk+2+eller+3%29%2C+senare HTTP/1.1[0m" 200 -
+04/26/2021 03:06:41 PM 127.0.0.1 - - [26/Apr/2021 15:06:41] "[37mGET /query?q=karolinska+institutet HTTP/1.1[0m" 200 -
+04/26/2021 03:06:45 PM 127.0.0.1 - - [26/Apr/2021 15:06:45] "[37mGET /program_data?q=KI-11001&school=Karolinska+institutet&program=Digital+hälsa+ur+ett+entreprenörskapsperspektiv HTTP/1.1[0m" 200 -
+04/26/2021 03:06:51 PM 127.0.0.1 - - [26/Apr/2021 15:06:51] "[37mGET /program_data?q=KI-11000&school=Karolinska+institutet&program=Avancerad+kurs+i+immunologi%2C+infektions-+och+tumörbiologi HTTP/1.1[0m" 200 -
+04/26/2021 03:06:58 PM 127.0.0.1 - - [26/Apr/2021 15:06:58] "[37mGET /program_data?q=KI-21000&school=Karolinska+institutet&program=Magisterprogrammet+i+arbete+och+hälsa+-+inriktning+Beteendevetenskap HTTP/1.1[0m" 200 -
+04/26/2021 03:07:03 PM 127.0.0.1 - - [26/Apr/2021 15:07:03] "[37mGET /program_data?q=KI-21004&school=Karolinska+institutet&program=Magisterprogrammet+i+klinisk+optometri HTTP/1.1[0m" 200 -
+04/26/2021 03:07:08 PM 127.0.0.1 - - [26/Apr/2021 15:07:08] "[37mGET /program_data?q=KI-61048&school=Karolinska+institutet&program=Palliativ+vård HTTP/1.1[0m" 200 -
+04/26/2021 03:07:19 PM 127.0.0.1 - - [26/Apr/2021 15:07:19] "[37mGET /query?q=karolinska+institutet+program HTTP/1.1[0m" 200 -
+04/26/2021 03:07:27 PM 127.0.0.1 - - [26/Apr/2021 15:07:27] "[37mGET /program_data?q=KI-41001&school=Karolinska+institutet&program=Audionomprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:21:57 PM 127.0.0.1 - - [26/Apr/2021 15:21:57] "[37mGET /query?q=lantbruk HTTP/1.1[0m" 200 -
+04/26/2021 03:22:12 PM 127.0.0.1 - - [26/Apr/2021 15:22:12] "[37mGET /query?q=lantbruk+sveriges+lantbruksuniversitet HTTP/1.1[0m" 200 -
+04/26/2021 03:22:52 PM 127.0.0.1 - - [26/Apr/2021 15:22:52] "[37mGET /program_data?q=SLU-10005&school=Sveriges+Lantbruksuniversitet&program=Bioinformatik HTTP/1.1[0m" 200 -
+04/26/2021 03:22:57 PM 127.0.0.1 - - [26/Apr/2021 15:22:57] "[37mGET /query?q=lantbruk+sveriges+lantbruksuniversitet HTTP/1.1[0m" 200 -
+04/26/2021 03:23:04 PM 127.0.0.1 - - [26/Apr/2021 15:23:04] "[37mGET /query?q=lantbruk+sveriges+lantbruksuniversitet+program HTTP/1.1[0m" 200 -
+04/26/2021 03:23:23 PM 127.0.0.1 - - [26/Apr/2021 15:23:23] "[37mGET /program_data?q=SLU-91002&school=Sveriges+Lantbruksuniversitet&program=Skogsmästarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:27:55 PM 127.0.0.1 - - [26/Apr/2021 15:27:55] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 03:27:57 PM 127.0.0.1 - - [26/Apr/2021 15:27:57] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:28:13 PM 127.0.0.1 - - [26/Apr/2021 15:28:13] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:28:14 PM 127.0.0.1 - - [26/Apr/2021 15:28:14] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:28:17 PM 127.0.0.1 - - [26/Apr/2021 15:28:17] "[37mGET /program_data?q=KTH-10042&school=Kungl.+Tekniska+högskolan&program=Dataanalys+av+marknader+och+produkter+I HTTP/1.1[0m" 200 -
+04/26/2021 03:28:23 PM 127.0.0.1 - - [26/Apr/2021 15:28:23] "[37mGET /program_data?q=KTH-32435&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Kista HTTP/1.1[0m" 200 -
+04/26/2021 03:29:05 PM 127.0.0.1 - - [26/Apr/2021 15:29:05] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 03:29:06 PM 127.0.0.1 - - [26/Apr/2021 15:29:06] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:29:09 PM 127.0.0.1 - - [26/Apr/2021 15:29:09] "[37mGET /program_data?q=KTH-32435&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Kista HTTP/1.1[0m" 200 -
+04/26/2021 03:29:11 PM 127.0.0.1 - - [26/Apr/2021 15:29:11] "[37mGET /program_data?q=KTH-SD203&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Flemingsberg%2C+%28EJ+åk+1%2C+endast+till+åk+2+eller+3%29%2C+senare HTTP/1.1[0m" 200 -
+04/26/2021 03:29:11 PM 127.0.0.1 - - [26/Apr/2021 15:29:11] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:29:14 PM 127.0.0.1 - - [26/Apr/2021 15:29:14] "[37mGET /program_data?q=KTH-10042&school=Kungl.+Tekniska+högskolan&program=Dataanalys+av+marknader+och+produkter+I HTTP/1.1[0m" 200 -
+04/26/2021 03:29:20 PM 127.0.0.1 - - [26/Apr/2021 15:29:20] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 03:29:28 PM 127.0.0.1 - - [26/Apr/2021 15:29:28] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:29:46 PM 127.0.0.1 - - [26/Apr/2021 15:29:46] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:29:48 PM 127.0.0.1 - - [26/Apr/2021 15:29:48] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:29:52 PM 127.0.0.1 - - [26/Apr/2021 15:29:52] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 03:29:54 PM 127.0.0.1 - - [26/Apr/2021 15:29:54] "[37mGET /program_data?q=KTH-32435&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Kista HTTP/1.1[0m" 200 -
+04/26/2021 03:30:05 PM 127.0.0.1 - - [26/Apr/2021 15:30:05] "[37mGET /program_data?q=KTH-32435&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Kista HTTP/1.1[0m" 200 -
+04/26/2021 03:30:12 PM 127.0.0.1 - - [26/Apr/2021 15:30:12] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:30:15 PM 127.0.0.1 - - [26/Apr/2021 15:30:15] "[37mGET /program_data?q=KTH-SD203&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Flemingsberg%2C+%28EJ+åk+1%2C+endast+till+åk+2+eller+3%29%2C+senare HTTP/1.1[0m" 200 -
+04/26/2021 03:30:22 PM 127.0.0.1 - - [26/Apr/2021 15:30:22] "[37mGET /program_data?q=KTH-10042&school=Kungl.+Tekniska+högskolan&program=Dataanalys+av+marknader+och+produkter+I HTTP/1.1[0m" 200 -
+04/26/2021 03:30:23 PM 127.0.0.1 - - [26/Apr/2021 15:30:23] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:30:26 PM 127.0.0.1 - - [26/Apr/2021 15:30:26] "[37mGET /query?q=kth HTTP/1.1[0m" 200 -
+04/26/2021 03:30:32 PM 127.0.0.1 - - [26/Apr/2021 15:30:32] "[37mGET /query?q=kth+program HTTP/1.1[0m" 200 -
+04/26/2021 03:30:45 PM 127.0.0.1 - - [26/Apr/2021 15:30:45] "[37mGET /query?q=kth+civil HTTP/1.1[0m" 200 -
+04/26/2021 03:30:51 PM 127.0.0.1 - - [26/Apr/2021 15:30:51] "[37mGET /program_data?q=KTH-32101&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+bioteknik HTTP/1.1[0m" 200 -
+04/26/2021 03:31:01 PM 127.0.0.1 - - [26/Apr/2021 15:31:01] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:31:08 PM 127.0.0.1 - - [26/Apr/2021 15:31:08] "[37mGET /program_data?q=KTH-32103&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+design+och+produktframtagning HTTP/1.1[0m" 200 -
+04/26/2021 03:31:10 PM 127.0.0.1 - - [26/Apr/2021 15:31:10] "[37mGET /program_data?q=KTH-32105&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+farkostteknik HTTP/1.1[0m" 200 -
+04/26/2021 03:31:15 PM 127.0.0.1 - - [26/Apr/2021 15:31:15] "[37mGET /program_data?q=KTH-32106&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+04/26/2021 03:38:02 PM 127.0.0.1 - - [26/Apr/2021 15:38:02] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 03:38:09 PM 127.0.0.1 - - [26/Apr/2021 15:38:09] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:38:47 PM 127.0.0.1 - - [26/Apr/2021 15:38:47] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 03:38:47 PM 127.0.0.1 - - [26/Apr/2021 15:38:47] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:39:54 PM 127.0.0.1 - - [26/Apr/2021 15:39:54] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 03:39:55 PM 127.0.0.1 - - [26/Apr/2021 15:39:55] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:41:22 PM 127.0.0.1 - - [26/Apr/2021 15:41:22] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 03:41:23 PM 127.0.0.1 - - [26/Apr/2021 15:41:23] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:42:25 PM 127.0.0.1 - - [26/Apr/2021 15:42:25] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 03:42:25 PM 127.0.0.1 - - [26/Apr/2021 15:42:25] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:42:35 PM 127.0.0.1 - - [26/Apr/2021 15:42:35] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 03:42:35 PM 127.0.0.1 - - [26/Apr/2021 15:42:35] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:42:44 PM 127.0.0.1 - - [26/Apr/2021 15:42:44] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:45:07 PM 127.0.0.1 - - [26/Apr/2021 15:45:07] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 03:45:08 PM 127.0.0.1 - - [26/Apr/2021 15:45:08] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:45:09 PM 127.0.0.1 - - [26/Apr/2021 15:45:09] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:45:26 PM 127.0.0.1 - - [26/Apr/2021 15:45:26] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:45:33 PM 127.0.0.1 - - [26/Apr/2021 15:45:33] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:45:37 PM 127.0.0.1 - - [26/Apr/2021 15:45:37] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:45:43 PM 127.0.0.1 - - [26/Apr/2021 15:45:43] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 03:45:44 PM 127.0.0.1 - - [26/Apr/2021 15:45:44] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:45:51 PM 127.0.0.1 - - [26/Apr/2021 15:45:51] "[37mGET /program_data?q=KTH-32422&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Flemingsberg HTTP/1.1[0m" 200 -
+04/26/2021 03:45:53 PM 127.0.0.1 - - [26/Apr/2021 15:45:53] "[37mGET /program_data?q=KTH-10042&school=Kungl.+Tekniska+högskolan&program=Dataanalys+av+marknader+och+produkter+I HTTP/1.1[0m" 200 -
+04/26/2021 03:45:56 PM 127.0.0.1 - - [26/Apr/2021 15:45:56] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:45:57 PM 127.0.0.1 - - [26/Apr/2021 15:45:57] "[37mGET /program_data?q=KTH-SD203&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Flemingsberg%2C+%28EJ+åk+1%2C+endast+till+åk+2+eller+3%29%2C+senare HTTP/1.1[0m" 200 -
+04/26/2021 03:45:59 PM 127.0.0.1 - - [26/Apr/2021 15:45:59] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:46:04 PM 127.0.0.1 - - [26/Apr/2021 15:46:04] "[37mGET /query?q=data+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 03:46:09 PM 127.0.0.1 - - [26/Apr/2021 15:46:09] "[37mGET /query?q=karolinska+institutet HTTP/1.1[0m" 200 -
+04/26/2021 03:46:11 PM 127.0.0.1 - - [26/Apr/2021 15:46:11] "[37mGET /program_data?q=KI-11002&school=Karolinska+institutet&program=Hälsoinsatser+vid+katastrofer HTTP/1.1[0m" 200 -
+04/26/2021 03:46:13 PM 127.0.0.1 - - [26/Apr/2021 15:46:13] "[37mGET /program_data?q=KI-11008&school=Karolinska+institutet&program=Vården+och+omsorgens+organisation+och+styrning+i+digitaliseringens+tid HTTP/1.1[0m" 200 -
+04/26/2021 03:46:16 PM 127.0.0.1 - - [26/Apr/2021 15:46:16] "[37mGET /program_data?q=KI-21003&school=Karolinska+institutet&program=Magisterprogrammet+i+diagnostisk+cytologi HTTP/1.1[0m" 200 -
+04/26/2021 03:46:18 PM 127.0.0.1 - - [26/Apr/2021 15:46:18] "[37mGET /program_data?q=KI-31002&school=Karolinska+institutet&program=Immunopsykiatri+-+hur+immunsystemet+påverkar+hjärnan HTTP/1.1[0m" 200 -
+04/26/2021 03:46:26 PM 127.0.0.1 - - [26/Apr/2021 15:46:26] "[37mGET /program_data?q=KI-41000&school=Karolinska+institutet&program=Arbetsterapeutprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:46:49 PM 127.0.0.1 - - [26/Apr/2021 15:46:49] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 03:46:50 PM 127.0.0.1 - - [26/Apr/2021 15:46:50] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 03:47:00 PM 127.0.0.1 - - [26/Apr/2021 15:47:00] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 03:47:02 PM 127.0.0.1 - - [26/Apr/2021 15:47:02] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:47:29 PM 127.0.0.1 - - [26/Apr/2021 15:47:29] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 03:47:29 PM 127.0.0.1 - - [26/Apr/2021 15:47:29] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:47:57 PM 127.0.0.1 - - [26/Apr/2021 15:47:57] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 03:47:57 PM 127.0.0.1 - - [26/Apr/2021 15:47:57] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:52:45 PM 127.0.0.1 - - [26/Apr/2021 15:52:45] "[37mGET /query?q=handels+stockholm HTTP/1.1[0m" 200 -
+04/26/2021 03:52:50 PM 127.0.0.1 - - [26/Apr/2021 15:52:50] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/26/2021 03:53:53 PM 127.0.0.1 - - [26/Apr/2021 15:53:53] "[37mGET /query?q=business+and+economics HTTP/1.1[0m" 200 -
+04/26/2021 03:53:54 PM 127.0.0.1 - - [26/Apr/2021 15:53:54] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/26/2021 03:54:28 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/26/2021 03:54:42 PM 127.0.0.1 - - [26/Apr/2021 15:54:42] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/26/2021 03:58:15 PM 127.0.0.1 - - [26/Apr/2021 15:58:15] "[37mGET /query?q=kurs HTTP/1.1[0m" 200 -
+04/26/2021 03:58:17 PM 127.0.0.1 - - [26/Apr/2021 15:58:17] "[37mGET /program_data?q=EHS-EN422&school=Enskilda+Högskolan+Stockholm&program=Textkurs+med+grekiska%2C+magisternivå HTTP/1.1[0m" 200 -
+04/26/2021 03:58:30 PM 127.0.0.1 - - [26/Apr/2021 15:58:30] "[37mGET /program_data?q=EHS-IN106&school=Enskilda+Högskolan+Stockholm&program=Teologi-+och+kyrkohistoria%2C+distanskurs HTTP/1.1[0m" 200 -
+04/26/2021 03:58:46 PM 127.0.0.1 - - [26/Apr/2021 15:58:46] "[37mGET /program_data?q=EHS-PB511&school=Enskilda+Högskolan+Stockholm&program=Tematisk+kurs%2C+praktisk+teologi%2C+masternivå HTTP/1.1[0m" 200 -
+04/26/2021 03:58:50 PM 127.0.0.1 - - [26/Apr/2021 15:58:50] "[37mGET /program_data?q=EHS-MR394&school=Enskilda+Högskolan+Stockholm&program=Praktikkurs%2C+mänskliga+rättigheter HTTP/1.1[0m" 200 -
+04/26/2021 03:58:53 PM 127.0.0.1 - - [26/Apr/2021 15:58:53] "[37mGET /program_data?q=EHS-KH512&school=Enskilda+Högskolan+Stockholm&program=Tematisk+kurs%2C+kyrkohistoria%2C+masternivå HTTP/1.1[0m" 200 -
+04/26/2021 03:58:56 PM 127.0.0.1 - - [26/Apr/2021 15:58:56] "[37mGET /program_data?q=GU-11452&school=Göteborgs+universitet&program=Geovetenskaplig+exkursion+1 HTTP/1.1[0m" 200 -
+04/26/2021 03:59:01 PM 127.0.0.1 - - [26/Apr/2021 15:59:01] "[37mGET /program_data?q=GU-12012&school=Göteborgs+universitet&program=Arkeologi%3A+Fortsättningskurs HTTP/1.1[0m" 200 -
+04/26/2021 03:59:09 PM 127.0.0.1 - - [26/Apr/2021 15:59:09] "[37mGET /query?q=psykologi HTTP/1.1[0m" 200 -
+04/26/2021 03:59:16 PM 127.0.0.1 - - [26/Apr/2021 15:59:16] "[37mGET /program_data?q=GU-17408&school=Göteborgs+universitet&program=Neuropsykologi HTTP/1.1[0m" 200 -
+04/26/2021 03:59:18 PM 127.0.0.1 - - [26/Apr/2021 15:59:18] "[37mGET /program_data?q=GU-17409&school=Göteborgs+universitet&program=Hälsopsykologi HTTP/1.1[0m" 200 -
+04/26/2021 03:59:26 PM 127.0.0.1 - - [26/Apr/2021 15:59:26] "[37mGET /query?q=psykologiprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:59:30 PM 127.0.0.1 - - [26/Apr/2021 15:59:30] "[37mGET /query?q=psykolog HTTP/1.1[0m" 200 -
+04/26/2021 03:59:44 PM 127.0.0.1 - - [26/Apr/2021 15:59:44] "[37mGET /query?q=psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 03:59:49 PM 127.0.0.1 - - [26/Apr/2021 15:59:49] "[37mGET /program_data?q=GU-1G74A&school=Göteborgs+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 04:02:46 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/26/2021 04:02:56 PM 127.0.0.1 - - [26/Apr/2021 16:02:56] "[37mGET /program_data?q=GU-1G74A&school=Göteborgs+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 04:03:50 PM 127.0.0.1 - - [26/Apr/2021 16:03:50] "[37mGET /program_data?q=GU-1G74A&school=Göteborgs+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 04:04:31 PM 127.0.0.1 - - [26/Apr/2021 16:04:31] "[37mGET /program_data?q=GU-1G74A&school=Göteborgs+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 05:00:01 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/26/2021 05:00:15 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/26/2021 05:01:01 PM 127.0.0.1 - - [26/Apr/2021 17:01:01] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 05:01:06 PM Exception on /program_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 198, in get
+    results = get_program_data(args['q'], args['school'], args['program'])
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 148, in get_program_data
+    print("Saving: " + program_data)
+TypeError: can only concatenate str (not "dict") to str
+04/26/2021 05:01:06 PM 127.0.0.1 - - [26/Apr/2021 17:01:06] "[35m[1mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 500 -
+04/26/2021 08:55:45 PM 127.0.0.1 - - [26/Apr/2021 20:55:45] "[37mGET /query?q=psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 08:55:56 PM Exception on /program_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 198, in get
+    results = get_program_data(args['q'], args['school'], args['program'])
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 148, in get_program_data
+    print("Saving: " + program_data)
+TypeError: can only concatenate str (not "dict") to str
+04/26/2021 08:55:56 PM 127.0.0.1 - - [26/Apr/2021 20:55:56] "[35m[1mGET /program_data?q=GU-1G74A&school=Göteborgs+universitet&program=Psykologprogrammet HTTP/1.1[0m" 500 -
+04/26/2021 11:08:54 PM Exception on /program_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 198, in get
+    results = get_program_data(args['q'], args['school'], args['program'])
+  File "c:\Users\olive\Desktop\antagningsstatistik\antagningsstatistik_webscraper.py", line 32, in get_program_data
+    program_data_json = json.load(file)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+04/26/2021 11:08:54 PM 127.0.0.1 - - [26/Apr/2021 23:08:54] "[35m[1mGET /program_data?q=GU-1G74A&school=Göteborgs+universitet&program=Psykologprogrammet HTTP/1.1[0m" 500 -
+04/26/2021 11:33:50 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/26/2021 11:34:45 PM 127.0.0.1 - - [26/Apr/2021 23:34:45] "[37mGET /query?q=psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 11:34:46 PM 127.0.0.1 - - [26/Apr/2021 23:34:46] "[37mGET /program_data?q=GU-1G74A&school=Göteborgs+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 11:35:23 PM 127.0.0.1 - - [26/Apr/2021 23:35:23] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 11:35:28 PM 127.0.0.1 - - [26/Apr/2021 23:35:28] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/26/2021 11:35:51 PM 127.0.0.1 - - [26/Apr/2021 23:35:51] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/26/2021 11:35:59 PM 127.0.0.1 - - [26/Apr/2021 23:35:59] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 11:37:35 PM 127.0.0.1 - - [26/Apr/2021 23:37:35] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 11:37:57 PM 127.0.0.1 - - [26/Apr/2021 23:37:57] "[37mGET /query?q=psykolog HTTP/1.1[0m" 200 -
+04/26/2021 11:38:03 PM 127.0.0.1 - - [26/Apr/2021 23:38:03] "[37mGET /query?q=psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 11:38:17 PM 127.0.0.1 - - [26/Apr/2021 23:38:17] "[37mGET /program_data?q=SU-36590&school=Stockholms+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 11:42:08 PM 127.0.0.1 - - [26/Apr/2021 23:42:08] "[37mGET /program_data?q=LU-80438&school=Lunds+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 11:44:19 PM 127.0.0.1 - - [26/Apr/2021 23:44:19] "[37mGET /program_data?q=LU-80438&school=Lunds+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 11:44:43 PM 127.0.0.1 - - [26/Apr/2021 23:44:43] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/26/2021 11:44:50 PM 127.0.0.1 - - [26/Apr/2021 23:44:50] "[37mGET /query?q=civil+kth HTTP/1.1[0m" 200 -
+04/26/2021 11:44:59 PM 127.0.0.1 - - [26/Apr/2021 23:44:59] "[37mGET /program_data?q=LNU-06373&school=Linnéuniversitetet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 11:45:00 PM 127.0.0.1 - - [26/Apr/2021 23:45:00] "[37mGET /program_data?q=KTH-32103&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+design+och+produktframtagning HTTP/1.1[0m" 200 -
+04/26/2021 11:45:16 PM 127.0.0.1 - - [26/Apr/2021 23:45:16] "[37mGET /program_data?q=KI-41008&school=Karolinska+institutet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 11:45:16 PM 127.0.0.1 - - [26/Apr/2021 23:45:16] "[37mGET /program_data?q=KTH-32107&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+informationsteknik HTTP/1.1[0m" 200 -
+04/26/2021 11:45:23 PM 127.0.0.1 - - [26/Apr/2021 23:45:23] "[37mGET /program_data?q=LU-80438&school=Lunds+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/26/2021 11:51:15 PM 127.0.0.1 - - [26/Apr/2021 23:51:15] "[37mGET /program_data?q=LU-80438&school=Lunds+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 12:04:31 AM 127.0.0.1 - - [27/Apr/2021 00:04:31] "[37mGET /program_data?q=LU-80438&school=Lunds+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 12:11:48 AM 127.0.0.1 - - [27/Apr/2021 00:11:48] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/27/2021 12:11:49 AM 127.0.0.1 - - [27/Apr/2021 00:11:49] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/27/2021 12:13:44 AM 127.0.0.1 - - [27/Apr/2021 00:13:44] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/27/2021 12:13:45 AM 127.0.0.1 - - [27/Apr/2021 00:13:45] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/27/2021 12:14:10 AM 127.0.0.1 - - [27/Apr/2021 00:14:10] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 12:14:11 AM 127.0.0.1 - - [27/Apr/2021 00:14:11] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 12:15:01 AM 127.0.0.1 - - [27/Apr/2021 00:15:01] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/27/2021 12:15:02 AM 127.0.0.1 - - [27/Apr/2021 00:15:02] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/27/2021 12:15:36 AM 127.0.0.1 - - [27/Apr/2021 00:15:36] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/27/2021 12:15:37 AM 127.0.0.1 - - [27/Apr/2021 00:15:37] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/27/2021 12:16:15 AM 127.0.0.1 - - [27/Apr/2021 00:16:15] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 12:16:27 AM 127.0.0.1 - - [27/Apr/2021 00:16:27] "[37mGET /query?q=psykologprogrammet+ HTTP/1.1[0m" 200 -
+04/27/2021 12:16:29 AM 127.0.0.1 - - [27/Apr/2021 00:16:29] "[37mGET /program_data?q=LU-80438&school=Lunds+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 12:25:31 AM 127.0.0.1 - - [27/Apr/2021 00:25:31] "[37mGET /program_data?q=GU-1G74A&school=Göteborgs+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 12:25:37 AM 127.0.0.1 - - [27/Apr/2021 00:25:37] "[37mGET /program_data?q=UMU-21203&school=Umeå+universitet&program=Kognitiv+psykologi+för+psykologprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 12:25:48 AM 127.0.0.1 - - [27/Apr/2021 00:25:48] "[37mGET /program_data?q=LIU-50000&school=Linköpings+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 12:27:27 AM 127.0.0.1 - - [27/Apr/2021 00:27:27] "[37mGET /query?q=teknisk+fysik+kth+ HTTP/1.1[0m" 200 -
+04/27/2021 12:27:37 AM 127.0.0.1 - - [27/Apr/2021 00:27:37] "[37mGET /program_data?q=KTH-32114&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+04/27/2021 12:27:48 AM 127.0.0.1 - - [27/Apr/2021 00:27:48] "[37mGET /program_data?q=KTH-32114&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+04/27/2021 12:27:53 AM 127.0.0.1 - - [27/Apr/2021 00:27:53] "[37mGET /program_data?q=KTH-10047&school=Kungl.+Tekniska+högskolan&program=Rymdfysik HTTP/1.1[0m" 200 -
+04/27/2021 12:27:58 AM 127.0.0.1 - - [27/Apr/2021 00:27:58] "[37mGET /program_data?q=KTH-10006&school=Kungl.+Tekniska+högskolan&program=Miljöfysik HTTP/1.1[0m" 200 -
+04/27/2021 12:28:08 AM 127.0.0.1 - - [27/Apr/2021 00:28:08] "[37mGET /program_data?q=KTH-10005&school=Kungl.+Tekniska+högskolan&program=Inledande+modern+fysik HTTP/1.1[0m" 200 -
+04/27/2021 12:28:14 AM 127.0.0.1 - - [27/Apr/2021 00:28:14] "[37mGET /program_data?q=KTH-32114&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+04/27/2021 12:28:41 AM 127.0.0.1 - - [27/Apr/2021 00:28:41] "[37mGET /query?q=handels+stockholm+ HTTP/1.1[0m" 200 -
+04/27/2021 12:28:44 AM 127.0.0.1 - - [27/Apr/2021 00:28:44] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/27/2021 12:28:49 AM 127.0.0.1 - - [27/Apr/2021 00:28:49] "[37mGET /program_data?q=HHS-34004&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Retail+Management HTTP/1.1[0m" 200 -
+04/27/2021 12:36:40 AM 127.0.0.1 - - [27/Apr/2021 00:36:40] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 12:36:42 AM 127.0.0.1 - - [27/Apr/2021 00:36:42] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 12:37:07 AM 127.0.0.1 - - [27/Apr/2021 00:37:07] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 12:37:08 AM 127.0.0.1 - - [27/Apr/2021 00:37:08] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 12:37:39 AM 127.0.0.1 - - [27/Apr/2021 00:37:39] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 12:37:39 AM 127.0.0.1 - - [27/Apr/2021 00:37:39] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 12:42:04 AM 127.0.0.1 - - [27/Apr/2021 00:42:04] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 12:42:04 AM 127.0.0.1 - - [27/Apr/2021 00:42:04] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 12:43:18 AM 127.0.0.1 - - [27/Apr/2021 00:43:18] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 12:43:19 AM 127.0.0.1 - - [27/Apr/2021 00:43:19] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 12:47:27 AM 127.0.0.1 - - [27/Apr/2021 00:47:27] "[37mGET /query?q=test HTTP/1.1[0m" 200 -
+04/27/2021 12:47:29 AM 127.0.0.1 - - [27/Apr/2021 00:47:29] "[37mGET /program_data?q=EHS-EG333&school=Enskilda+Högskolan+Stockholm&program=Gamla+testamentets+gudsbild HTTP/1.1[0m" 200 -
+04/27/2021 12:47:39 AM 127.0.0.1 - - [27/Apr/2021 00:47:39] "[37mGET /program_data?q=HDA-H38K5&school=Högskolan+Dalarna&program=IT-säkerhet+och+mjukvarutestning++kandidatprogram HTTP/1.1[0m" 200 -
+04/27/2021 12:47:44 AM 127.0.0.1 - - [27/Apr/2021 00:47:44] "[37mGET /program_data?q=EHS-EN336&school=Enskilda+Högskolan+Stockholm&program=Att+predika+Nya+testamentet HTTP/1.1[0m" 200 -
+04/27/2021 12:53:11 AM 127.0.0.1 - - [27/Apr/2021 00:53:11] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 12:53:12 AM 127.0.0.1 - - [27/Apr/2021 00:53:12] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 01:01:58 AM 127.0.0.1 - - [27/Apr/2021 01:01:58] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 01:01:59 AM 127.0.0.1 - - [27/Apr/2021 01:01:59] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 01:04:26 AM 127.0.0.1 - - [27/Apr/2021 01:04:26] "[37mGET /query?q=teknisk+fysik HTTP/1.1[0m" 200 -
+04/27/2021 01:04:29 AM 127.0.0.1 - - [27/Apr/2021 01:04:29] "[37mGET /program_data?q=CTH-57000&school=Chalmers+tekniska+högskola&program=TEKNISK+FYSIK%2C+CIVILINGENJÖR HTTP/1.1[0m" 200 -
+04/27/2021 01:11:40 AM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/27/2021 01:11:55 AM 127.0.0.1 - - [27/Apr/2021 01:11:55] "[37mGET /program_data?q=CTH-57000&school=Chalmers+tekniska+högskola&program=TEKNISK+FYSIK%2C+CIVILINGENJÖR HTTP/1.1[0m" 200 -
+04/27/2021 01:12:29 AM 127.0.0.1 - - [27/Apr/2021 01:12:29] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 01:12:36 AM 127.0.0.1 - - [27/Apr/2021 01:12:36] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 01:12:52 AM 127.0.0.1 - - [27/Apr/2021 01:12:52] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 01:12:58 AM 127.0.0.1 - - [27/Apr/2021 01:12:58] "[37mGET /query?q=civil+kth HTTP/1.1[0m" 200 -
+04/27/2021 01:13:04 AM 127.0.0.1 - - [27/Apr/2021 01:13:04] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/27/2021 01:13:11 AM 127.0.0.1 - - [27/Apr/2021 01:13:11] "[37mGET /program_data?q=KTH-32106&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+04/27/2021 01:13:17 AM 127.0.0.1 - - [27/Apr/2021 01:13:17] "[37mGET /program_data?q=KTH-32114&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+04/27/2021 01:13:24 AM 127.0.0.1 - - [27/Apr/2021 01:13:24] "[37mGET /program_data?q=KTH-32104&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+elektroteknik HTTP/1.1[0m" 200 -
+04/27/2021 01:13:30 AM 127.0.0.1 - - [27/Apr/2021 01:13:30] "[37mGET /query?q=civil+cth HTTP/1.1[0m" 200 -
+04/27/2021 01:13:35 AM 127.0.0.1 - - [27/Apr/2021 01:13:35] "[37mGET /program_data?q=CTH-50000&school=Chalmers+tekniska+högskola&program=ELEKTROTEKNIK%2C+CIVILINGENJÖR HTTP/1.1[0m" 200 -
+04/27/2021 01:13:41 AM 127.0.0.1 - - [27/Apr/2021 01:13:41] "[37mGET /program_data?q=CTH-58005&school=Chalmers+tekniska+högskola&program=Samhällsbyggnadsteknik%2C+civilingenjör%2C+senare+del+av+program+%28EJ+åk+1%29 HTTP/1.1[0m" 200 -
+04/27/2021 01:13:54 AM 127.0.0.1 - - [27/Apr/2021 01:13:54] "[37mGET /program_data?q=CTH-56000&school=Chalmers+tekniska+högskola&program=TEKNISK+DESIGN%2C+CIVILINGENJÖR HTTP/1.1[0m" 200 -
+04/27/2021 01:13:58 AM 127.0.0.1 - - [27/Apr/2021 01:13:58] "[37mGET /program_data?q=CTH-74000&school=Chalmers+tekniska+högskola&program=GLOBALA+SYSTEM%2C+CIVILINGENJÖR HTTP/1.1[0m" 200 -
+04/27/2021 01:14:12 AM 127.0.0.1 - - [27/Apr/2021 01:14:12] "[37mGET /query?q=linköping+industriell HTTP/1.1[0m" 200 -
+04/27/2021 01:14:20 AM 127.0.0.1 - - [27/Apr/2021 01:14:20] "[37mGET /program_data?q=LIU-50101&school=Linköpings+universitet&program=Civilingenjör+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+04/27/2021 01:14:33 AM 127.0.0.1 - - [27/Apr/2021 01:14:33] "[37mGET /program_data?q=LIU-50168&school=Linköpings+universitet&program=Civilingenjör+i+industriell+ekonomi+-+internationell%2C+kinesiska HTTP/1.1[0m" 200 -
+04/27/2021 01:14:52 AM 127.0.0.1 - - [27/Apr/2021 01:14:52] "[37mGET /query?q=hhs HTTP/1.1[0m" 200 -
+04/27/2021 01:14:57 AM 127.0.0.1 - - [27/Apr/2021 01:14:57] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/27/2021 01:15:02 AM 127.0.0.1 - - [27/Apr/2021 01:15:02] "[37mGET /program_data?q=HHS-34004&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Retail+Management HTTP/1.1[0m" 200 -
+04/27/2021 01:15:32 AM 127.0.0.1 - - [27/Apr/2021 01:15:32] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/27/2021 02:03:39 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/27/2021 02:04:21 PM 127.0.0.1 - - [27/Apr/2021 14:04:21] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 02:04:25 PM 127.0.0.1 - - [27/Apr/2021 14:04:25] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 02:10:59 PM 127.0.0.1 - - [27/Apr/2021 14:10:59] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 02:11:00 PM 127.0.0.1 - - [27/Apr/2021 14:11:00] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 02:38:33 PM 127.0.0.1 - - [27/Apr/2021 14:38:33] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 02:38:35 PM 127.0.0.1 - - [27/Apr/2021 14:38:35] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 02:45:49 PM 127.0.0.1 - - [27/Apr/2021 14:45:49] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 02:45:50 PM 127.0.0.1 - - [27/Apr/2021 14:45:50] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 03:13:11 PM 127.0.0.1 - - [27/Apr/2021 15:13:11] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 03:13:23 PM 127.0.0.1 - - [27/Apr/2021 15:13:23] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 03:19:42 PM 127.0.0.1 - - [27/Apr/2021 15:19:42] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 03:19:44 PM 127.0.0.1 - - [27/Apr/2021 15:19:44] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 03:29:17 PM 127.0.0.1 - - [27/Apr/2021 15:29:17] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 03:29:18 PM 127.0.0.1 - - [27/Apr/2021 15:29:18] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 03:30:23 PM 127.0.0.1 - - [27/Apr/2021 15:30:23] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 03:30:24 PM 127.0.0.1 - - [27/Apr/2021 15:30:24] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 03:31:09 PM 127.0.0.1 - - [27/Apr/2021 15:31:09] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 03:31:10 PM 127.0.0.1 - - [27/Apr/2021 15:31:10] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 03:43:18 PM 127.0.0.1 - - [27/Apr/2021 15:43:18] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 03:43:19 PM 127.0.0.1 - - [27/Apr/2021 15:43:19] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:01:08 PM 127.0.0.1 - - [27/Apr/2021 16:01:08] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 04:01:10 PM 127.0.0.1 - - [27/Apr/2021 16:01:10] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:01:54 PM 127.0.0.1 - - [27/Apr/2021 16:01:54] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 04:01:54 PM 127.0.0.1 - - [27/Apr/2021 16:01:54] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:02:17 PM 127.0.0.1 - - [27/Apr/2021 16:02:17] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 04:02:18 PM 127.0.0.1 - - [27/Apr/2021 16:02:18] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:06:28 PM 127.0.0.1 - - [27/Apr/2021 16:06:28] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 04:06:29 PM 127.0.0.1 - - [27/Apr/2021 16:06:29] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:06:56 PM 127.0.0.1 - - [27/Apr/2021 16:06:56] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 04:06:57 PM 127.0.0.1 - - [27/Apr/2021 16:06:57] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:07:05 PM 127.0.0.1 - - [27/Apr/2021 16:07:05] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 04:07:06 PM 127.0.0.1 - - [27/Apr/2021 16:07:06] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:07:39 PM 127.0.0.1 - - [27/Apr/2021 16:07:39] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 04:07:40 PM 127.0.0.1 - - [27/Apr/2021 16:07:40] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:13:46 PM 127.0.0.1 - - [27/Apr/2021 16:13:46] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:34:55 PM 127.0.0.1 - - [27/Apr/2021 16:34:55] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 04:34:56 PM 127.0.0.1 - - [27/Apr/2021 16:34:56] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:35:57 PM 127.0.0.1 - - [27/Apr/2021 16:35:57] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 04:35:57 PM 127.0.0.1 - - [27/Apr/2021 16:35:57] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:42:22 PM 127.0.0.1 - - [27/Apr/2021 16:42:22] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 04:42:22 PM 127.0.0.1 - - [27/Apr/2021 16:42:22] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:42:38 PM 127.0.0.1 - - [27/Apr/2021 16:42:38] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 04:42:39 PM 127.0.0.1 - - [27/Apr/2021 16:42:39] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 04:43:11 PM 127.0.0.1 - - [27/Apr/2021 16:43:11] "[37mGET /query?q=business+and+economics HTTP/1.1[0m" 200 -
+04/27/2021 04:43:12 PM 127.0.0.1 - - [27/Apr/2021 16:43:12] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/27/2021 04:45:30 PM 127.0.0.1 - - [27/Apr/2021 16:45:30] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 04:45:31 PM 127.0.0.1 - - [27/Apr/2021 16:45:31] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 08:01:55 PM 127.0.0.1 - - [27/Apr/2021 20:01:55] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 08:03:06 PM 127.0.0.1 - - [27/Apr/2021 20:03:06] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 08:06:15 PM 127.0.0.1 - - [27/Apr/2021 20:06:15] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/27/2021 08:06:16 PM 127.0.0.1 - - [27/Apr/2021 20:06:16] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/27/2021 08:07:02 PM 127.0.0.1 - - [27/Apr/2021 20:07:02] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/27/2021 08:07:26 PM 127.0.0.1 - - [27/Apr/2021 20:07:26] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/27/2021 08:11:54 PM 127.0.0.1 - - [27/Apr/2021 20:11:54] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 08:11:55 PM 127.0.0.1 - - [27/Apr/2021 20:11:55] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 08:14:42 PM 127.0.0.1 - - [27/Apr/2021 20:14:42] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 08:14:56 PM 127.0.0.1 - - [27/Apr/2021 20:14:56] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 08:15:11 PM 127.0.0.1 - - [27/Apr/2021 20:15:11] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 08:15:12 PM 127.0.0.1 - - [27/Apr/2021 20:15:12] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 08:16:41 PM 127.0.0.1 - - [27/Apr/2021 20:16:41] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 08:16:42 PM 127.0.0.1 - - [27/Apr/2021 20:16:42] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 08:17:56 PM 127.0.0.1 - - [27/Apr/2021 20:17:56] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 08:17:57 PM 127.0.0.1 - - [27/Apr/2021 20:17:57] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 08:18:50 PM 127.0.0.1 - - [27/Apr/2021 20:18:50] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+04/27/2021 08:18:52 PM 127.0.0.1 - - [27/Apr/2021 20:18:52] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+04/27/2021 08:19:07 PM 127.0.0.1 - - [27/Apr/2021 20:19:07] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 08:19:08 PM 127.0.0.1 - - [27/Apr/2021 20:19:08] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 08:25:38 PM 127.0.0.1 - - [27/Apr/2021 20:25:38] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 08:25:40 PM 127.0.0.1 - - [27/Apr/2021 20:25:40] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 08:25:49 PM 127.0.0.1 - - [27/Apr/2021 20:25:49] "[37mGET /query?q=läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:16:59 PM  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+04/27/2021 11:17:03 PM 127.0.0.1 - - [27/Apr/2021 23:17:03] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 11:17:33 PM 127.0.0.1 - - [27/Apr/2021 23:17:33] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:17:40 PM 127.0.0.1 - - [27/Apr/2021 23:17:40] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:17:44 PM 127.0.0.1 - - [27/Apr/2021 23:17:44] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:17:53 PM 127.0.0.1 - - [27/Apr/2021 23:17:53] "[37mGET /query?q=teknisk+fysik+kth HTTP/1.1[0m" 200 -
+04/27/2021 11:17:56 PM 127.0.0.1 - - [27/Apr/2021 23:17:56] "[37mGET /program_data?q=KTH-32114&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+04/27/2021 11:20:21 PM 127.0.0.1 - - [27/Apr/2021 23:20:21] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+04/27/2021 11:20:22 PM 127.0.0.1 - - [27/Apr/2021 23:20:22] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:20:24 PM 127.0.0.1 - - [27/Apr/2021 23:20:24] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:20:31 PM 127.0.0.1 - - [27/Apr/2021 23:20:31] "[37mGET /query?q=teknisk+fysik+kth HTTP/1.1[0m" 200 -
+04/27/2021 11:20:40 PM 127.0.0.1 - - [27/Apr/2021 23:20:40] "[37mGET /query?q= HTTP/1.1[0m" 200 -
+04/27/2021 11:21:27 PM 127.0.0.1 - - [27/Apr/2021 23:21:27] "[37mGET /query?q=lärare+uppsala HTTP/1.1[0m" 200 -
+04/27/2021 11:21:44 PM 127.0.0.1 - - [27/Apr/2021 23:21:44] "[37mGET /query?q=samhällslärare HTTP/1.1[0m" 200 -
+04/27/2021 11:21:52 PM 127.0.0.1 - - [27/Apr/2021 23:21:52] "[37mGET /query?q=lärare+uppsala HTTP/1.1[0m" 200 -
+04/27/2021 11:22:06 PM 127.0.0.1 - - [27/Apr/2021 23:22:06] "[37mGET /program_data?q=UU-17007&school=Uppsala+universitet&program=Bioinformatik+i+skolan+för+ämneslärare HTTP/1.1[0m" 200 -
+04/27/2021 11:22:23 PM 127.0.0.1 - - [27/Apr/2021 23:22:23] "[37mGET /program_data?q=UU-11000&school=Uppsala+universitet&program=Programmering+för+ämneslärare HTTP/1.1[0m" 200 -
+04/27/2021 11:24:59 PM 127.0.0.1 - - [27/Apr/2021 23:24:59] "[37mGET /query?q=juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:25:07 PM 127.0.0.1 - - [27/Apr/2021 23:25:07] "[37mGET /program_data?q=GU-1G83B&school=Göteborgs+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:26:08 PM 127.0.0.1 - - [27/Apr/2021 23:26:08] "[37mGET /program_data?q=KAU-79780&school=Karlstads+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:26:56 PM 127.0.0.1 - - [27/Apr/2021 23:26:56] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/27/2021 11:26:58 PM 127.0.0.1 - - [27/Apr/2021 23:26:58] "[37mGET /program_data?q=KAU-79780&school=Karlstads+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:28:00 PM 127.0.0.1 - - [27/Apr/2021 23:28:00] "[37mGET /program_data?q=LU-80300&school=Lunds+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:28:56 PM 127.0.0.1 - - [27/Apr/2021 23:28:56] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/27/2021 11:29:03 PM 127.0.0.1 - - [27/Apr/2021 23:29:03] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/27/2021 11:29:08 PM 127.0.0.1 - - [27/Apr/2021 23:29:08] "[37mGET /query?q=juristie HTTP/1.1[0m" 200 -
+04/27/2021 11:29:13 PM 127.0.0.1 - - [27/Apr/2021 23:29:13] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/27/2021 11:29:17 PM 127.0.0.1 - - [27/Apr/2021 23:29:17] "[37mGET /program_data?q=LU-80300&school=Lunds+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:29:39 PM 127.0.0.1 - - [27/Apr/2021 23:29:39] "[37mGET /program_data?q=ORU-39100&school=Örebro+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:30:19 PM 127.0.0.1 - - [27/Apr/2021 23:30:19] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/27/2021 11:30:25 PM 127.0.0.1 - - [27/Apr/2021 23:30:25] "[37mGET /program_data?q=LU-80300&school=Lunds+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:30:47 PM 127.0.0.1 - - [27/Apr/2021 23:30:47] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/27/2021 11:30:49 PM 127.0.0.1 - - [27/Apr/2021 23:30:49] "[37mGET /program_data?q=LU-80300&school=Lunds+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:30:52 PM 127.0.0.1 - - [27/Apr/2021 23:30:52] "[37mGET /program_data?q=ORU-39100&school=Örebro+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:31:06 PM 127.0.0.1 - - [27/Apr/2021 23:31:06] "[37mGET /program_data?q=SU-29700&school=Stockholms+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:33:31 PM 127.0.0.1 - - [27/Apr/2021 23:33:31] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/27/2021 11:33:37 PM 127.0.0.1 - - [27/Apr/2021 23:33:37] "[37mGET /program_data?q=SU-29700&school=Stockholms+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:34:35 PM 127.0.0.1 - - [27/Apr/2021 23:34:35] "[37mGET /program_data?q=UMU-25000&school=Umeå+universitet&program=Ekonomisk+familjerätt+%28Juristprogrammet%29 HTTP/1.1[0m" 200 -
+04/27/2021 11:34:55 PM 127.0.0.1 - - [27/Apr/2021 23:34:55] "[37mGET /program_data?q=UMU-P1250&school=Umeå+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:35:13 PM 127.0.0.1 - - [27/Apr/2021 23:35:13] "[37mGET /query?q=juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:36:16 PM 127.0.0.1 - - [27/Apr/2021 23:36:16] "[37mGET /query?q=juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:36:30 PM 127.0.0.1 - - [27/Apr/2021 23:36:30] "[37mGET /program_data?q=ORU-H3664&school=Örebro+universitet&program=Examensarbete+inom+juristprogrammet%2C+avancerad+nivå HTTP/1.1[0m" 200 -
+04/27/2021 11:38:41 PM 127.0.0.1 - - [27/Apr/2021 23:38:41] "[37mGET /query?q=juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:39:22 PM 127.0.0.1 - - [27/Apr/2021 23:39:22] "[37mGET /program_data?q=UU-P2800&school=Uppsala+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+04/27/2021 11:40:25 PM 127.0.0.1 - - [27/Apr/2021 23:40:25] "[37mGET /query?q=handels+stockholm HTTP/1.1[0m" 200 -
+04/27/2021 11:41:51 PM 127.0.0.1 - - [27/Apr/2021 23:41:51] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/27/2021 11:41:59 PM 127.0.0.1 - - [27/Apr/2021 23:41:59] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/27/2021 11:42:28 PM 127.0.0.1 - - [27/Apr/2021 23:42:28] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/28/2021 12:04:15 AM 127.0.0.1 - - [28/Apr/2021 00:04:15] "[37mGET /query?q=jurist HTTP/1.1[0m" 200 -
+04/28/2021 12:04:17 AM 127.0.0.1 - - [28/Apr/2021 00:04:17] "[37mGET /program_data?q=GU-1G83B&school=Göteborgs+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
