@@ -54,6 +54,9 @@ const useStyles2 = theme => ({
   root: {
     backgroundColor: "#282c34",
     minHeight: "100vh",
+    display: "flex",
+    flexFlow: "column",
+    height: "100%",
   },  
   searchBar: {
     padding: '2px 4px',
@@ -89,7 +92,7 @@ const useStyles2 = theme => ({
     justifyContent: 'center',
   },
   paper: {
-    padding: theme.spacing(2, 0, 3),
+    padding: theme.spacing(1, 0, 1),
     maxWidth: "100%",
     overflow: "auto",
     maxHeight: "70%",
@@ -171,7 +174,7 @@ class App extends React.Component {
       .then(response => response.json())
       .then(function(data) {
         const rawData = JSON.parse(data);
-        const comment = "Kvoten BI är till för dig som söker med dina gymnasiebetyg. BII är för dig som har kompletterat ditt gymnasiebetyg och HP är för de som har gjort högskoleprovet. (PS. fler betygskvoter finns men dessa är inte vanliga bland dagens gymnasieelever). ";
+        const comment = "Kvoten BI är till för dig som söker med dina gymnasiebetyg. BII är för dig som har kompletterat ditt gymnasiebetyg och HP är för de som har gjort högskoleprovet. (PS. fler betygskvoter finns men dessa är inte vanliga bland dagens gymnasieelever). Siffror för Urval 2 visas.";
         const programData = [[rawData.comment.length > 0? (comment + rawData.comment):comment], rawData.HT.length > 0? rawData.HT:["Ingen statistik"], rawData.VT.length > 0? rawData.VT:["Ingen statistik"]];
 
         that.setState({programData: programData, kurskod: kurskod, program: program, school: school, loading: false});
@@ -197,7 +200,7 @@ class App extends React.Component {
 
     return (
       <div className={classes.root}>
-        <Container style={{padding:"2em", paddingTop:"2em",}}>
+        <Container style={{padding:"2em", paddingTop:"2em", flex: "0 1 auto",}}>
           <header className="App-header">
             <h3 style={{textAlign:"left", margin:0, padding:0}}>Se dina chanser att bli antagen!</h3>
             <h6 style={{textAlign:"left", margin:0, padding:0, paddingTop:"0.5em", color: "gray",}}>
@@ -223,34 +226,36 @@ class App extends React.Component {
   
         </Container>
         
-        {this.state.queryResults.length > 0 &&
-          <TableContainer component={Paper} className={classes.table} display="false">
-            <Table size="small" aria-label="customized table">
-              <TableHead>
-                <StyledTableRow>
-                  <StyledTableCell>Program</StyledTableCell>
-                  <StyledTableCell align="left">Skola</StyledTableCell>
-                  <StyledTableCell align="right">Termin</StyledTableCell>
-                  <StyledTableCell align="right">Program/Kurs</StyledTableCell>
-                  <StyledTableCell align="right">Kod</StyledTableCell>
-                </StyledTableRow>
-              </TableHead>
-              <TableBody>
-                {this.state.queryResults.map((item, index) => (
-                  <StyledTableRow key={index} onClick={() => this.handleSelection(item[3], item[2], item[4])}>
-                    <StyledTableCell component="th" scope="row">
-                      {item[2]}
-                    </StyledTableCell>
-                    <StyledTableCell align="left">{item[4]}</StyledTableCell>
-                    <StyledTableCell align="right">{item[0]}</StyledTableCell>
-                    <StyledTableCell align="right">{item[1]}</StyledTableCell>
-                    <StyledTableCell align="right">{item[3]}</StyledTableCell>
+        <div style={{ flex: "1 1 auto", marginBottom: "3em", }}>
+          {this.state.queryResults.length > 0 &&
+            <TableContainer component={Paper} className={classes.table} display="false">
+              <Table size="small" aria-label="customized table">
+                <TableHead>
+                  <StyledTableRow>
+                    <StyledTableCell>Program</StyledTableCell>
+                    <StyledTableCell align="left">Skola</StyledTableCell>
+                    <StyledTableCell align="right">Termin</StyledTableCell>
+                    <StyledTableCell align="right">Program/Kurs</StyledTableCell>
+                    <StyledTableCell align="right">Kod</StyledTableCell>
                   </StyledTableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
-        }
+                </TableHead>
+                <TableBody>
+                  {this.state.queryResults.map((item, index) => (
+                    <StyledTableRow key={index} onClick={() => this.handleSelection(item[3], item[2], item[4])}>
+                      <StyledTableCell component="th" scope="row">
+                        {item[2]}
+                      </StyledTableCell>
+                      <StyledTableCell align="left">{item[4]}</StyledTableCell>
+                      <StyledTableCell align="right">{item[0]}</StyledTableCell>
+                      <StyledTableCell align="right">{item[1]}</StyledTableCell>
+                      <StyledTableCell align="right">{item[3]}</StyledTableCell>
+                    </StyledTableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </TableContainer>
+          }
+        </div>
         
   
         <Modal
@@ -310,9 +315,9 @@ class App extends React.Component {
           </Fade>
         </Modal>
       
-        <div id="footer" style={{color: "#bcc5d6", backgroundColor: "#374052", alignItems: "center", display: "flex", justifyContent: "center", }}>
-          &copy; {new Date().getFullYear()} Copyright: &nbsp; Oliver Midbrink
-        </div>
+        <footer style={{color: "#bcc5d6", backgroundColor: "#374052", alignItems: "center", display: "flex", justifyContent: "center", padding: "0.3em", paddingBottom: "0.5em",}}>
+          &copy; {new Date().getFullYear()} Copyright Oliver Midbrink
+        </footer>
       </div>
     );
   }
