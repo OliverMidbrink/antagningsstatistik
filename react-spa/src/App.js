@@ -7,13 +7,6 @@ import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
 import Input from '@material-ui/core/Input';
 import React from "react";
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import Divider from '@material-ui/core/Divider';
-import InboxIcon from '@material-ui/icons/Inbox';
-import DraftsIcon from '@material-ui/icons/Drafts';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -29,6 +22,13 @@ import Loader from "react-loader-spinner";
 import { trackPromise } from 'react-promise-tracker';
 import { usePromiseTracker } from "react-promise-tracker";
 import MyLineChart from './components/MyLineChart';
+import InputLabel from '@material-ui/core/InputLabel';
+import MenuItem from '@material-ui/core/MenuItem';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
+import Button from '@material-ui/core/Button';
+import TextField from '@material-ui/core/TextField';
+import Divider from '@material-ui/core/Divider';
 
 const StyledTableCell = withStyles((theme) => ({
   head: {
@@ -96,6 +96,7 @@ const useStyles2 = theme => ({
     maxWidth: "100%",
     overflow: "auto",
     maxHeight: "70%",
+    outline: 'none',
   },
 });
 
@@ -130,12 +131,18 @@ class App extends React.Component {
       program: '',
       school: '',
       loading: false,
+      userHP: "",
+      userBI: "", 
+      userBII: "",
     };
 
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleSelection = this.handleSelection.bind(this);
     this.handleSearchBarChange = this.handleSearchBarChange.bind(this);
     this.handleModalClose = this.handleModalClose.bind(this);
+    this.handleTextFieldChangeHP = this.handleTextFieldChangeHP.bind(this);
+    this.handleTextFieldChangeBI = this.handleTextFieldChangeBI.bind(this);
+    this.handleTextFieldChangeBII = this.handleTextFieldChangeBII.bind(this);
   }
 
   handleSubmit(event) {
@@ -174,8 +181,7 @@ class App extends React.Component {
       .then(response => response.json())
       .then(function(data) {
         const rawData = JSON.parse(data);
-        const comment = "Kvoten BI är till för dig som söker med dina gymnasiebetyg. BII är för dig som har kompletterat ditt gymnasiebetyg och HP är för de som har gjort högskoleprovet. (PS. fler betygskvoter finns men dessa är inte vanliga bland dagens gymnasieelever). Siffror för Urval 2 visas.";
-        const programData = [[rawData.comment.length > 0? (comment + rawData.comment):comment], rawData.HT.length > 0? rawData.HT:["Ingen statistik"], rawData.VT.length > 0? rawData.VT:["Ingen statistik"]];
+        const programData = [[rawData.comment.length > 0? (rawData.comment):""], rawData.HT.length > 0? rawData.HT:["Ingen statistik"], rawData.VT.length > 0? rawData.VT:["Ingen statistik"]];
 
         that.setState({programData: programData, kurskod: kurskod, program: program, school: school, loading: false});
 
@@ -185,6 +191,18 @@ class App extends React.Component {
         console.log('Fetch problem: ' + err.message);
     }));
 
+  }
+
+  handleTextFieldChangeHP(event) {
+    this.setState({"userHP": event.target.value});
+  }
+
+  handleTextFieldChangeBI(event) {
+    this.setState({"userBI": event.target.value});
+  }
+
+  handleTextFieldChangeBII(event) {
+    this.setState({"userBII": event.target.value});
   }
 
   handleSearchBarChange(event) {
@@ -213,7 +231,7 @@ class App extends React.Component {
               <InputBase
                 className={classes.input}
                 placeholder="Läkarprogrammet Karolinska"
-                value={this.state.queryString}
+                
                 name="queryString"
                 onChange={this.handleSearchBarChange}
                 inputProps={{ 'aria-label': 'sök efter utbildningar' }}
@@ -271,7 +289,6 @@ class App extends React.Component {
           }}
         >
           <Fade in={this.state.open}>
-            
             <Paper className={classes.paper}>
               <LoadingIndicator/>
 
@@ -280,20 +297,57 @@ class App extends React.Component {
                 <Container>
                   <h2 style={{marginBottom:"0.1em"}}>Statistik</h2>
                   <h5 style={{marginTop:"0.1em", color:"gray",}}>{this.state.program} vid {this.state.school}</h5>
+                  <Divider />
+                  <p>Kvoten BI är till för dig som söker med dina gymnasiebetyg, BII för dig som har 
+                    kompletterat ditt gymnasiebetyg och HP är för de som har gjort högskoleprovet. 
+                    (PS. fler betygskvoter finns men dessa är inte vanliga bland dagens gymnasieelever). 
+                    Siffrorna nedan visar statistik för Urval 2 visas. <b>{this.state.programData[0]}</b></p>
+                  <p><b>Tänk på att detta bara är en indikation. Gör ditt bästa för att höja betygen och 
+                    maximera dina chanser!</b></p>
+                  <p>Fyll i uppgifterna nedan för att få din bedömning. Du som inte har kompletterat 
+                    behöver ej fylla i "Betyg efter komvux"-rutan. Om du ej har gjort HP behöver inte denna fyllas i. 
+                    <b>En röd linje som är högre upp innebär större chanser till antagning.</b></p>
+                  
+                  <Divider />
+                  <form noValidate autoComplete="off">
+                    <TextField label="Snittbetyg från gymnasiet" style={{margin:"1em",}} 
+                    placeholder="15.20" className={classes.textField} value={this.state.userBI} onChange={this.handleTextFieldChangeBI} />
+                    <TextField label="Betyg efter komvux" style={{margin:"1em",}} 
+                    placeholder="17.1" className={classes.textField} value={this.state.userBII} onChange={this.handleTextFieldChangeBII} />
+                    <TextField label="Ditt HP" style={{margin:"1em",}} placeholder="1.2" 
+                    className={classes.textField} name="userHP" value={this.state.userHP} onChange={this.handleTextFieldChangeHP} />
+                  </form>
                 </Container>
                 
-                <div style={{alignItems: "center", display: "flex", justifyContent: "center",}}>
-                  <MyLineChart programData={this.state.programData} width={370}/>
+                
+                <div style={{display: "flex", flexWrap: "wrap", }}>
+                  <div style={{alignItems: "center", display: "flex", justifyContent: "center",}}>
+                    <MyLineChart programData={this.state.programData} displayFilter={["BI"]} width={370}
+                    userBI={this.state.userBI}/>
+                  </div>
+                  
+                  <div style={{alignItems: "center", display: "flex", justifyContent: "center",}}>
+                    <MyLineChart programData={this.state.programData} displayFilter={["HP"]} 
+                    userHP={this.state.userHP} width={370}/>
+                  </div>
+
+                  <div style={{alignItems: "center", display: "flex", justifyContent: "center",}}>
+                    <MyLineChart programData={this.state.programData} displayFilter={["BII"]} width={370}
+                    userBII={this.state.userBII}/>
+                  </div>
                 </div>
+                
                 
                 <Container>
                   <div>
+                    <Divider />
+                    <h3 style={{marginBottom:0,}}>Tabelldata</h3>
                     {
-                      this.state.programData.map((item, index) => {
+                      this.state.programData.slice(1, 3).map((item, index) => {
                         return (
                           <div>
                             <br></br>
-                            <h4>{["Kommentar", "HT", "VT"][index]}</h4>
+                            <h4>{["HT", "VT"][index]}</h4>
                             {
                               item.map(row => {
                                 if(row.length < 6) {
