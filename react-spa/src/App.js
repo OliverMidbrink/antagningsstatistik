@@ -52,7 +52,7 @@ const StyledTableRow = withStyles((theme) => ({
 
 const useStyles2 = theme => ({
   root: {
-    backgroundColor: "#282c34",
+    backgroundColor: "#fAfAfA",
     minHeight: "100vh",
     display: "flex",
     flexFlow: "column",
@@ -221,7 +221,7 @@ class App extends React.Component {
         <Container style={{padding:"2em", paddingTop:"2em", flex: "0 1 auto",}}>
           <header className="App-header">
             <h3 style={{textAlign:"left", margin:0, padding:0}}>Se dina chanser att bli antagen!</h3>
-            <h6 style={{textAlign:"left", margin:0, padding:0, paddingTop:"0.5em", color: "gray",}}>
+            <h6 style={{textAlign:"left", margin:0, padding:0, paddingTop:"0.5em", color: "#4a4a4a",}}>
               Sök efter ett program eller en kurs. Klicka sedan på programmet för att se dina chanser att bli antagen. 
               Tips: skriv utbildningens namn och sedan skolan i sökrutan för ännu bättre sökresultat. </h6>
           </header>
