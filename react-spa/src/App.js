@@ -311,32 +311,37 @@ class App extends React.Component {
                     maximera dina chanser!</b></p>
                   <p>Fyll i uppgifterna nedan för att få din bedömning. Du som inte har kompletterat 
                     behöver ej fylla i "Betyg efter komvux"-rutan. Om du ej har gjort HP behöver inte denna fyllas i. 
-                    <b>En röd linje som är högre upp innebär större chanser till antagning.</b></p>
+                    <b> En röd linje som är högre upp innebär större chanser till antagning.</b></p>
                   
                   <Divider />
                   <form noValidate autoComplete="off">
-                    <TextField label="Snittbetyg från gymnasiet" style={{margin:"1em",}} 
-                    placeholder="15.20" className={classes.textField} value={this.state.userBI} onChange={this.handleTextFieldChangeBI} />
-                    <TextField label="Betyg efter komvux" style={{margin:"1em",}} 
-                    placeholder="17.1" className={classes.textField} value={this.state.userBII} onChange={this.handleTextFieldChangeBII} />
-                    <TextField label="Ditt HP" style={{margin:"1em",}} placeholder="1.2" 
-                    className={classes.textField} name="userHP" value={this.state.userHP} onChange={this.handleTextFieldChangeHP} />
+                    
+                    
                   </form>
                 </Container>
                 
                 
                 <div style={{display: "flex", flexWrap: "wrap", }}>
-                  <div style={{alignItems: "center", display: "flex", justifyContent: "center",}}>
+                  <div style={{alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap",}}>
+                    <TextField label="Snittbetyg från gymnasiet" style={{margin:"1em",}} 
+                    placeholder="15.20" className={classes.textField} value={this.state.userBI} onChange={this.handleTextFieldChangeBI} />
+
                     <MyLineChart programData={this.state.programData} displayFilter={["BI"]} width={370}
                     userBI={this.state.userBI}/>
                   </div>
                   
-                  <div style={{alignItems: "center", display: "flex", justifyContent: "center",}}>
+                  <div style={{alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap",}}>
+                    <TextField label="Ditt HP" style={{margin:"1em",}} placeholder="1.2" 
+                    className={classes.textField} name="userHP" value={this.state.userHP} onChange={this.handleTextFieldChangeHP} />
+
                     <MyLineChart programData={this.state.programData} displayFilter={["HP"]} 
                     userHP={this.state.userHP} width={370}/>
                   </div>
 
-                  <div style={{alignItems: "center", display: "flex", justifyContent: "center",}}>
+                  <div style={{alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap",}}>
+                    <TextField label="Betyg efter komvux" style={{margin:"1em",}} 
+                    placeholder="17.1" className={classes.textField} value={this.state.userBII} onChange={this.handleTextFieldChangeBII} />
+                    
                     <MyLineChart programData={this.state.programData} displayFilter={["BII"]} width={370}
                     userBII={this.state.userBII}/>
                   </div>
