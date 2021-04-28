@@ -129,13 +129,13 @@ export default function MyLineChart(props) {
         <Line yAxisId="left" type="monotone" dataKey="HP" stroke="orange" />
       }
       {props.displayFilter.includes("HP") &&
-        <Line connectNulls yAxisId="left" type="monotone" dataKey="Ditt HP" stroke="red" />
+        <Line connectNulls yAxisId="left" type="monotone" dataKey="Ditt HP" stroke="red" dot={{r: 3}} strokeWidth="6"/>
       }
       {props.displayFilter.includes("BI") &&
-        <Line connectNulls yAxisId="left" type="monotone" dataKey="Ditt BI" stroke="red" />
+        <Line connectNulls yAxisId="left" type="monotone" dataKey="Ditt BI" stroke="red" dot={{r: 3}} strokeWidth="6"/>
       }
       {props.displayFilter.includes("BII") &&
-        <Line connectNulls yAxisId="left" type="monotone" dataKey="Ditt BII" stroke="#d42600" />
+        <Line connectNulls yAxisId="left" type="monotone" dataKey="Ditt BII" stroke="#d42600" dot={{r: 3}} strokeWidth="6"/>
       }
     </LineChart>
   );
