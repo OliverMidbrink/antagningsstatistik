@@ -107,7 +107,7 @@ export default function MyLineChart(props) {
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" interval={'auto'} angle={40} height={70} dx={23} dy={20}/>
+      <XAxis dataKey="name" interval={0} angle={-26} height={70} dx={-15} dy={10} fontSize={10}/>
       <YAxis yAxisId="left" domain={['auto', 'auto']}/>
       <YAxis yAxisId="right" orientation="right" domain={['dataMin-0.2', 'auto']} />
       <Tooltip />
