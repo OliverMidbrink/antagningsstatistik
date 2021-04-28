@@ -70,7 +70,7 @@ def get_program_data(kurskod_ht, school, program):
     if kurskod_ht == "HHS-34002" or kurskod_ht == 'HHS-34004':
         program_data["comment"] = "Tänk på att handelshögskolan ej räknar med meritpoäng! Lägg därför inte till din meritpoäng i detta verktyg."
 
-    for year in range(current_year, 2008, -1):
+    for year in range(current_year, current_year-6, -1):
         for semester in ["VT", "HT"]:
             if should_break or (semester == "VT" and kurskod_vt == -1):
                 continue
