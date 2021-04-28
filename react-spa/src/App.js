@@ -32,7 +32,7 @@ import Divider from '@material-ui/core/Divider';
 
 const StyledTableCell = withStyles((theme) => ({
   head: {
-    backgroundColor: theme.palette.common.black,
+    backgroundColor: "#00686e",
     color: theme.palette.common.white,
   },
   body: {
@@ -219,15 +219,17 @@ class App extends React.Component {
     return (
       <div className={classes.root}>
         <Container style={{padding:"2em", paddingTop:"2em", flex: "0 1 auto",}}>
-          <header className="App-header">
-            <h3 style={{textAlign:"left", margin:0, padding:0}}>Se dina chanser att bli antagen!</h3>
-            <h6 style={{textAlign:"left", margin:0, padding:0, paddingTop:"0.5em", color: "#4a4a4a",}}>
-              Sök efter ett program eller en kurs. Klicka sedan på programmet för att se dina chanser att bli antagen. 
-              Tips: skriv utbildningens namn och sedan skolan i sökrutan för ännu bättre sökresultat. </h6>
-          </header>
-          
+          <Paper style={{padding:"1em",}} elevation={2}>
+        <header className="App-header">
+          <h3 style={{textAlign:"left", margin:0, padding:0}}>Se dina chanser att bli antagen!</h3>
+          <h6 style={{textAlign:"left", margin:0, padding:0, paddingTop:"0.5em", color: "#4a4a4a",}}>
+            Sök efter ett program eller en kurs. Klicka sedan på programmet för att se dina chanser att bli antagen. 
+            Tips: skriv utbildningens namn och sedan skolan i sökrutan för ännu bättre sökresultat. </h6>
+        </header>
+          </Paper>
+
           <form onSubmit={this.handleSubmit}>
-          <Paper className={classes.searchBar} style={{textAlign:"left",}}>
+          <Paper className={classes.searchBar} style={{textAlign:"left",}} elevation={2}>
               <InputBase
                 className={classes.input}
                 placeholder="Läkarprogrammet Karolinska"
@@ -240,6 +242,9 @@ class App extends React.Component {
                 <SearchIcon />
               </IconButton>
           </Paper>
+          <Button type="submit" variant="contained" style={{backgroundColor:"#00a2a8", color:"white",}}>
+            <b>Sök</b>
+          </Button>
           </form>
   
         </Container>
