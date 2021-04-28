@@ -45,7 +45,7 @@ const StyledTableCell = withStyles((theme) => ({
 const StyledTableRow = withStyles((theme) => ({
   root: {
     '&:nth-of-type(odd)': {
-      backgroundColor: theme.palette.action.hover,
+      backgroundColor: "#f9faed",
     },
   },
 }))(TableRow);
@@ -92,7 +92,7 @@ const useStyles2 = theme => ({
     justifyContent: 'center',
   },
   paper: {
-    padding: theme.spacing(1, 0, 1),
+    padding: theme.spacing(0, 0, 0),
     maxWidth: "100%",
     overflow: "auto",
     maxHeight: "70%",
@@ -264,7 +264,7 @@ class App extends React.Component {
                 </TableHead>
                 <TableBody>
                   {this.state.queryResults.map((item, index) => (
-                    <StyledTableRow key={index} onClick={() => this.handleSelection(item[3], item[2], item[4])}>
+                    <StyledTableRow hover key={index} onClick={() => this.handleSelection(item[3], item[2], item[4])}>
                       <StyledTableCell component="th" scope="row">
                         {item[2]}
                       </StyledTableCell>
@@ -295,7 +295,7 @@ class App extends React.Component {
         >
           <Fade in={this.state.open}>
             <Paper className={classes.paper}>
-              <LoadingIndicator/>
+              <LoadingIndicator style={{}}/>
 
               {!this.state.loading &&
               <div>
