@@ -167,7 +167,7 @@ def search_for_programs(query_string):
     'larosateId':'',
     'utbildningstyp':'',
     'fritextFilter':query_string,
-    'urvalsGrupp':'','firstResult':'0','maxResults':'100','sorteringsKolumn':'1','sorteringsOrdningDesc':'false',
+    'urvalsGrupp':'','firstResult':'0','maxResults':'40','sorteringsKolumn':'1','sorteringsOrdningDesc':'false',
     'requestNumber':'1','paginate':'true'}
 
     query_object = json.dumps(query_object)
