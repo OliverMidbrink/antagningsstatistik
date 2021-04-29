@@ -26,6 +26,12 @@
   color: #61dafb;
 }
 
+@media only screen and (min-width: 600px) {
+  #resultsBox {
+    margin-top: 2em;
+  }
+}
+
 .TableRowHover:hover {
   background-color:rgba(0, 162, 168, 0.171)!important;
 }
