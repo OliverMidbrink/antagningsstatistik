@@ -100,7 +100,7 @@ export default function MyLineChart(props) {
       height={320}
       data={processData(props.programData, props.displayFilter, props.userHP, props.userBI, props.userBII)}
       margin={{
-        top: 15,
+        top: 10,
         right: 15,
         left: 0,
         bottom: 15
@@ -109,7 +109,6 @@ export default function MyLineChart(props) {
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="name" interval={0} angle={-26} height={70} dx={-15} dy={10} fontSize={10}/>
       <YAxis yAxisId="left" domain={['auto', 'auto']}/>
-      <YAxis yAxisId="right" orientation="right" domain={['dataMin-0.2', 'auto']} />
       <Tooltip />
       <Legend />
       {props.displayFilter.includes("BI") &&
@@ -135,7 +134,7 @@ export default function MyLineChart(props) {
         <Line connectNulls yAxisId="left" type="monotone" dataKey="Ditt BI" stroke="red" dot={{r: 3}} strokeWidth="6"/>
       }
       {props.displayFilter.includes("BII") &&
-        <Line connectNulls yAxisId="left" type="monotone" dataKey="Ditt BII" stroke="#d42600" dot={{r: 3}} strokeWidth="6"/>
+        <Line connectNulls yAxisId="left" type="monotone" dataKey="Ditt BII" stroke="red" dot={{r: 3}} strokeWidth="6"/>
       }
     </LineChart>
   );

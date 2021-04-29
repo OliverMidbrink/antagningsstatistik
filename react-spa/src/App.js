@@ -29,6 +29,19 @@ import Select from '@material-ui/core/Select';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Divider from '@material-ui/core/Divider';
+import Fab from '@material-ui/core/Fab';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import {teal, } from '@material-ui/core/colors/blue';
+
+
+const myTheme = createMuiTheme({
+  palette: {
+    primary: {
+      main: "#00b2b8",
+    },
+  },
+});
+
 
 const StyledTableCell = withStyles((theme) => ({
   head: {
@@ -45,14 +58,14 @@ const StyledTableCell = withStyles((theme) => ({
 const StyledTableRow = withStyles((theme) => ({
   root: {
     '&:nth-of-type(odd)': {
-      backgroundColor: "#f9faed",
+      backgroundColor: "#f0f0f0",
     },
   },
 }))(TableRow);
 
 const useStyles2 = theme => ({
   root: {
-    backgroundColor: "#fAfAfA",
+    backgroundColor: theme.palette.common.white,
     minHeight: "100vh",
     display: "flex",
     flexFlow: "column",
@@ -65,8 +78,6 @@ const useStyles2 = theme => ({
     width: "100%",
     maxWidth: 600,
     marginRight: "auto",
-    marginTop:"2em",
-    marginBottom:"2em",
   },
   input: {
     marginLeft:0,
@@ -95,7 +106,7 @@ const useStyles2 = theme => ({
     padding: theme.spacing(0, 0, 0),
     maxWidth: "100%",
     overflow: "auto",
-    maxHeight: "70%",
+    maxHeight: "80%",
     outline: 'none',
   },
 });
@@ -217,172 +228,195 @@ class App extends React.Component {
     const { classes } = this.props;
 
     return (
-      <div className={classes.root}>
-        <Container style={{padding:"2em", paddingTop:"2em", flex: "0 1 auto",}}>
-          <Paper style={{padding:"1em",}} elevation={2}>
-        <header className="App-header">
-          <h3 style={{textAlign:"left", margin:0, padding:0}}>Se dina chanser att bli antagen!</h3>
-          <h6 style={{textAlign:"left", margin:0, padding:0, paddingTop:"0.5em", color: "#4a4a4a",}}>
-            Sök efter ett program eller en kurs. Klicka sedan på programmet för att se dina chanser att bli antagen. 
-            Tips: skriv utbildningens namn och sedan skolan i sökrutan för ännu bättre sökresultat. </h6>
-        </header>
-          </Paper>
+      <ThemeProvider theme={myTheme}>
+        <div className={classes.root}>
+          <div style={{padding:"1em", backgroundColor: "#00a2a8",}} elevation={2}>   
+          <Container id="header">
+              <header className="App-header">
+                <img src="/favicon.ico" height={80} width={80}></img>                  
+                <h3 style={{textAlign:"left", margin:0, padding:0, color: "white",}}>Se dina chanser att bli antagen!</h3>                
+                <h6 style={{textAlign:"left", margin:0, padding:0, paddingTop:"0.5em", color: "white",}}>
+                  Sök efter ett program eller en kurs. Klicka sedan på programmet för att se dina chanser att bli antagen. 
+                  Tips: skriv utbildningens namn och sedan skolan i sökrutan för ännu bättre sökresultat. </h6>
+              </header>
 
-          <form onSubmit={this.handleSubmit}>
-          <Paper className={classes.searchBar} style={{textAlign:"left",}} elevation={2}>
-              <InputBase
-                className={classes.input}
-                placeholder="Läkarprogrammet Karolinska"
-                
-                name="queryString"
-                onChange={this.handleSearchBarChange}
-                inputProps={{ 'aria-label': 'sök efter utbildningar' }}
-              />
-              <IconButton type="submit" className={classes.iconButton} aria-label="search">
-                <SearchIcon />
-              </IconButton>
-          </Paper>
-          <Button type="submit" variant="contained" style={{backgroundColor:"#00a2a8", color:"white",}}>
-            <b>Sök</b>
-          </Button>
-          </form>
-  
-        </Container>
-        
-        <div style={{ flex: "1 1 auto", marginBottom: "3em", }}>
-          {this.state.queryResults.length > 0 &&
-            <TableContainer component={Paper} className={classes.table} display="false">
-              <Table size="small" aria-label="customized table">
-                <TableHead>
-                  <StyledTableRow>
-                    <StyledTableCell>Program</StyledTableCell>
-                    <StyledTableCell align="left">Skola</StyledTableCell>
-                    <StyledTableCell align="right">Termin</StyledTableCell>
-                    <StyledTableCell align="right">Program/Kurs</StyledTableCell>
-                    <StyledTableCell align="right">Kod</StyledTableCell>
-                  </StyledTableRow>
-                </TableHead>
-                <TableBody>
-                  {this.state.queryResults.map((item, index) => (
-                    <StyledTableRow hover key={index} onClick={() => this.handleSelection(item[3], item[2], item[4])}>
-                      <StyledTableCell component="th" scope="row">
-                        {item[2]}
-                      </StyledTableCell>
-                      <StyledTableCell align="left">{item[4]}</StyledTableCell>
-                      <StyledTableCell align="right">{item[0]}</StyledTableCell>
-                      <StyledTableCell align="right">{item[1]}</StyledTableCell>
-                      <StyledTableCell align="right">{item[3]}</StyledTableCell>
+            <form onSubmit={this.handleSubmit}>
+              <Paper className={classes.searchBar} style={{textAlign:"left", marginTop: "1.8em",}} elevation={2}>
+                  <InputBase
+                    className={classes.input}
+                    placeholder="T.ex. Läkarprogrammet Karolinska"
+                    
+                    name="queryString"
+                    onChange={this.handleSearchBarChange}
+                    inputProps={{ 'aria-label': 'sök efter utbildningar' }}
+                  />
+                  <IconButton type="submit" className={classes.iconButton} aria-label="search">
+                    <SearchIcon />
+                  </IconButton>
+              </Paper>
+              <Button type="submit" variant="contained" style={{backgroundColor:"#00b2b8", color:"white", marginTop: "2em",}}>
+                <b>Sök</b>
+              </Button>
+            </form>
+    
+          </Container>
+          </div>
+          
+          <div id="resultsBox" style={{ flex: "1 1 auto", marginBottom: "3em"}}>
+            {this.state.queryResults.length > 0 &&
+              <TableContainer className={classes.table} display="false">
+                <Table size="small" aria-label="customized table">
+                  <TableHead>
+                    <StyledTableRow>
+                      <StyledTableCell>Program</StyledTableCell>
+                      <StyledTableCell align="left">Skola</StyledTableCell>
+                      <StyledTableCell align="right">Termin</StyledTableCell>
+                      <StyledTableCell align="right">Program/Kurs</StyledTableCell>
+                      <StyledTableCell align="right">Kod</StyledTableCell>
                     </StyledTableRow>
-                  ))}
-                </TableBody>
-              </Table>
-            </TableContainer>
-          }
-        </div>
-        
-  
-        <Modal
-          aria-labelledby="transition-modal-title"
-          aria-describedby="transition-modal-description"
-          className={classes.modal}
-          open={this.state.open}
-          onClose={this.handleModalClose}
-          closeAfterTransition
-          BackdropComponent={Backdrop}
-          BackdropProps={{
-            timeout: 500,
-          }}
-        >
-          <Fade in={this.state.open}>
-            <Paper className={classes.paper}>
-              <LoadingIndicator style={{}}/>
+                  </TableHead>
+                  <TableBody>
+                    {this.state.queryResults.map((item, index) => (
+                      <StyledTableRow className="TableRowHover" key={index} onClick={() => this.handleSelection(item[3], item[2], item[4])}>
+                        <StyledTableCell component="th" scope="row">
+                          {item[2]}
+                        </StyledTableCell>
+                        <StyledTableCell align="left">{item[4]}</StyledTableCell>
+                        <StyledTableCell align="right">{item[0]}</StyledTableCell>
+                        <StyledTableCell align="right">{item[1]}</StyledTableCell>
+                        <StyledTableCell align="right">{item[3]}</StyledTableCell>
+                      </StyledTableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </TableContainer>
+            }
+          </div>
+          
+    
+          <Modal
+            aria-labelledby="transition-modal-title"
+            aria-describedby="transition-modal-description"
+            className={classes.modal}
+            open={this.state.open}
+            onClose={this.handleModalClose}
+            closeAfterTransition
+            BackdropComponent={Backdrop}
+            BackdropProps={{
+              timeout: 500,
+            }}
+          >
+            <Fade in={this.state.open}>
+              <Paper className={classes.paper}>
+                <LoadingIndicator style={{}}/>
 
-              {!this.state.loading &&
-              <div>
-                <Container>
-                  <h2 style={{marginBottom:"0.1em"}}>Statistik</h2>
-                  <h5 style={{marginTop:"0.1em", color:"gray",}}>{this.state.program} vid {this.state.school}</h5>
-                  <Divider />
-                  <p>Kvoten BI är till för dig som söker med dina gymnasiebetyg, BII för dig som har 
-                    kompletterat ditt gymnasiebetyg och HP är för de som har gjort högskoleprovet. 
-                    (PS. fler betygskvoter finns men dessa är inte vanliga bland dagens gymnasieelever). 
-                    Siffrorna nedan visar statistik för Urval 2 visas. <b>{this.state.programData[0]}</b></p>
-                  <p><b>Tänk på att detta bara är en indikation. Gör ditt bästa för att höja betygen och 
-                    maximera dina chanser!</b></p>
-                  <p>Fyll i uppgifterna nedan för att få din bedömning. Du som inte har kompletterat 
-                    behöver ej fylla i "Betyg efter komvux"-rutan. Om du ej har gjort HP behöver inte denna fyllas i. 
-                    <b> En röd linje som är högre upp innebär större chanser till antagning.</b></p>
-                  
-                  <Divider />
-                  <form noValidate autoComplete="off">
-                    
-                    
-                  </form>
-                </Container>
-                
-                
-                <div style={{display: "flex", flexWrap: "wrap", }}>
-                  <div style={{alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap",}}>
-                    <TextField label="Snittbetyg från gymnasiet" style={{margin:"1em",}} 
-                    placeholder="15.20" className={classes.textField} value={this.state.userBI} onChange={this.handleTextFieldChangeBI} />
-
-                    <MyLineChart programData={this.state.programData} displayFilter={["BI"]} width={370}
-                    userBI={this.state.userBI}/>
-                  </div>
-                  
-                  <div style={{alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap",}}>
-                    <TextField label="Ditt HP" style={{margin:"1em",}} placeholder="1.2" 
-                    className={classes.textField} name="userHP" value={this.state.userHP} onChange={this.handleTextFieldChangeHP} />
-
-                    <MyLineChart programData={this.state.programData} displayFilter={["HP"]} 
-                    userHP={this.state.userHP} width={370}/>
-                  </div>
-
-                  <div style={{alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap",}}>
-                    <TextField label="Betyg efter komvux" style={{margin:"1em",}} 
-                    placeholder="17.1" className={classes.textField} value={this.state.userBII} onChange={this.handleTextFieldChangeBII} />
-                    
-                    <MyLineChart programData={this.state.programData} displayFilter={["BII"]} width={370}
-                    userBII={this.state.userBII}/>
-                  </div>
-                </div>
-                
-                
-                <Container>
-                  <div>
+                {!this.state.loading &&
+                <div>
+                  <Container>
+                    <h2 style={{marginBottom:"0.1em"}}>Statistik</h2>
+                    <h5 style={{marginTop:"0.1em", color:"gray",}}>{this.state.program} vid {this.state.school}</h5>
                     <Divider />
-                    <h3 style={{marginBottom:0,}}>Tabelldata</h3>
+                    <h3 style={{marginBottom:"0.2em"}}>Senaste antagningsgränserna</h3>
+                    <h5 style={{marginTop:"0.1em", color:"gray",}}>Höstterminen urval 2</h5>
                     {
-                      this.state.programData.slice(1, 3).map((item, index) => {
-                        return (
-                          <div>
-                            <br></br>
-                            <h4>{["HT", "VT"][index]}</h4>
-                            {
-                              item.map(row => {
-                                if(row.length < 6) {
-                                  return(<p><b>{row[0]}</b>: &nbsp;&nbsp;BI {row[2]} &nbsp;&nbsp;&nbsp; BII {row[3]} &nbsp;&nbsp;&nbsp; HP {row[4]}</p>)
-                                } else {
-                                  return(<p>{row}</p>)
-                                }
-                              })
-                            }
-                          </div>
-                        )
-                      })
-                    }
+                        this.state.programData.slice(1, 2).map((item, index) => {
+                          return (
+                            <div>
+                              {
+                                item.slice(0, 1).map(row => {
+                                  if(row.length < 6) {
+                                    return(<p><b>{row[0]}</b>: &nbsp;&nbsp;BI {row[2]} &nbsp;&nbsp;&nbsp; BII {row[3]} &nbsp;&nbsp;&nbsp; HP {row[4]}</p>)
+                                  } else {
+                                    return(<p>{row}</p>)
+                                  }
+                                })
+                              }
+                            </div>
+                          )
+                        })
+                      }
+                      <p>Vänligen skrolla ned om du vill se äldre antagningsstatistik</p>
+                    <Divider />
+                    <h4 style={{marginBottom:"0.2em"}}>Fyll i rutorna för att se dina chanser</h4>
+                    <i style={{marginTop:"0.1em",}}>{this.state.programData[0]}</i>
+                  </Container>
+                  
+                  
+                  <div style={{display: "flex", flexWrap: "wrap", paddingTop:"2em",paddingBottom:"1em",}}>
+                    <div style={{border:"1px solid gray", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
+                      <TextField label="Snittbetyg från gymnasiet" style={{margin:"1em",}} variant="outlined"
+                      placeholder="T.ex. 15.20" className={classes.textField} value={this.state.userBI} onChange={this.handleTextFieldChangeBI} />
+
+                      <MyLineChart programData={this.state.programData} displayFilter={["BI"]} width={300}
+                      userBI={this.state.userBI}/>
+                    </div>
+                    
+                    <div style={{border:"1px solid gray", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
+                      <TextField label="Ditt HP" style={{margin:"1em",}} placeholder="T.ex. 1.2" variant="outlined"
+                      className={classes.textField} name="userHP" value={this.state.userHP} onChange={this.handleTextFieldChangeHP} />
+
+                      <MyLineChart programData={this.state.programData} displayFilter={["HP"]} 
+                      userHP={this.state.userHP} width={300}/>
+                    </div>
+
+                    <div style={{border:"1px solid gray", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
+                      <TextField label="Betyg efter komvux" style={{margin:"1em",}} variant="outlined"
+                      placeholder="T.ex. 17.1" className={classes.textField} value={this.state.userBII} onChange={this.handleTextFieldChangeBII} />
+                      
+                      <MyLineChart programData={this.state.programData} displayFilter={["BII"]} width={300}
+                      userBII={this.state.userBII}/>
+                    </div>
                   </div>
-                </Container>
-                </div>
-              }
-            </Paper>
-          </Fade>
-        </Modal>
-      
-        <footer style={{color: "#bcc5d6", backgroundColor: "#374052", alignItems: "center", display: "flex", justifyContent: "center", padding: "0.3em", paddingBottom: "0.5em",}}>
-          &copy; {new Date().getFullYear()} Copyright Oliver Midbrink
-        </footer>
-      </div>
+                  
+                  
+                  <Container>
+                    <Divider />
+                    <h4>Förklaring av kvoterna BI, BII och HP</h4>
+                    <p>Kvoten BI är till för dig som söker med dina gymnasiebetyg, BII för dig som har 
+                      kompletterat ditt gymnasiebetyg och HP är för de som har gjort högskoleprovet. 
+                      (PS. fler betygskvoter finns men dessa är inte vanliga bland dagens gymnasieelever). 
+                      Siffrorna nedan visar statistik för Urval 2 visas. </p>
+                    
+                    <div>
+                      <Divider />
+                      <h3 style={{marginBottom:0,}}>Tabelldata</h3>
+                      {
+                        this.state.programData.slice(1, 3).map((item, index) => {
+                          return (
+                            <div>
+                              <h4>{["HT", "VT"][index]}</h4>
+                              {
+                                item.map(row => {
+                                  if(row.length < 6) {
+                                    return(<p><b>{row[0]}</b>: &nbsp;&nbsp;BI {row[2]} &nbsp;&nbsp;&nbsp; BII {row[3]} &nbsp;&nbsp;&nbsp; HP {row[4]}</p>)
+                                  } else {
+                                    return(<p>{row}</p>)
+                                  }
+                                })
+                              }
+                              <br></br>
+                            </div>
+                          )
+                        })
+                      }
+                    </div>
+                    </Container>
+                      <Divider />  
+                    <Container>
+                    <p>Tänk på att detta bara är en indikation. Gör ditt bästa för att höja betygen och 
+                      maximera dina chanser!</p>
+                  </Container>
+                  </div>
+                }
+              </Paper>
+            </Fade>
+          </Modal>
+        
+          <footer style={{color: "#acb5c6", backgroundColor: "#00a2a8", alignItems: "center", display: "flex", justifyContent: "center", padding: "0.3em", paddingBottom: "0.5em",}}>
+            &copy; {new Date().getFullYear()} Copyright Oliver Midbrink
+          </footer>
+        </div>
+      </ThemeProvider>
     );
   }
 }
