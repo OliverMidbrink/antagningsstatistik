@@ -103,7 +103,7 @@ const useStyles2 = theme => ({
     justifyContent: 'center',
   },
   paper: {
-    padding: theme.spacing(0, 0, 0),
+    padding:0,
     maxWidth: "100%",
     overflow: "auto",
     maxHeight: "80%",
@@ -306,10 +306,11 @@ class App extends React.Component {
               timeout: 500,
             }}
           >
+           
             <Fade in={this.state.open}>
-              <Paper className={classes.paper}>
-                <LoadingIndicator style={{}}/>
-
+              <div style={{maxHeight: "80%", overflow: "auto",}}>
+                <LoadingIndicator/>
+              <Paper square className={classes.paper}>
                 {!this.state.loading &&
                 <div>
                   <Container>
@@ -409,10 +410,11 @@ class App extends React.Component {
                   </div>
                 }
               </Paper>
+              </div>
             </Fade>
           </Modal>
         
-          <footer style={{color: "#acb5c6", backgroundColor: "#00a2a8", alignItems: "center", display: "flex", justifyContent: "center", padding: "0.3em", paddingBottom: "0.5em",}}>
+          <footer style={{color: "#ededed", backgroundColor: "#00a2a8", alignItems: "center", display: "flex", justifyContent: "center", padding: "0.3em", paddingBottom: "0.5em",}}>
             &copy; {new Date().getFullYear()} Copyright Oliver Midbrink
           </footer>
         </div>
