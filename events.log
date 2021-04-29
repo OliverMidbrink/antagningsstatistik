@@ -1867,3 +1867,7 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 04/29/2021 10:20:41 PM 127.0.0.1 - - [29/Apr/2021 22:20:41] "[37mGET /query?q= HTTP/1.1[0m" 200 -
 04/29/2021 10:21:37 PM 127.0.0.1 - - [29/Apr/2021 22:21:37] "[37mGET /query?q= HTTP/1.1[0m" 200 -
 04/29/2021 10:21:52 PM 127.0.0.1 - - [29/Apr/2021 22:21:52] "[37mGET /query?q= HTTP/1.1[0m" 200 -
+04/29/2021 10:38:53 PM 127.0.0.1 - - [29/Apr/2021 22:38:53] "[37mGET /query?q=handelshögskolan+i+stockholm HTTP/1.1[0m" 200 -
+04/29/2021 10:40:15 PM 127.0.0.1 - - [29/Apr/2021 22:40:15] "[37mGET /query?q=handelshögskolan+i+stockholm HTTP/1.1[0m" 200 -
+04/29/2021 10:40:17 PM 127.0.0.1 - - [29/Apr/2021 22:40:17] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+04/29/2021 10:40:57 PM 127.0.0.1 - - [29/Apr/2021 22:40:57] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -

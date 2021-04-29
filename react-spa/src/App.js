@@ -160,7 +160,7 @@ class App extends React.Component {
     event.preventDefault();
     //alert('A name was submitted: ' + queryString);
 
-    var queryURL = new URL('http://127.0.0.1:5002/query');
+    var queryURL = new URL('http://68.183.10.8:5002/query');
     queryURL.searchParams.append('q', this.state.queryString);
 
     var that = this;
@@ -178,7 +178,7 @@ class App extends React.Component {
   }
 
   handleSelection(kurskod, program, school) {
-    var queryURL = new URL('http://127.0.0.1:5002/program_data');
+    var queryURL = new URL('http://68.183.10.8:5002/program_data');
     queryURL.searchParams.append('q', kurskod);
     queryURL.searchParams.append('school', school);
     queryURL.searchParams.append('program', program);
