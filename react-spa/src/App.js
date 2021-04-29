@@ -50,7 +50,7 @@ const StyledTableCell = withStyles((theme) => ({
   },
   body: {
     fontSize: 12,
-    paddingLeft:"0.2em",
+    paddingLeft:"1.34em",
     paddingRight:"0.2em",
   },
 }))(TableCell);
@@ -230,18 +230,16 @@ class App extends React.Component {
     return (
       <ThemeProvider theme={myTheme}>
         <div className={classes.root}>
-          <div style={{padding:"1em", backgroundColor: "#00a2a8",}} elevation={2}>   
+          <div style={{padding:"1em", backgroundColor: "#00686e", paddingBottom:0,}} elevation={2}>   
           <Container id="header">
-              <header className="App-header">
-                <img src="/favicon.ico" height={80} width={80}></img>                  
+              <header className="App-header">                  
                 <h3 style={{textAlign:"left", margin:0, padding:0, color: "white",}}>Se dina chanser att bli antagen!</h3>                
-                <h6 style={{textAlign:"left", margin:0, padding:0, paddingTop:"0.5em", color: "white",}}>
-                  Sök efter ett program eller en kurs. Klicka sedan på programmet för att se dina chanser att bli antagen. 
-                  Tips: skriv utbildningens namn och sedan skolan i sökrutan för ännu bättre sökresultat. </h6>
+                <h5 style={{textAlign:"left", margin:0, padding:0, paddingTop:"0.5em", color: "#f5f5f5", fontWeight: "normal",}}>
+                  Sök ett program, klicka och se dina chanser. </h5>
               </header>
 
             <form onSubmit={this.handleSubmit}>
-              <Paper className={classes.searchBar} style={{textAlign:"left", marginTop: "1.8em",}} elevation={2}>
+              <Paper className={classes.searchBar} style={{textAlign:"left", marginTop: "1em",}} elevation={2}>
                   <InputBase
                     className={classes.input}
                     placeholder="T.ex. Läkarprogrammet Karolinska"
@@ -254,7 +252,7 @@ class App extends React.Component {
                     <SearchIcon />
                   </IconButton>
               </Paper>
-              <Button type="submit" variant="contained" style={{backgroundColor:"#00b2b8", color:"white", marginTop: "2em",}}>
+              <Button type="submit" variant="contained" style={{backgroundColor:"#00796e", color:"white", marginTop: "1em",}}>
                 <b>Sök</b>
               </Button>
             </form>
@@ -273,9 +271,9 @@ class App extends React.Component {
                       <StyledTableRow>
                         <StyledTableCell>Program</StyledTableCell>
                         <StyledTableCell align="left">Skola</StyledTableCell>
-                        <StyledTableCell align="right">Termin</StyledTableCell>
-                        <StyledTableCell align="right">Program/Kurs</StyledTableCell>
-                        <StyledTableCell align="right">Kod</StyledTableCell>
+                        <StyledTableCell align="left">Termin</StyledTableCell>
+                        <StyledTableCell align="left">Program/Kurs</StyledTableCell>
+                        <StyledTableCell align="left">Kod</StyledTableCell>
                       </StyledTableRow>
                     </TableHead>
                     <TableBody>
@@ -285,9 +283,9 @@ class App extends React.Component {
                             {item[2]}
                           </StyledTableCell>
                           <StyledTableCell align="left">{item[4]}</StyledTableCell>
-                          <StyledTableCell align="right">{item[0]}</StyledTableCell>
-                          <StyledTableCell align="right">{item[1]}</StyledTableCell>
-                          <StyledTableCell align="right">{item[3]}</StyledTableCell>
+                          <StyledTableCell align="left">{item[0]}</StyledTableCell>
+                          <StyledTableCell align="left">{item[1]}</StyledTableCell>
+                          <StyledTableCell align="left">{item[3]}</StyledTableCell>
                         </StyledTableRow>
                       ))}
                     </TableBody>
@@ -341,7 +339,7 @@ class App extends React.Component {
                           )
                         })
                       }
-                      <p>Vänligen skrolla ned om du vill se äldre antagningsstatistik</p>
+                      <p>Skrolla om du vill se äldre antagningsstatistik</p>
                     <Divider />
                     <h4 style={{marginBottom:"0.2em"}}>Fyll i rutorna för att se dina chanser</h4>
                     <i style={{marginTop:"0.1em",}}>{this.state.programData[0]}</i>
@@ -351,14 +349,14 @@ class App extends React.Component {
                   <div style={{display: "flex", flexWrap: "wrap", paddingTop:"2em",paddingBottom:"1em",}}>
                     <div style={{border:"1px solid gray", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
                       <TextField label="Snittbetyg från gymnasiet" style={{margin:"1em",}} variant="outlined"
-                      placeholder="T.ex. 15.20" className={classes.textField} value={this.state.userBI} onChange={this.handleTextFieldChangeBI} />
+                      placeholder="T.ex. 15,20" className={classes.textField} value={this.state.userBI} onChange={this.handleTextFieldChangeBI} />
 
                       <MyLineChart programData={this.state.programData} displayFilter={["BI"]} width={300}
                       userBI={this.state.userBI}/>
                     </div>
                     
                     <div style={{border:"1px solid gray", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
-                      <TextField label="Ditt HP" style={{margin:"1em",}} placeholder="T.ex. 1.2" variant="outlined"
+                      <TextField label="Ditt HP" style={{margin:"1em",}} placeholder="T.ex. 1,2" variant="outlined"
                       className={classes.textField} name="userHP" value={this.state.userHP} onChange={this.handleTextFieldChangeHP} />
 
                       <MyLineChart programData={this.state.programData} displayFilter={["HP"]} 
@@ -367,7 +365,7 @@ class App extends React.Component {
 
                     <div style={{border:"1px solid gray", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
                       <TextField label="Betyg efter komvux" style={{margin:"1em",}} variant="outlined"
-                      placeholder="T.ex. 17.1" className={classes.textField} value={this.state.userBII} onChange={this.handleTextFieldChangeBII} />
+                      placeholder="T.ex. 17,1" className={classes.textField} value={this.state.userBII} onChange={this.handleTextFieldChangeBII} />
                       
                       <MyLineChart programData={this.state.programData} displayFilter={["BII"]} width={300}
                       userBII={this.state.userBII}/>
@@ -419,8 +417,8 @@ class App extends React.Component {
             </Fade>
           </Modal>
         
-          <footer style={{color: "#ededed", backgroundColor: "#00a2a8", alignItems: "center", display: "flex", justifyContent: "center", padding: "0.3em", paddingBottom: "0.5em",}}>
-            &copy; {new Date().getFullYear()} Copyright Oliver Midbrink
+          <footer style={{color: "#ededed", backgroundColor: "#00686e", alignItems: "center", display: "flex", justifyContent: "center", padding: "0.3em", paddingBottom: "0.5em",}}>
+            <p style={{padding: 0, margin:0}}>&copy; {new Date().getFullYear()} minachanser.se</p>
           </footer>
         </div>
       </ThemeProvider>
