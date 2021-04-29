@@ -208,5 +208,5 @@ api.add_resource(Query, '/query') # Api server on port 5002
 api.add_resource(Program_data, '/program_data')
 
 if __name__ == '__main__':
-    app.run(port='80')
+    app.run(host="68.183.10.8", port='5002')
 
