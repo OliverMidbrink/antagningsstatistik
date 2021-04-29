@@ -101,7 +101,7 @@ export default function MyLineChart(props) {
       data={processData(props.programData, props.displayFilter, props.userHP, props.userBI, props.userBII)}
       margin={{
         top: 10,
-        right: 15,
+        right: 25,
         left: 0,
         bottom: 15
       }}
