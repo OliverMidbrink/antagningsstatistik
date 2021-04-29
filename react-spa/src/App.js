@@ -263,34 +263,39 @@ class App extends React.Component {
           </div>
           
           <div id="resultsBox" style={{ flex: "1 1 auto", marginBottom: "3em"}}>
+            <Container>
             {this.state.queryResults.length > 0 &&
-              <TableContainer className={classes.table} display="false">
-                <Table size="small" aria-label="customized table">
-                  <TableHead>
-                    <StyledTableRow>
-                      <StyledTableCell>Program</StyledTableCell>
-                      <StyledTableCell align="left">Skola</StyledTableCell>
-                      <StyledTableCell align="right">Termin</StyledTableCell>
-                      <StyledTableCell align="right">Program/Kurs</StyledTableCell>
-                      <StyledTableCell align="right">Kod</StyledTableCell>
-                    </StyledTableRow>
-                  </TableHead>
-                  <TableBody>
-                    {this.state.queryResults.map((item, index) => (
-                      <StyledTableRow className="TableRowHover" key={index} onClick={() => this.handleSelection(item[3], item[2], item[4])}>
-                        <StyledTableCell component="th" scope="row">
-                          {item[2]}
-                        </StyledTableCell>
-                        <StyledTableCell align="left">{item[4]}</StyledTableCell>
-                        <StyledTableCell align="right">{item[0]}</StyledTableCell>
-                        <StyledTableCell align="right">{item[1]}</StyledTableCell>
-                        <StyledTableCell align="right">{item[3]}</StyledTableCell>
+            <div>
+              <h2>Sökresultat</h2>
+                <TableContainer className={classes.table} display="false">
+                  <Table size="small" aria-label="customized table">
+                    <TableHead>
+                      <StyledTableRow>
+                        <StyledTableCell>Program</StyledTableCell>
+                        <StyledTableCell align="left">Skola</StyledTableCell>
+                        <StyledTableCell align="right">Termin</StyledTableCell>
+                        <StyledTableCell align="right">Program/Kurs</StyledTableCell>
+                        <StyledTableCell align="right">Kod</StyledTableCell>
                       </StyledTableRow>
-                    ))}
-                  </TableBody>
-                </Table>
-              </TableContainer>
+                    </TableHead>
+                    <TableBody>
+                      {this.state.queryResults.map((item, index) => (
+                        <StyledTableRow className="TableRowHover" key={index} onClick={() => this.handleSelection(item[3], item[2], item[4])}>
+                          <StyledTableCell component="th" scope="row">
+                            {item[2]}
+                          </StyledTableCell>
+                          <StyledTableCell align="left">{item[4]}</StyledTableCell>
+                          <StyledTableCell align="right">{item[0]}</StyledTableCell>
+                          <StyledTableCell align="right">{item[1]}</StyledTableCell>
+                          <StyledTableCell align="right">{item[3]}</StyledTableCell>
+                        </StyledTableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                </TableContainer>
+              </div>
             }
+            </Container>
           </div>
           
     
