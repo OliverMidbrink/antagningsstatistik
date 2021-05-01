@@ -315,9 +315,9 @@ class App extends React.Component {
               <div style={{maxHeight: "100%", overflow: "auto",}}>
                 <LoadingIndicator/>
               <Paper square className={classes.paper}>
-              <IconButton aria-label="delete" style={{position:"absolute", right:"5px", top:"5px", background:"white",}} onClick={this.handleModalClose}>
-                <CloseIcon />
-              </IconButton>
+                <IconButton aria-label="delete" style={{position:"absolute", right:"5px", top:"5px", background:"white",}} onClick={this.handleModalClose}>
+                  <CloseIcon />
+                </IconButton>
                 {!this.state.loading &&
                 <div>
                   <Container>
