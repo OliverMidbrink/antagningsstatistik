@@ -32,6 +32,7 @@ import Divider from '@material-ui/core/Divider';
 import Fab from '@material-ui/core/Fab';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import {teal, } from '@material-ui/core/colors/blue';
+import CloseIcon from '@material-ui/icons/Close';
 
 
 const myTheme = createMuiTheme({
@@ -311,9 +312,12 @@ class App extends React.Component {
           >
            
             <Fade in={this.state.open}>
-              <div style={{maxHeight: "80%", overflow: "auto",}}>
+              <div style={{maxHeight: "100%", overflow: "auto",}}>
                 <LoadingIndicator/>
               <Paper square className={classes.paper}>
+              <IconButton aria-label="delete" style={{position:"absolute", right:"5px", top:"5px", background:"white",}} onClick={this.handleModalClose}>
+                <CloseIcon />
+              </IconButton>
                 {!this.state.loading &&
                 <div>
                   <Container>
