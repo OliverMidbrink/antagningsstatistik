@@ -12,7 +12,7 @@ import {
 function processData(inputData, displayFilter, userHP, userBI, userBII) {
   try {
     var outputData = [];
-    console.log(inputData);
+    //console.log(inputData);
 
     var startMyLinesLaid = false;
 
@@ -48,11 +48,15 @@ function processData(inputData, displayFilter, userHP, userBI, userBII) {
           if(parseFloat(item[3]) !== 'NaN' && displayFilter.includes("BII")) data_points["BII"] = parseFloat(item[3]);
           if(parseFloat(item[4]) !== 'NaN' && displayFilter.includes("HP")) data_points["HP"] = parseFloat(item[4]);
 
+          if(item[2] === '*') data_points["BI"] = 0;
+          if(item[3] === '*') data_points["BII"] = 0;
+          if(item[4] === '*') data_points["HP"] = 0;
+
           // Add user values if they are valid
           if(startMyLinesLaid === false) {
             startMyLinesLaid = true;
             if(userHP !== undefined) {
-              console.log(userHP.replace(',', '.'));
+              //console.log(userHP.replace(',', '.'));
               data_points["Ditt HP"] = parseFloat(userHP.replace(',', '.'));
             }
             if(userBI !== undefined) {
@@ -63,7 +67,7 @@ function processData(inputData, displayFilter, userHP, userBI, userBII) {
             }
           }
           
-          console.log(data_points);
+          //console.log(data_points);
           outputData.push(data_points);
         }
       }
