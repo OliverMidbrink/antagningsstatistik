@@ -31,15 +31,16 @@ function standardDeviation(values){
     }
   }
 
+  // only userBI, userHP or userBII will be supplied at one time
 function calculateAdmissionChances(programData, userBI, userHP, userBII, displayFilter) {
     try {
         var HTData = [];
         var VTData = [];
 
         var relevantUserMetric = undefined;
-        if(userBI !== undefined) relevantUserMetric = userBI;
-        if(userHP !== undefined) relevantUserMetric = userHP;
-        if(userBII !== undefined) relevantUserMetric = userBII;
+        if(userBI !== undefined) relevantUserMetric = parseFloat(userBI.replace(',', '.'));
+        if(userHP !== undefined) relevantUserMetric = parseFloat(userHP.replace(',', '.'));
+        if(userBII !== undefined) relevantUserMetric = parseFloat(userBII.replace(',', '.'));
 
         if (programData.length > 0) {
             var year;
@@ -104,7 +105,7 @@ function calculateAdmissionChances(programData, userBI, userHP, userBII, display
 
             var message = "";
 
-            if(relevantUserMetric === "") {
+            if(relevantUserMetric === "" || isNaN(relevantUserMetric)) {
                 return "fyll i rutan ovan för bedömning";
             }
 
