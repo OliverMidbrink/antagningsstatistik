@@ -361,12 +361,11 @@ class App extends React.Component {
                       }
                       <p>Skrolla om du vill se äldre antagningsstatistik</p>
                     <Divider />
-                    <h4 style={{marginBottom:"0.2em"}}>Fyll i rutorna för att se dina chanser</h4>
-                    <i style={{marginTop:"0.1em",}}>{this.state.programData[0]}</i>
+                    <b style={{marginTop:"0.1em",}}>{this.state.programData[0]}</b>
                   </Container>
                   
                   
-                  <div style={{display: "flex", flexWrap: "wrap", paddingTop:"2em",paddingBottom:"1em",}}>
+                  <div style={{display: "flex", flexWrap: "wrap", paddingTop:"2em", paddingBottom:"1em", justifyContent: "center", alignItems: "center",}}>
                     <div style={{border:"1px solid gray", borderRadius: "5px", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
                       <TextField label="Snittbetyg från gymnasiet" style={{margin:"auto",marginTop:"1em", marginBottom:"1em",}}  variant="outlined"
                       placeholder="T.ex. 15,20" className={classes.textField} value={this.state.userBI} onChange={this.handleTextFieldChangeBI} />
