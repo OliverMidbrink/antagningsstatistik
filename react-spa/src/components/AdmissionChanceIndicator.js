@@ -58,7 +58,7 @@ function calculateAdmissionChances(programData, userBI, userHP, userBII, display
                     item = programData[1].find(element => element[0] === year);
                 }
 
-                console.log(item);
+                //console.log(item);
 
                 if(item === "not found" || item === undefined) {
                     continue;
@@ -81,13 +81,13 @@ function calculateAdmissionChances(programData, userBI, userHP, userBII, display
                 }
                 if(term === 1) {
                     HTData.push(data_points[displayFilter[0]]);
-                    console.log(data_points[displayFilter[0]]);
+                    //console.log(data_points[displayFilter[0]]);
                 }
             }
             }
-            console.log(HTData);
-            console.log(VTData);
-            console.log(displayFilter[0]);
+            //console.log(HTData);
+            //console.log(VTData);
+            //console.log(displayFilter[0]);
 
             const meanHT = mean(HTData.slice(HTData.length - 3, HTData.length)); // Average of last 3 values
             const meanVT = mean(VTData.slice(VTData.length - 3, VTData.length));
@@ -95,12 +95,12 @@ function calculateAdmissionChances(programData, userBI, userHP, userBII, display
             const stdHT = standardDeviation(HTData);
             const stdVT = standardDeviation(VTData);
 
-            console.log("DATA");
-            console.log(meanHT);
-            console.log(meanVT);
-            console.log(stdHT);
-            console.log(stdVT);
-            console.log(relevantUserMetric);
+            //console.log("DATA");
+            //console.log(meanHT);
+           // console.log(meanVT);
+           //console.log(stdHT);
+            //console.log(stdVT);
+            //console.log(relevantUserMetric);
 
             var message = "";
 
@@ -137,7 +137,7 @@ function calculateAdmissionChances(programData, userBI, userHP, userBII, display
             
         }
     } catch (error) {
-        console.log(error);
+        //console.log(error);
         return "fyll i dina uppgifter för bedömning";
     }
 }

@@ -181,11 +181,11 @@ class App extends React.Component {
     .then(response => response.json())
     .then(function(data) {
       const results = JSON.parse(data).results;
-      console.log(results);
+      //console.log(results);
 
       that.setState({queryResults: results});
     }).catch(function(err) {
-      console.log('Fetch problem: ' + err.message);
+      //console.log('Fetch problem: ' + err.message);
     });
   }
 
@@ -194,7 +194,7 @@ class App extends React.Component {
     queryURL.searchParams.append('q', kurskod);
     queryURL.searchParams.append('school', school);
     queryURL.searchParams.append('program', program);
-    console.log(queryURL);
+    //console.log(queryURL);
 
     var that = this;
     this.setState({open: true, loading: true});
@@ -208,10 +208,9 @@ class App extends React.Component {
 
         that.setState({programData: programData, kurskod: kurskod, program: program, school: school, loading: false});
 
-        console.log(programData);
-        setTimeout(() => {  console.log(that.state.programData); }, 1000);
+        //console.log(programData);
       }).catch(function(err) {
-        console.log('Fetch problem: ' + err.message);
+        //console.log('Fetch problem: ' + err.message);
     }));
 
   }
