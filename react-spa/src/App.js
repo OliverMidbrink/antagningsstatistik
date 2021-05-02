@@ -368,7 +368,7 @@ class App extends React.Component {
                   
                   <div style={{display: "flex", flexWrap: "wrap", paddingTop:"2em",paddingBottom:"1em",}}>
                     <div style={{border:"1px solid gray", borderRadius: "5px", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
-                      <TextField label="Snittbetyg från gymnasiet" style={{margin:"1em"}} variant="outlined"
+                      <TextField label="Snittbetyg från gymnasiet" style={{margin:"1em"}} InputLabelProps={{style: {fontSize: 14}}} variant="outlined"
                       placeholder="T.ex. 15,20" className={classes.textField} value={this.state.userBI} onChange={this.handleTextFieldChangeBI} />
 
                       <MyLineChart programData={this.state.programData} displayFilter={["BI"]} width={300}
