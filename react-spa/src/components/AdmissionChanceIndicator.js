@@ -105,7 +105,7 @@ function calculateAdmissionChances(programData, userBI, userHP, userBII, display
             var message = "";
 
             if(relevantUserMetric === "") {
-                return "Fyll i rutan ovan";
+                return "fyll i rutan ovan för bedömning";
             }
 
             if (meanHT !== undefined){
@@ -138,7 +138,7 @@ function calculateAdmissionChances(programData, userBI, userHP, userBII, display
         }
     } catch (error) {
         console.log(error);
-        return "Fyll i dina uppgifter för bedömning";
+        return "fyll i dina uppgifter för bedömning";
     }
 }
 
