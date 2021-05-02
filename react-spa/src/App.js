@@ -368,7 +368,7 @@ class App extends React.Component {
                   
                   <div style={{display: "flex", flexWrap: "wrap", paddingTop:"2em",paddingBottom:"1em",}}>
                     <div style={{border:"1px solid gray", borderRadius: "5px", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
-                      <TextField label="Snittbetyg från gymnasiet" style={{margin:"1em"}} InputLabelProps={{style: {fontSize: 14}}} variant="outlined"
+                      <TextField label="Snittbetyg från gymnasiet" style={{margin:"auto",marginTop:"1em", marginBottom:"1em",}}  variant="outlined"
                       placeholder="T.ex. 15,20" className={classes.textField} value={this.state.userBI} onChange={this.handleTextFieldChangeBI} />
 
                       <MyLineChart programData={this.state.programData} displayFilter={["BI"]} width={300}
@@ -378,7 +378,7 @@ class App extends React.Component {
                     </div>
                     
                     <div style={{border:"1px solid gray", borderRadius: "5px", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
-                      <TextField label="Ditt HP" style={{margin:"1em",}} placeholder="T.ex. 1,2" variant="outlined"
+                      <TextField label="Ditt HP" style={{margin:"auto",marginTop:"1em", marginBottom:"1em",}} placeholder="T.ex. 1,2" variant="outlined"
                       className={classes.textField} name="userHP" value={this.state.userHP} onChange={this.handleTextFieldChangeHP} />
 
                       <MyLineChart programData={this.state.programData} displayFilter={["HP"]} 
@@ -388,7 +388,7 @@ class App extends React.Component {
                     </div>
 
                     <div style={{border:"1px solid gray", borderRadius: "5px", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
-                      <TextField label="Betyg efter komvux" style={{margin:"1em",}} variant="outlined"
+                      <TextField label="Betyg efter komvux" style={{margin:"auto",marginTop:"1em", marginBottom:"1em",}} variant="outlined"
                       placeholder="T.ex. 17,1" className={classes.textField} value={this.state.userBII} onChange={this.handleTextFieldChangeBII} />
                       
                       <MyLineChart programData={this.state.programData} displayFilter={["BII"]} width={300}
