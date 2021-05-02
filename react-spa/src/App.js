@@ -22,6 +22,7 @@ import Loader from "react-loader-spinner";
 import { trackPromise } from 'react-promise-tracker';
 import { usePromiseTracker } from "react-promise-tracker";
 import MyLineChart from './components/MyLineChart';
+import AdmissionChanceIndicator from './components/AdmissionChanceIndicator';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
@@ -134,6 +135,11 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
+    var rightOffsetCloseButton = 0;
+    if(window.innerWidth > 1280) {
+      rightOffsetCloseButton = (window.innerWidth - 1280) / 2 + 8;
+    }
+
     this.state = {
       queryString: '',
       queryResults: [],
@@ -146,6 +152,7 @@ class App extends React.Component {
       userHP: "",
       userBI: "", 
       userBII: "",
+      right: rightOffsetCloseButton,
     };
 
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -155,6 +162,10 @@ class App extends React.Component {
     this.handleTextFieldChangeHP = this.handleTextFieldChangeHP.bind(this);
     this.handleTextFieldChangeBI = this.handleTextFieldChangeBI.bind(this);
     this.handleTextFieldChangeBII = this.handleTextFieldChangeBII.bind(this);
+    this.updateRightOffset = this.updateRightOffset.bind(this);
+    this.myInput = React.createRef();
+
+    window.addEventListener('resize', this.updateRightOffset);
   }
 
   handleSubmit(event) {
@@ -223,6 +234,14 @@ class App extends React.Component {
 
   handleModalClose() {
     this.setState({open: false});
+  }
+
+  updateRightOffset() {
+    if(window.innerWidth > 1280) {
+      this.setState({right: (window.innerWidth - 1280) / 2 + 8});
+    } else {
+      this.setState({right: 0});
+    }
   }
 
   render() {
@@ -315,9 +334,6 @@ class App extends React.Component {
               <div style={{maxHeight: "100%", overflow: "auto",}}>
                 <LoadingIndicator/>
               <Paper square className={classes.paper}>
-                <IconButton aria-label="delete" style={{position:"absolute", right:"5px", top:"5px", background:"white",}} onClick={this.handleModalClose}>
-                  <CloseIcon />
-                </IconButton>
                 {!this.state.loading &&
                 <div>
                   <Container>
@@ -351,28 +367,34 @@ class App extends React.Component {
                   
                   
                   <div style={{display: "flex", flexWrap: "wrap", paddingTop:"2em",paddingBottom:"1em",}}>
-                    <div style={{border:"1px solid gray", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
+                    <div style={{border:"1px solid gray", borderRadius: "5px", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
                       <TextField label="Snittbetyg från gymnasiet" style={{margin:"1em",}} variant="outlined"
                       placeholder="T.ex. 15,20" className={classes.textField} value={this.state.userBI} onChange={this.handleTextFieldChangeBI} />
 
                       <MyLineChart programData={this.state.programData} displayFilter={["BI"]} width={300}
                       userBI={this.state.userBI}/>
+
+                      <AdmissionChanceIndicator programData={this.state.programData} userBI={this.state.userBI} displayFilter={["BI"]} />
                     </div>
                     
-                    <div style={{border:"1px solid gray", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
+                    <div style={{border:"1px solid gray", borderRadius: "5px", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
                       <TextField label="Ditt HP" style={{margin:"1em",}} placeholder="T.ex. 1,2" variant="outlined"
                       className={classes.textField} name="userHP" value={this.state.userHP} onChange={this.handleTextFieldChangeHP} />
 
                       <MyLineChart programData={this.state.programData} displayFilter={["HP"]} 
                       userHP={this.state.userHP} width={300}/>
+
+                      <AdmissionChanceIndicator programData={this.state.programData} userHP={this.state.userHP} displayFilter={["HP"]}/>
                     </div>
 
-                    <div style={{border:"1px solid gray", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
+                    <div style={{border:"1px solid gray", borderRadius: "5px", margin:"0.5em", alignItems: "center", display: "flex", justifyContent: "center", flexWrap:"wrap", maxWidth:"400px",}}>
                       <TextField label="Betyg efter komvux" style={{margin:"1em",}} variant="outlined"
                       placeholder="T.ex. 17,1" className={classes.textField} value={this.state.userBII} onChange={this.handleTextFieldChangeBII} />
                       
                       <MyLineChart programData={this.state.programData} displayFilter={["BII"]} width={300}
                       userBII={this.state.userBII}/>
+
+                      <AdmissionChanceIndicator programData={this.state.programData} userBII={this.state.userBII} displayFilter={["BII"]}/>
                     </div>
                   </div>
                   
@@ -416,6 +438,9 @@ class App extends React.Component {
                   </Container>
                   </div>
                 }
+                <IconButton aria-label="close icon" style={{position:"absolute", right:this.state.right, top:"0px", background:"white", borderRadius: "4px",}} onClick={this.handleModalClose}>
+                  <CloseIcon />
+                </IconButton>
               </Paper>
               </div>
             </Fade>
