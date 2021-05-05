@@ -165,7 +165,7 @@ def search_for_programs(query_string):
     'vy':'Total',
     'antagningsomgang':'HT' + str(current_year),
     'larosateId':'',
-    'utbildningstyp':'',
+    'utbildningstyp':'p',
     'fritextFilter':query_string,
     'urvalsGrupp':'','firstResult':'0','maxResults':'40','sorteringsKolumn':'1','sorteringsOrdningDesc':'false',
     'requestNumber':'1','paginate':'true'}
