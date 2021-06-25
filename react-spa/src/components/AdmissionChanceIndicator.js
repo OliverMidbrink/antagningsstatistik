@@ -8,6 +8,20 @@ const mean = (array) => {
     }
 };
 
+function normalCumulativeDistributionFunction(mean, sigma, to) {
+    var z = (to-mean)/Math.sqrt(2*sigma*sigma);
+    var t = 1/(1+0.3275911*Math.abs(z));
+    var a1 =  0.254829592;
+    var a2 = -0.284496736;
+    var a3 =  1.421413741;
+    var a4 = -1.453152027;
+    var a5 =  1.061405429;
+    var erf = 1-(((((a5*t + a4)*t) + a3)*t + a2)*t + a1)*t*Math.exp(-z*z);
+    var sign = 1;
+    if(z < 0) {sign = -1;}
+    return (1/2)*(1+sign*erf);
+}
+
 function standardDeviation(values){
     if(values.length === 0) {
         return undefined;
@@ -108,28 +122,48 @@ function calculateAdmissionChances(programData, userBI, userHP, userBII, display
             if(relevantUserMetric === "" || isNaN(relevantUserMetric)) {
                 return "fyll i rutan ovan för bedömning";
             }
-
+            
+            // HT admission chance calculator
             if (meanHT !== undefined){
                 if(relevantUserMetric > meanHT + stdHT) {
-                    message += "goda för HT"
+                    message += "goda för HT";
                 } else if(relevantUserMetric < meanHT - stdHT) {
-                    message += "låga för HT"
+                    message += "låga för HT";
                 } else {
-                    message += "medel för HT"
+                    message += "medel för HT";
+                }
+
+                if (stdHT !== undefined && stdHT !== 0) {
+                    // If standarddeviation exists and is different from 0
+                    var cdfProbPercent = Math.round(100 * normalCumulativeDistributionFunction(meanHT, stdHT, relevantUserMetric));
+
+                    message += " (" + cdfProbPercent.toString() + "% antagningschans)";
+                } else {
+                    message += " (grovt estimerat)";
                 }
             }
-
+            
+            // VT admission chance calculator
             if (meanVT !== undefined){
                 if (meanHT !== undefined){
                     message += " och "
                 } 
 
                 if(relevantUserMetric > meanVT + stdVT) {
-                    message += "goda för VT"
+                    message += "goda för VT";
                 } else if(relevantUserMetric < meanVT - stdVT) {
-                    message += "låga för VT"
+                    message += "låga för VT";
                 } else {
-                    message += "medel för VT"
+                    message += "medel för VT";
+                }
+
+                if (stdVT !== undefined && stdVT !== 0) {
+                    // If standarddeviation exists and is different from 0
+                    var cdfProbPercent = Math.round(100 * normalCumulativeDistributionFunction(meanVT, stdVT, relevantUserMetric));
+
+                    message += " (" + cdfProbPercent.toString() + "% antagningschans)";
+                } else {
+                    message += " (grovt estimerat)";
                 }
             }
 
