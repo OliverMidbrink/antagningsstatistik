@@ -2705,3 +2705,470 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 06/25/2021 05:50:45 PM 81.235.160.184 - - [25/Jun/2021 17:50:45] "[37mGET /program_data?q=SU-36590&school=Stockholms+universitet&program=Psykologprogrammet HTTP/1.1[0m" 200 -
 06/25/2021 05:50:54 PM 81.235.160.184 - - [25/Jun/2021 17:50:54] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
 06/25/2021 05:50:55 PM 81.235.160.184 - - [25/Jun/2021 17:50:55] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+06/25/2021 05:52:33 PM 81.235.160.184 - - [25/Jun/2021 17:52:33] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+06/25/2021 05:52:33 PM 81.235.160.184 - - [25/Jun/2021 17:52:33] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+06/25/2021 05:53:09 PM 81.235.160.184 - - [25/Jun/2021 17:53:09] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+06/25/2021 06:04:46 PM 81.235.160.184 - - [25/Jun/2021 18:04:46] "[37mGET /query?q=handelshögskolan+i+stockholm HTTP/1.1[0m" 200 -
+06/25/2021 06:08:02 PM 81.235.160.184 - - [25/Jun/2021 18:08:02] "[37mGET /query?q=Handelshögskolan+i+stockholm HTTP/1.1[0m" 200 -
+06/25/2021 06:08:14 PM 81.235.160.184 - - [25/Jun/2021 18:08:14] "[37mGET /query?q=Läkarprogrammet+ HTTP/1.1[0m" 200 -
+06/25/2021 06:08:20 PM 81.235.160.184 - - [25/Jun/2021 18:08:20] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+06/25/2021 06:08:40 PM 81.235.160.184 - - [25/Jun/2021 18:08:40] "[37mGET /query?q=Läka HTTP/1.1[0m" 200 -
+06/25/2021 06:08:41 PM 81.235.160.184 - - [25/Jun/2021 18:08:41] "[37mGET /program_data?q=GU-1G02C&school=Göteborgs+universitet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+06/25/2021 06:08:52 PM 81.235.160.184 - - [25/Jun/2021 18:08:52] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+06/25/2021 06:42:04 PM 78.128.112.14 - - [25/Jun/2021 18:42:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+06/25/2021 06:42:04 PM 78.128.112.14 - - [25/Jun/2021 18:42:04] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+06/25/2021 08:30:25 PM 162.142.125.56 - - [25/Jun/2021 20:30:25] "[33mGET / HTTP/1.1[0m" 404 -
+06/26/2021 10:56:49 AM 162.142.125.53 - - [26/Jun/2021 10:56:49] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03º×"z\x18é¦\x96rµÙû5\x82\x92\x93îzzO<0GæÍ\x17bÍ\x8a\x93(å\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+06/26/2021 10:56:49 AM 162.142.125.53 - - [26/Jun/2021 10:56:49] "[35m[1m {  wº×"zé¦rµÙû5îzzO<0GæÍbÍ(å  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+06/26/2021 10:56:50 AM 162.142.125.53 - - [26/Jun/2021 10:56:50] "[33mGET / HTTP/1.1[0m" 404 -
+06/26/2021 10:56:51 AM 162.142.125.53 - - [26/Jun/2021 10:56:51] "[33mGET / HTTP/1.1[0m" 404 -
+06/27/2021 06:37:52 AM 54.224.97.94 - - [27/Jun/2021 06:37:52] "[33mGET / HTTP/1.1[0m" 404 -
+06/27/2021 09:06:32 AM 54.226.213.219 - - [27/Jun/2021 09:06:32] "[33mGET / HTTP/1.1[0m" 404 -
+06/27/2021 04:03:30 PM 162.142.125.128 - - [27/Jun/2021 16:03:30] "[33mGET / HTTP/1.1[0m" 404 -
+06/27/2021 04:36:26 PM 167.248.133.37 - - [27/Jun/2021 16:36:26] "[33mGET / HTTP/1.1[0m" 404 -
+06/28/2021 11:15:19 PM 18.209.102.17 - - [28/Jun/2021 23:15:19] "[33mGET / HTTP/1.1[0m" 404 -
+06/29/2021 11:54:31 PM 54.158.12.241 - - [29/Jun/2021 23:54:31] "[33mGET / HTTP/1.1[0m" 404 -
+06/30/2021 12:04:11 AM 185.202.2.147 - - [30/Jun/2021 00:04:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+06/30/2021 12:04:11 AM 185.202.2.147 - - [30/Jun/2021 00:04:11] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+06/30/2021 02:14:34 AM 167.248.133.39 - - [30/Jun/2021 02:14:34] "[33mGET / HTTP/1.1[0m" 404 -
+07/01/2021 04:32:38 PM 74.120.14.54 - - [01/Jul/2021 16:32:38] "[33mGET / HTTP/1.1[0m" 404 -
+07/01/2021 09:36:42 PM 78.82.106.8 - - [01/Jul/2021 21:36:42] "[37mGET /query?q=internationella+relationer+stockholms+universitutet HTTP/1.1[0m" 200 -
+07/01/2021 09:36:43 PM 78.82.106.8 - - [01/Jul/2021 21:36:43] "[37mGET /query?q=internationella+relationer+stockholms+universitutet HTTP/1.1[0m" 200 -
+07/01/2021 09:36:50 PM 78.82.106.8 - - [01/Jul/2021 21:36:50] "[37mGET /query?q=internationella+relationer+stockholms+universitet HTTP/1.1[0m" 200 -
+07/01/2021 09:36:53 PM 78.82.106.8 - - [01/Jul/2021 21:36:53] "[37mGET /program_data?q=SU-30912&school=Stockholms+universitet&program=Kandidatprogram+i+internationella+relationer+och+ekonomisk+historia HTTP/1.1[0m" 200 -
+07/01/2021 09:42:30 PM 3.91.92.57 - - [01/Jul/2021 21:42:30] "[33mGET / HTTP/1.1[0m" 404 -
+07/02/2021 12:53:15 AM 91.241.19.193 - - [02/Jul/2021 00:53:15] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/02/2021 12:53:15 AM 91.241.19.193 - - [02/Jul/2021 00:53:15] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/02/2021 06:51:49 AM 54.224.3.209 - - [02/Jul/2021 06:51:49] "[33mGET / HTTP/1.1[0m" 404 -
+07/02/2021 12:03:51 PM 91.241.19.193 - - [02/Jul/2021 12:03:51] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/02/2021 12:03:51 PM 91.241.19.193 - - [02/Jul/2021 12:03:51] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/03/2021 03:25:17 AM 71.6.147.254 - - [03/Jul/2021 03:25:17] "[33mGET / HTTP/1.1[0m" 404 -
+07/03/2021 03:25:17 AM 71.6.147.254 - - [03/Jul/2021 03:25:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+07/03/2021 03:25:21 AM 71.6.147.254 - - [03/Jul/2021 03:25:21] code 400, message Bad request syntax ('\x03\x9eØß`\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+07/03/2021 03:25:21 AM 71.6.147.254 - - [03/Jul/2021 03:25:21] "[35m[1mØß`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            [0m" HTTPStatus.BAD_REQUEST -
+07/03/2021 02:58:14 PM 74.120.14.37 - - [03/Jul/2021 14:58:14] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03@)WûAßGþ§åê¶§®ßÃm\x9cvÔ\x0e\x081\x88Ým»\x9f\x8c\x91n\x13\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+07/03/2021 02:58:14 PM 74.120.14.37 - - [03/Jul/2021 14:58:14] "[35m[1m {  w@)WûAßGþ§åê¶§®ßÃmvÔ1Ým»n  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+07/03/2021 02:58:16 PM 74.120.14.37 - - [03/Jul/2021 14:58:16] "[33mGET / HTTP/1.1[0m" 404 -
+07/03/2021 02:58:16 PM 74.120.14.37 - - [03/Jul/2021 14:58:16] "[33mGET / HTTP/1.1[0m" 404 -
+07/03/2021 09:13:46 PM 185.202.2.147 - - [03/Jul/2021 21:13:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/03/2021 09:13:46 PM 185.202.2.147 - - [03/Jul/2021 21:13:46] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/04/2021 12:29:21 PM 162.142.125.128 - - [04/Jul/2021 12:29:21] "[33mGET / HTTP/1.1[0m" 404 -
+07/04/2021 12:35:23 PM 162.142.125.128 - - [04/Jul/2021 12:35:23] "[33mGET / HTTP/1.1[0m" 404 -
+07/05/2021 11:51:41 AM 89.248.165.49 - - [05/Jul/2021 11:51:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+07/05/2021 11:51:41 AM 89.248.165.49 - - [05/Jul/2021 11:51:41] "[35m[1m  +&à     Cookie: mstshash=hello[0m" HTTPStatus.BAD_REQUEST -
+07/05/2021 01:46:15 PM 94.191.137.103 - - [05/Jul/2021 13:46:15] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+07/05/2021 01:46:15 PM 94.191.137.103 - - [05/Jul/2021 13:46:15] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+07/05/2021 01:46:16 PM 94.191.137.103 - - [05/Jul/2021 13:46:16] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+07/05/2021 01:46:43 PM 94.191.137.103 - - [05/Jul/2021 13:46:43] "[37mGET /query?q=handelshögskolan+i+stockholm HTTP/1.1[0m" 200 -
+07/05/2021 01:46:44 PM 94.191.137.103 - - [05/Jul/2021 13:46:44] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+07/06/2021 01:16:02 AM 74.120.14.53 - - [06/Jul/2021 01:16:02] "[33mGET / HTTP/1.1[0m" 404 -
+07/06/2021 11:51:16 PM 89.248.165.49 - - [06/Jul/2021 23:51:16] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+07/06/2021 11:51:16 PM 89.248.165.49 - - [06/Jul/2021 23:51:16] "[35m[1m  +&à     Cookie: mstshash=hello[0m" HTTPStatus.BAD_REQUEST -
+07/07/2021 07:37:41 PM 74.120.14.54 - - [07/Jul/2021 19:37:41] "[33mGET / HTTP/1.1[0m" 404 -
+07/07/2021 08:02:22 PM 185.202.2.147 - - [07/Jul/2021 20:02:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/07/2021 08:02:22 PM 185.202.2.147 - - [07/Jul/2021 20:02:22] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/08/2021 06:36:58 AM 83.248.27.18 - - [08/Jul/2021 06:36:58] "[37mGET /query?q=industriel+ekonomi+linköping HTTP/1.1[0m" 200 -
+07/08/2021 06:37:00 AM 83.248.27.18 - - [08/Jul/2021 06:37:00] "[37mGET /program_data?q=LIU-50101&school=Linköpings+universitet&program=Civilingenjör+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+07/08/2021 06:38:45 AM 83.248.27.18 - - [08/Jul/2021 06:38:45] "[37mGET /query?q=industriel+ekonomi+linköping HTTP/1.1[0m" 200 -
+07/08/2021 06:38:48 AM 83.248.27.18 - - [08/Jul/2021 06:38:48] "[37mGET /program_data?q=LIU-50102&school=Linköpings+universitet&program=Civilingenjör+i+industriell+ekonomi+-+internationell%2C+franska HTTP/1.1[0m" 200 -
+07/08/2021 06:39:17 AM 83.248.27.18 - - [08/Jul/2021 06:39:17] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+07/08/2021 06:39:19 AM 83.248.27.18 - - [08/Jul/2021 06:39:19] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+07/08/2021 06:39:37 AM 83.248.27.18 - - [08/Jul/2021 06:39:37] "[37mGET /query?q=industriel+ekonomi+linköping HTTP/1.1[0m" 200 -
+07/08/2021 06:39:38 AM 83.248.27.18 - - [08/Jul/2021 06:39:38] "[37mGET /program_data?q=LIU-50101&school=Linköpings+universitet&program=Civilingenjör+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+07/08/2021 06:40:26 AM 83.248.27.18 - - [08/Jul/2021 06:40:26] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+07/08/2021 06:40:28 AM 83.248.27.18 - - [08/Jul/2021 06:40:28] "[37mGET /program_data?q=KTH-32422&school=Kungl.+Tekniska+högskolan&program=Högskoleingenjörsutbildning+i+datateknik%2C+Flemingsberg HTTP/1.1[0m" 200 -
+07/08/2021 06:40:33 AM 83.248.27.18 - - [08/Jul/2021 06:40:33] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+07/08/2021 06:40:34 AM 83.248.27.18 - - [08/Jul/2021 06:40:34] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+07/08/2021 06:41:41 AM 83.248.27.18 - - [08/Jul/2021 06:41:41] "[37mGET /query?q=fysik+kth HTTP/1.1[0m" 200 -
+07/08/2021 06:41:43 AM 83.248.27.18 - - [08/Jul/2021 06:41:43] "[37mGET /program_data?q=KTH-32114&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+07/08/2021 06:42:51 AM 83.248.27.18 - - [08/Jul/2021 06:42:51] "[37mGET /query?q=öppet+kth HTTP/1.1[0m" 200 -
+07/08/2021 06:42:55 AM 83.248.27.18 - - [08/Jul/2021 06:42:55] "[37mGET /query?q=öppen+kth HTTP/1.1[0m" 200 -
+07/08/2021 06:43:00 AM 83.248.27.18 - - [08/Jul/2021 06:43:00] "[37mGET /program_data?q=KTH-32115&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+öppen+ingång HTTP/1.1[0m" 200 -
+07/08/2021 08:31:58 PM 194.26.29.12 - - [08/Jul/2021 20:31:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/08/2021 08:31:58 PM 194.26.29.12 - - [08/Jul/2021 20:31:58] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/08/2021 08:31:58 PM 194.26.29.12 - - [08/Jul/2021 20:31:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/08/2021 08:31:58 PM 194.26.29.12 - - [08/Jul/2021 20:31:58] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/09/2021 12:16:23 AM 123.160.221.15 - - [09/Jul/2021 00:16:23] code 400, message Bad request version ('\x00/\x00')
+07/09/2021 12:16:23 AM 123.160.221.15 - - [09/Jul/2021 00:16:23] "[35m[1m  i  eU§ärandom1random2random3random4   / [0m" HTTPStatus.BAD_REQUEST -
+07/09/2021 12:16:23 AM 123.160.221.15 - - [09/Jul/2021 00:16:23] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+07/09/2021 12:16:23 AM 123.160.221.15 - - [09/Jul/2021 00:16:23] "[35m[1m  S  O ?G×÷º,îê²`~ó ý{¹ÕÈwæÄÛ<=Ûoïn  (   [0m" HTTPStatus.BAD_REQUEST -
+07/09/2021 12:16:27 AM 123.160.221.15 - - [09/Jul/2021 00:16:27] code 400, message Bad request syntax ('\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03')
+07/09/2021 12:16:27 AM 123.160.221.15 - - [09/Jul/2021 00:16:27] "[35m[1m         versionbind   [0m" HTTPStatus.BAD_REQUEST -
+07/09/2021 12:16:28 AM 123.160.221.15 - - [09/Jul/2021 00:16:28] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+07/09/2021 12:16:28 AM 123.160.221.15 - - [09/Jul/2021 00:16:28] "[35m[1mrþ          |                    [0m" HTTPStatus.BAD_REQUEST -
+07/09/2021 12:16:30 AM 123.160.221.15 - - [09/Jul/2021 00:16:30] "[33mGET / HTTP/1.0[0m" 404 -
+07/09/2021 12:16:30 AM 123.160.221.15 - - [09/Jul/2021 00:16:30] "[33mHEAD / HTTP/1.1[0m" 404 -
+07/09/2021 12:16:32 AM 123.160.221.15 - - [09/Jul/2021 00:16:32] "[33mGET / HTTP/1.1[0m" 404 -
+07/09/2021 12:16:33 AM 205.185.116.89 - - [09/Jul/2021 00:16:33] "[33mGET / HTTP/1.1[0m" 404 -
+07/09/2021 12:16:38 AM 123.160.221.15 - - [09/Jul/2021 00:16:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+07/09/2021 09:50:24 AM 94.232.46.96 - - [09/Jul/2021 09:50:24] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/09/2021 09:50:24 AM 94.232.46.96 - - [09/Jul/2021 09:50:24] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/09/2021 09:35:56 PM 162.142.125.54 - - [09/Jul/2021 21:35:56] "[33mGET / HTTP/1.1[0m" 404 -
+07/10/2021 12:16:39 PM 89.248.165.49 - - [10/Jul/2021 12:16:39] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+07/10/2021 12:16:39 PM 89.248.165.49 - - [10/Jul/2021 12:16:39] "[35m[1m  +&à     Cookie: mstshash=hello[0m" HTTPStatus.BAD_REQUEST -
+07/10/2021 05:55:35 PM 92.244.23.70 - - [10/Jul/2021 17:55:35] "[37mGET /query?q=kth+teknisk+basår+flemingsberg HTTP/1.1[0m" 200 -
+07/10/2021 05:55:37 PM 92.244.23.70 - - [10/Jul/2021 17:55:37] "[37mGET /program_data?q=KTH-32401&school=Kungl.+Tekniska+högskolan&program=Tekniskt+basår%2C+KTH+Flemingsberg HTTP/1.1[0m" 200 -
+07/10/2021 05:56:24 PM 92.244.23.70 - - [10/Jul/2021 17:56:24] "[37mGET /program_data?q=KTH-32404&school=Kungl.+Tekniska+högskolan&program=Tekniskt+basår%2C+termin+2%2C+KTH+Flemingsberg HTTP/1.1[0m" 200 -
+07/10/2021 05:56:56 PM 92.244.23.70 - - [10/Jul/2021 17:56:56] "[37mGET /program_data?q=KTH-32404&school=Kungl.+Tekniska+högskolan&program=Tekniskt+basår%2C+termin+2%2C+KTH+Flemingsberg HTTP/1.1[0m" 200 -
+07/10/2021 05:57:02 PM 92.244.23.70 - - [10/Jul/2021 17:57:02] "[37mGET /program_data?q=KTH-32404&school=Kungl.+Tekniska+högskolan&program=Tekniskt+basår%2C+termin+2%2C+KTH+Flemingsberg HTTP/1.1[0m" 200 -
+07/11/2021 11:18:03 AM 162.142.125.128 - - [11/Jul/2021 11:18:03] "[33mGET / HTTP/1.1[0m" 404 -
+07/11/2021 02:01:45 PM 83.248.27.18 - - [11/Jul/2021 14:01:45] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+07/11/2021 02:01:47 PM 83.248.27.18 - - [11/Jul/2021 14:01:47] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+07/11/2021 02:02:32 PM 83.248.27.18 - - [11/Jul/2021 14:02:32] "[37mGET /query?q=industriel+ekonomi+linköping HTTP/1.1[0m" 200 -
+07/11/2021 02:02:33 PM 83.248.27.18 - - [11/Jul/2021 14:02:33] "[37mGET /program_data?q=LIU-50101&school=Linköpings+universitet&program=Civilingenjör+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+07/11/2021 09:02:32 PM 162.142.125.55 - - [11/Jul/2021 21:02:32] "[33mGET / HTTP/1.1[0m" 404 -
+07/12/2021 06:40:58 AM 94.191.136.135 - - [12/Jul/2021 06:40:58] "[37mGET /query?q=Läkarprogrammet+ HTTP/1.1[0m" 200 -
+07/12/2021 06:41:04 AM 94.191.136.135 - - [12/Jul/2021 06:41:04] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+07/12/2021 03:22:17 PM 89.248.165.52 - - [12/Jul/2021 15:22:17] code 400, message Bad request syntax ('\x04\x01\x00\x19h/\x11¡\x00')
+07/12/2021 03:22:17 PM 89.248.165.52 - - [12/Jul/2021 15:22:17] "[35m[1m h/¡ [0m" HTTPStatus.BAD_REQUEST -
+07/12/2021 03:23:17 PM 89.248.165.52 - - [12/Jul/2021 15:23:17] code 400, message Bad request syntax ('\x05\x01\x00')
+07/12/2021 03:23:17 PM 89.248.165.52 - - [12/Jul/2021 15:23:17] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+07/12/2021 03:23:17 PM 89.248.165.52 - - [12/Jul/2021 15:23:17] "[33mCONNECT hotmail-com.olc.protection.outlook.com:25 HTTP/1.1[0m" 404 -
+07/12/2021 04:22:17 PM 89.248.165.52 - - [12/Jul/2021 16:22:17] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00PUÎ')
+07/12/2021 04:22:17 PM 89.248.165.52 - - [12/Jul/2021 16:22:17] "[35m[1m PUÎ s [0m" HTTPStatus.BAD_REQUEST -
+07/12/2021 04:23:17 PM 89.248.165.52 - - [12/Jul/2021 16:23:17] code 400, message Bad request syntax ('\x05\x01\x00')
+07/12/2021 04:23:17 PM 89.248.165.52 - - [12/Jul/2021 16:23:17] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+07/12/2021 04:23:17 PM 89.248.165.52 - - [12/Jul/2021 16:23:17] "[33mCONNECT 85.206.160.115:80 HTTP/1.1[0m" 404 -
+07/12/2021 07:37:05 PM 78.128.112.18 - - [12/Jul/2021 19:37:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/12/2021 07:37:05 PM 78.128.112.18 - - [12/Jul/2021 19:37:05] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/13/2021 12:36:09 PM 130.237.17.74 - - [13/Jul/2021 12:36:09] "[37mGET /query?q=industriel+ekonomi+linköping HTTP/1.1[0m" 200 -
+07/13/2021 12:36:12 PM 130.237.17.74 - - [13/Jul/2021 12:36:12] "[37mGET /program_data?q=LIU-50101&school=Linköpings+universitet&program=Civilingenjör+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+07/13/2021 12:38:15 PM 130.237.17.74 - - [13/Jul/2021 12:38:15] "[37mGET /program_data?q=LIU-50102&school=Linköpings+universitet&program=Civilingenjör+i+industriell+ekonomi+-+internationell%2C+franska HTTP/1.1[0m" 200 -
+07/13/2021 12:38:51 PM 130.237.17.74 - - [13/Jul/2021 12:38:51] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+07/13/2021 12:38:53 PM 130.237.17.74 - - [13/Jul/2021 12:38:53] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+07/13/2021 03:09:16 PM 130.237.17.74 - - [13/Jul/2021 15:09:16] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+07/13/2021 03:10:07 PM 130.237.17.74 - - [13/Jul/2021 15:10:07] "[37mGET /query?q=fysik+kth HTTP/1.1[0m" 200 -
+07/13/2021 03:10:09 PM 130.237.17.74 - - [13/Jul/2021 15:10:09] "[37mGET /program_data?q=KTH-32114&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+fysik HTTP/1.1[0m" 200 -
+07/13/2021 03:10:41 PM 130.237.17.74 - - [13/Jul/2021 15:10:41] "[37mGET /query?q=eknomi+linköping HTTP/1.1[0m" 200 -
+07/13/2021 03:10:43 PM 130.237.17.74 - - [13/Jul/2021 15:10:43] "[37mGET /query?q=eknomi+linköping HTTP/1.1[0m" 200 -
+07/13/2021 03:10:45 PM 130.237.17.74 - - [13/Jul/2021 15:10:45] "[37mGET /query?q=eknomi+linköping HTTP/1.1[0m" 200 -
+07/13/2021 03:10:50 PM 130.237.17.74 - - [13/Jul/2021 15:10:50] "[37mGET /query?q=ekonomi+linköping HTTP/1.1[0m" 200 -
+07/13/2021 03:10:52 PM 130.237.17.74 - - [13/Jul/2021 15:10:52] "[37mGET /program_data?q=LIU-50102&school=Linköpings+universitet&program=Civilingenjör+i+industriell+ekonomi+-+internationell%2C+franska HTTP/1.1[0m" 200 -
+07/13/2021 07:07:31 PM 92.244.23.70 - - [13/Jul/2021 19:07:31] "[37mGET /query?q=kth+teknisk+basår+flemingsberg HTTP/1.1[0m" 200 -
+07/13/2021 07:07:32 PM 92.244.23.70 - - [13/Jul/2021 19:07:32] "[37mGET /query?q=kth+teknisk+basår+flemingsberg HTTP/1.1[0m" 200 -
+07/13/2021 07:07:34 PM 92.244.23.70 - - [13/Jul/2021 19:07:34] "[37mGET /program_data?q=KTH-32401&school=Kungl.+Tekniska+högskolan&program=Tekniskt+basår%2C+KTH+Flemingsberg HTTP/1.1[0m" 200 -
+07/13/2021 07:08:08 PM 92.244.23.70 - - [13/Jul/2021 19:08:08] "[37mGET /query?q=kth+teknisk+basår+flemingsberg HTTP/1.1[0m" 200 -
+07/13/2021 07:08:10 PM 92.244.23.70 - - [13/Jul/2021 19:08:10] "[37mGET /program_data?q=KTH-32404&school=Kungl.+Tekniska+högskolan&program=Tekniskt+basår%2C+termin+2%2C+KTH+Flemingsberg HTTP/1.1[0m" 200 -
+07/15/2021 10:49:55 AM 185.202.2.147 - - [15/Jul/2021 10:49:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/15/2021 10:49:55 AM 185.202.2.147 - - [15/Jul/2021 10:49:55] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/15/2021 12:49:07 PM 167.248.133.54 - - [15/Jul/2021 12:49:07] "[33mGET / HTTP/1.1[0m" 404 -
+07/15/2021 01:38:28 PM 89.248.165.49 - - [15/Jul/2021 13:38:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+07/15/2021 01:38:28 PM 89.248.165.49 - - [15/Jul/2021 13:38:28] "[35m[1m  +&à     Cookie: mstshash=hello[0m" HTTPStatus.BAD_REQUEST -
+07/15/2021 08:20:40 PM 94.191.152.252 - - [15/Jul/2021 20:20:40] "[37mGET /query?q=Karolinska+läkar HTTP/1.1[0m" 200 -
+07/15/2021 08:20:41 PM 94.191.152.252 - - [15/Jul/2021 20:20:41] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+07/15/2021 08:20:47 PM 185.236.42.83 - - [15/Jul/2021 20:20:47] "[37mGET /query?q=Jurist HTTP/1.1[0m" 200 -
+07/15/2021 08:20:52 PM 185.236.42.83 - - [15/Jul/2021 20:20:52] "[37mGET /query?q=Jurist HTTP/1.1[0m" 200 -
+07/15/2021 08:20:54 PM 185.236.42.83 - - [15/Jul/2021 20:20:54] "[37mGET /program_data?q=SU-29700&school=Stockholms+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+07/15/2021 08:30:03 PM 185.236.42.83 - - [15/Jul/2021 20:30:03] "[37mGET /query?q=Ekonomi+och+mattematik HTTP/1.1[0m" 200 -
+07/15/2021 08:30:04 PM 185.236.42.83 - - [15/Jul/2021 20:30:04] "[37mGET /query?q=Ekonomi+och+mattematik HTTP/1.1[0m" 200 -
+07/15/2021 08:30:13 PM 185.236.42.83 - - [15/Jul/2021 20:30:13] "[37mGET /query?q=Mattematik HTTP/1.1[0m" 200 -
+07/15/2021 08:30:15 PM 185.236.42.83 - - [15/Jul/2021 20:30:15] "[37mGET /query?q=Mattematik HTTP/1.1[0m" 200 -
+07/15/2021 08:30:25 PM 185.236.42.83 - - [15/Jul/2021 20:30:25] "[37mGET /query?q=Matte HTTP/1.1[0m" 200 -
+07/15/2021 08:30:25 PM 185.236.42.83 - - [15/Jul/2021 20:30:25] "[37mGET /query?q=Matte HTTP/1.1[0m" 200 -
+07/15/2021 08:30:26 PM 185.236.42.83 - - [15/Jul/2021 20:30:26] "[37mGET /query?q=Matte HTTP/1.1[0m" 200 -
+07/15/2021 08:30:35 PM 185.236.42.83 - - [15/Jul/2021 20:30:35] "[37mGET /query?q=Ekonomi HTTP/1.1[0m" 200 -
+07/15/2021 08:31:54 PM 185.236.42.83 - - [15/Jul/2021 20:31:54] "[37mGET /query?q=Stockholms+universitet HTTP/1.1[0m" 200 -
+07/15/2021 08:32:00 PM 185.236.42.83 - - [15/Jul/2021 20:32:00] "[37mGET /query?q=Stockholms+universitet HTTP/1.1[0m" 200 -
+07/15/2021 08:34:38 PM 185.236.42.83 - - [15/Jul/2021 20:34:38] "[37mGET /query?q=Stockholms+universitet HTTP/1.1[0m" 200 -
+07/15/2021 08:35:00 PM 185.236.42.83 - - [15/Jul/2021 20:35:00] "[37mGET /query?q=Ekonomi+och+mattematik HTTP/1.1[0m" 200 -
+07/15/2021 08:35:03 PM 185.236.42.83 - - [15/Jul/2021 20:35:03] "[37mGET /query?q=Ekonomi+och+mattematik HTTP/1.1[0m" 200 -
+07/15/2021 08:35:03 PM 185.236.42.83 - - [15/Jul/2021 20:35:03] "[37mGET /query?q=Ekonomi+och+mattematik HTTP/1.1[0m" 200 -
+07/15/2021 08:35:13 PM 185.236.42.83 - - [15/Jul/2021 20:35:13] "[37mGET /query?q=Mattematik+och+ekonomi HTTP/1.1[0m" 200 -
+07/15/2021 08:35:13 PM 185.236.42.83 - - [15/Jul/2021 20:35:13] "[37mGET /query?q=Mattematik+och+ekonomi HTTP/1.1[0m" 200 -
+07/16/2021 04:36:43 AM 141.98.10.149 - - [16/Jul/2021 04:36:43] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/16/2021 04:36:43 AM 141.98.10.149 - - [16/Jul/2021 04:36:43] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/16/2021 07:52:06 AM 130.237.17.75 - - [16/Jul/2021 07:52:06] "[37mGET /query?q=handels HTTP/1.1[0m" 200 -
+07/16/2021 07:52:12 AM 130.237.17.75 - - [16/Jul/2021 07:52:12] "[37mGET /program_data?q=HHS-34002&school=Handelshögskolan+i+Stockholm&program=Bachelor+of+Science+Program+in+Business+and+Economics HTTP/1.1[0m" 200 -
+07/16/2021 08:50:49 AM 193.32.164.25 - - [16/Jul/2021 08:50:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/16/2021 08:50:49 AM 193.32.164.25 - - [16/Jul/2021 08:50:49] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/16/2021 08:51:39 AM 193.32.164.25 - - [16/Jul/2021 08:51:39] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/16/2021 08:51:39 AM 193.32.164.25 - - [16/Jul/2021 08:51:39] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/16/2021 02:51:32 PM 74.120.14.40 - - [16/Jul/2021 14:51:32] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x10\x92¿Á\x8fk£l,à\x8d\x15\x8e\x88&\x90¢äP\x05bi×«c¦[\x88\x8eZ\x16\x04\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+07/16/2021 02:51:32 PM 74.120.14.40 - - [16/Jul/2021 14:51:32] "[35m[1m {  w¿Ák£l,à&¢äPbi×«c¦[Z  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+07/16/2021 02:51:33 PM 74.120.14.40 - - [16/Jul/2021 14:51:33] "[33mGET / HTTP/1.1[0m" 404 -
+07/16/2021 02:51:33 PM 74.120.14.40 - - [16/Jul/2021 14:51:33] "[33mGET / HTTP/1.1[0m" 404 -
+07/16/2021 03:37:53 PM 94.191.152.252 - - [16/Jul/2021 15:37:53] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+07/16/2021 03:37:55 PM 94.191.152.252 - - [16/Jul/2021 15:37:55] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+07/16/2021 03:38:08 PM 94.191.152.252 - - [16/Jul/2021 15:38:08] "[37mGET /query?q=läkarprogrammet HTTP/1.1[0m" 200 -
+07/16/2021 03:38:10 PM 94.191.152.252 - - [16/Jul/2021 15:38:10] "[37mGET /query?q=ekonomi HTTP/1.1[0m" 200 -
+07/16/2021 03:39:34 PM 94.191.152.252 - - [16/Jul/2021 15:39:34] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+07/19/2021 12:11:41 AM 162.142.125.128 - - [19/Jul/2021 00:11:41] "[33mGET / HTTP/1.1[0m" 404 -
+07/19/2021 04:49:59 PM 74.120.14.55 - - [19/Jul/2021 16:49:59] "[33mGET / HTTP/1.1[0m" 404 -
+07/19/2021 09:51:37 PM 89.248.165.49 - - [19/Jul/2021 21:51:37] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+07/19/2021 09:51:37 PM 89.248.165.49 - - [19/Jul/2021 21:51:37] "[35m[1m  +&à     Cookie: mstshash=hello[0m" HTTPStatus.BAD_REQUEST -
+07/20/2021 08:06:08 AM 185.202.2.147 - - [20/Jul/2021 08:06:08] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/20/2021 08:06:08 AM 185.202.2.147 - - [20/Jul/2021 08:06:08] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/20/2021 02:53:41 PM 83.253.53.166 - - [20/Jul/2021 14:53:41] "[37mGET /query?q=comhem HTTP/1.1[0m" 200 -
+07/20/2021 02:53:42 PM 83.253.53.166 - - [20/Jul/2021 14:53:42] "[37mGET /query?q=comhem HTTP/1.1[0m" 200 -
+07/20/2021 02:53:43 PM 83.253.53.166 - - [20/Jul/2021 14:53:43] "[37mGET /query?q=comhem HTTP/1.1[0m" 200 -
+07/22/2021 01:56:51 AM 167.248.133.53 - - [22/Jul/2021 01:56:51] "[33mGET / HTTP/1.1[0m" 404 -
+07/22/2021 11:33:26 AM 90.190.249.248 - - [22/Jul/2021 11:33:26] "[37mGET /query?q=Läkarprogrammet+Lund HTTP/1.1[0m" 200 -
+07/22/2021 11:33:29 AM 90.190.249.248 - - [22/Jul/2021 11:33:29] "[37mGET /program_data?q=LU-80510&school=Lunds+universitet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+07/22/2021 08:30:14 PM 89.248.165.49 - - [22/Jul/2021 20:30:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+07/22/2021 08:30:14 PM 89.248.165.49 - - [22/Jul/2021 20:30:14] "[35m[1m  +&à     Cookie: mstshash=hello[0m" HTTPStatus.BAD_REQUEST -
+07/23/2021 01:30:44 PM 185.202.2.147 - - [23/Jul/2021 13:30:44] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/23/2021 01:30:44 PM 185.202.2.147 - - [23/Jul/2021 13:30:44] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/23/2021 03:35:38 PM 74.120.14.54 - - [23/Jul/2021 15:35:38] "[33mGET / HTTP/1.1[0m" 404 -
+07/24/2021 04:23:28 PM 162.142.125.128 - - [24/Jul/2021 16:23:28] "[33mGET / HTTP/1.1[0m" 404 -
+07/24/2021 05:14:21 PM 89.248.165.52 - - [24/Jul/2021 17:14:21] code 400, message Bad request syntax ('\x04\x01\x00\x19h/F!\x00')
+07/24/2021 05:14:21 PM 89.248.165.52 - - [24/Jul/2021 17:14:21] "[35m[1m h/F! [0m" HTTPStatus.BAD_REQUEST -
+07/24/2021 05:15:12 PM 89.248.165.52 - - [24/Jul/2021 17:15:12] code 400, message Bad request syntax ('\x05\x01\x00')
+07/24/2021 05:15:12 PM 89.248.165.52 - - [24/Jul/2021 17:15:12] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+07/24/2021 05:16:17 PM 89.248.165.52 - - [24/Jul/2021 17:16:17] code 400, message Bad request syntax ('\x04\x01\x00\x19h/9¡\x00')
+07/24/2021 05:16:17 PM 89.248.165.52 - - [24/Jul/2021 17:16:17] "[35m[1m h/9¡ [0m" HTTPStatus.BAD_REQUEST -
+07/24/2021 05:17:18 PM 89.248.165.52 - - [24/Jul/2021 17:17:18] code 400, message Bad request syntax ('\x05\x01\x00')
+07/24/2021 05:17:18 PM 89.248.165.52 - - [24/Jul/2021 17:17:18] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+07/24/2021 05:17:18 PM 89.248.165.52 - - [24/Jul/2021 17:17:18] "[33mCONNECT hotmail-com.olc.protection.outlook.com:25 HTTP/1.1[0m" 404 -
+07/24/2021 06:10:35 PM 89.248.165.52 - - [24/Jul/2021 18:10:35] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00PUÎ')
+07/24/2021 06:10:35 PM 89.248.165.52 - - [24/Jul/2021 18:10:35] "[35m[1m PUÎ s [0m" HTTPStatus.BAD_REQUEST -
+07/24/2021 06:11:35 PM 89.248.165.52 - - [24/Jul/2021 18:11:35] code 400, message Bad request syntax ('\x05\x01\x00')
+07/24/2021 06:11:35 PM 89.248.165.52 - - [24/Jul/2021 18:11:35] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+07/24/2021 06:11:35 PM 89.248.165.52 - - [24/Jul/2021 18:11:35] "[33mCONNECT 85.206.160.115:80 HTTP/1.1[0m" 404 -
+07/26/2021 04:20:42 AM 162.142.125.37 - - [26/Jul/2021 04:20:42] "[33mGET / HTTP/1.1[0m" 404 -
+07/26/2021 12:18:53 PM 89.248.165.49 - - [26/Jul/2021 12:18:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+07/26/2021 12:18:53 PM 89.248.165.49 - - [26/Jul/2021 12:18:53] "[35m[1m  +&à     Cookie: mstshash=hello[0m" HTTPStatus.BAD_REQUEST -
+07/27/2021 07:57:26 AM 78.128.112.18 - - [27/Jul/2021 07:57:26] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/27/2021 07:57:26 AM 78.128.112.18 - - [27/Jul/2021 07:57:26] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/27/2021 07:19:52 PM 185.202.2.147 - - [27/Jul/2021 19:19:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+07/27/2021 07:19:52 PM 185.202.2.147 - - [27/Jul/2021 19:19:52] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+07/27/2021 09:38:05 PM 74.120.14.54 - - [27/Jul/2021 21:38:05] "[33mGET / HTTP/1.1[0m" 404 -
+07/28/2021 09:42:08 AM 161.189.134.11 - - [28/Jul/2021 09:42:08] code 400, message Bad request syntax ('~\x00\x02\x00\x00\x01\x88\x88\x88\x88\x88\x03¥-~')
+07/28/2021 09:42:08 AM 161.189.134.11 - - [28/Jul/2021 09:42:08] "[35m[1m~   ¥-~[0m" HTTPStatus.BAD_REQUEST -
+07/28/2021 10:00:09 AM 161.189.134.11 - - [28/Jul/2021 10:00:09] code 400, message Bad request syntax ('[\x00\x00\x00H\x00\x00\x00\x01\x10\x01\x00\x01\x04j\x00\x00\x01\x00\x00\x00\x00')
+07/28/2021 10:00:09 AM 161.189.134.11 - - [28/Jul/2021 10:00:09] "[35m[1m[   H    j      [0m" HTTPStatus.BAD_REQUEST -
+07/29/2021 02:34:14 PM 162.142.125.39 - - [29/Jul/2021 14:34:14] "[33mGET / HTTP/1.1[0m" 404 -
+07/30/2021 09:05:48 AM 81.235.160.184 - - [30/Jul/2021 09:05:48] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+07/30/2021 09:05:50 AM 81.235.160.184 - - [30/Jul/2021 09:05:50] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+07/30/2021 09:05:57 AM 81.235.160.184 - - [30/Jul/2021 09:05:57] "[37mGET /query?q=europahistoria HTTP/1.1[0m" 200 -
+07/30/2021 09:05:59 AM 81.235.160.184 - - [30/Jul/2021 09:05:59] "[37mGET /query?q=europahistoria HTTP/1.1[0m" 200 -
+07/30/2021 09:06:04 AM 81.235.160.184 - - [30/Jul/2021 09:06:04] "[37mGET /query?q=europeisk HTTP/1.1[0m" 200 -
+07/30/2021 09:06:08 AM 81.235.160.184 - - [30/Jul/2021 09:06:08] "[37mGET /query?q=europa HTTP/1.1[0m" 200 -
+07/30/2021 09:06:21 AM 81.235.160.184 - - [30/Jul/2021 09:06:21] "[37mGET /program_data?q=GU-1A76G&school=Göteborgs+universitet&program=Exekutivt+Magisterprogram+i+Europakunskap HTTP/1.1[0m" 200 -
+07/30/2021 09:06:28 AM 81.235.160.184 - - [30/Jul/2021 09:06:28] "[37mGET /program_data?q=SH-43376&school=Södertörns+högskola&program=Magisterprogram+i+Europarättsliga+studier HTTP/1.1[0m" 200 -
+07/30/2021 02:20:43 PM 106.75.64.59 - - [30/Jul/2021 14:20:43] code 400, message Bad request syntax ('{\x01\x00\x1613911111112À¨\x01\x01\x13\x90{')
+07/30/2021 02:20:43 PM 106.75.64.59 - - [30/Jul/2021 14:20:43] "[35m[1m{ 13911111112À¨{[0m" HTTPStatus.BAD_REQUEST -
+07/30/2021 02:20:43 PM 106.75.64.59 - - [30/Jul/2021 14:20:43] "[33mGET / HTTP/1.0[0m" 404 -
+07/30/2021 02:20:44 PM 117.50.110.69 - - [30/Jul/2021 14:20:44] "[33mGET / HTTP/1.1[0m" 404 -
+08/01/2021 12:49:06 AM 45.79.71.197 - - [01/Aug/2021 00:49:06] code 400, message Bad request syntax ('#ST')
+08/01/2021 12:49:06 AM 45.79.71.197 - - [01/Aug/2021 00:49:06] "[35m[1m#ST[0m" HTTPStatus.BAD_REQUEST -
+08/01/2021 12:49:08 AM 45.79.71.197 - - [01/Aug/2021 00:49:08] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+08/01/2021 12:49:08 AM 45.79.71.197 - - [01/Aug/2021 00:49:08] "[35m[1m          GetClassName        [0m" HTTPStatus.BAD_REQUEST -
+08/01/2021 12:49:10 AM 45.79.71.197 - - [01/Aug/2021 00:49:10] code 400, message Bad HTTP/0.9 request type ('\x00')
+08/01/2021 12:49:10 AM 45.79.71.197 - - [01/Aug/2021 00:49:10] "[35m[1m n    beio[0m" HTTPStatus.BAD_REQUEST -
+08/01/2021 12:49:11 AM 45.79.71.197 - - [01/Aug/2021 00:49:11] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
+08/01/2021 12:49:11 AM 45.79.71.197 - - [01/Aug/2021 00:49:11] "[35m[1m       [0m" HTTPStatus.BAD_REQUEST -
+08/01/2021 12:49:12 AM 45.79.71.197 - - [01/Aug/2021 00:49:12] "[33mGET / HTTP/1.0[0m" 404 -
+08/01/2021 03:25:29 AM 138.68.185.19 - - [01/Aug/2021 03:25:29] code 400, message Bad request syntax ('#ST')
+08/01/2021 03:25:29 AM 138.68.185.19 - - [01/Aug/2021 03:25:29] "[35m[1m#ST[0m" HTTPStatus.BAD_REQUEST -
+08/01/2021 03:25:31 AM 138.68.185.19 - - [01/Aug/2021 03:25:31] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+08/01/2021 03:25:31 AM 138.68.185.19 - - [01/Aug/2021 03:25:31] "[35m[1m          GetClassName        [0m" HTTPStatus.BAD_REQUEST -
+08/01/2021 03:25:32 AM 138.68.185.19 - - [01/Aug/2021 03:25:32] code 400, message Bad HTTP/0.9 request type ('\x00')
+08/01/2021 03:25:32 AM 138.68.185.19 - - [01/Aug/2021 03:25:32] "[35m[1m n    beio[0m" HTTPStatus.BAD_REQUEST -
+08/01/2021 03:25:34 AM 138.68.185.19 - - [01/Aug/2021 03:25:34] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
+08/01/2021 03:25:34 AM 138.68.185.19 - - [01/Aug/2021 03:25:34] "[35m[1m       [0m" HTTPStatus.BAD_REQUEST -
+08/01/2021 03:25:34 AM 138.68.185.19 - - [01/Aug/2021 03:25:34] "[33mGET / HTTP/1.0[0m" 404 -
+08/01/2021 06:38:20 AM 162.142.125.54 - - [01/Aug/2021 06:38:20] "[33mGET / HTTP/1.1[0m" 404 -
+08/03/2021 12:15:52 AM 45.93.201.126 - - [03/Aug/2021 00:15:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/03/2021 12:15:52 AM 45.93.201.126 - - [03/Aug/2021 00:15:52] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/03/2021 03:16:50 AM 45.93.201.126 - - [03/Aug/2021 03:16:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/03/2021 03:16:50 AM 45.93.201.126 - - [03/Aug/2021 03:16:50] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/03/2021 04:05:50 AM 185.202.2.36 - - [03/Aug/2021 04:05:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/03/2021 04:05:50 AM 185.202.2.36 - - [03/Aug/2021 04:05:50] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/03/2021 04:05:50 AM 185.202.2.36 - - [03/Aug/2021 04:05:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/03/2021 04:05:50 AM 185.202.2.36 - - [03/Aug/2021 04:05:50] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/03/2021 07:09:12 AM 162.142.125.128 - - [03/Aug/2021 07:09:12] "[33mGET / HTTP/1.1[0m" 404 -
+08/03/2021 01:19:52 PM 81.235.160.184 - - [03/Aug/2021 13:19:52] "[37mGET /query?q=industriell+ekonomi HTTP/1.1[0m" 200 -
+08/03/2021 01:20:07 PM 81.235.160.184 - - [03/Aug/2021 13:20:07] "[37mGET /program_data?q=HB-12103&school=Högskolan+i+Borås&program=Industriell+ekonomi+-+logistikingenjör HTTP/1.1[0m" 200 -
+08/03/2021 01:20:16 PM 81.235.160.184 - - [03/Aug/2021 13:20:16] "[37mGET /program_data?q=CTH-51000&school=Chalmers+tekniska+högskola&program=INDUSTRIELL+EKONOMI%2C+CIVILINGENJÖR HTTP/1.1[0m" 200 -
+08/03/2021 01:20:26 PM 81.235.160.184 - - [03/Aug/2021 13:20:26] "[37mGET /program_data?q=BTH-87027&school=Blekinge+tekniska+högskola&program=Civilingenjör+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+08/03/2021 01:20:30 PM 81.235.160.184 - - [03/Aug/2021 13:20:30] "[37mGET /program_data?q=KTH-32106&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+08/03/2021 01:20:56 PM 81.235.160.184 - - [03/Aug/2021 13:20:56] "[37mGET /program_data?q=ORU-59110&school=Örebro+universitet&program=Civilingenjör%2C+Industriell+ekonomi HTTP/1.1[0m" 200 -
+08/03/2021 01:21:09 PM 81.235.160.184 - - [03/Aug/2021 13:21:09] "[37mGET /program_data?q=UU-P1510&school=Uppsala+universitet&program=Civilingenjörsprogrammet+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+08/03/2021 01:21:14 PM 81.235.160.184 - - [03/Aug/2021 13:21:14] "[37mGET /program_data?q=BTH-87027&school=Blekinge+tekniska+högskola&program=Civilingenjör+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+08/03/2021 01:21:34 PM 81.235.160.184 - - [03/Aug/2021 13:21:34] "[37mGET /query?q=industriell+ekonomi HTTP/1.1[0m" 200 -
+08/03/2021 01:21:46 PM 81.235.160.184 - - [03/Aug/2021 13:21:46] "[37mGET /program_data?q=UU-P1510&school=Uppsala+universitet&program=Civilingenjörsprogrammet+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+08/03/2021 01:21:51 PM 81.235.160.184 - - [03/Aug/2021 13:21:51] "[37mGET /program_data?q=LIU-50101&school=Linköpings+universitet&program=Civilingenjör+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+08/03/2021 01:22:29 PM 81.235.160.184 - - [03/Aug/2021 13:22:29] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+08/03/2021 01:22:31 PM 81.235.160.184 - - [03/Aug/2021 13:22:31] "[37mGET /program_data?q=KI-41013&school=Karolinska+institutet&program=Tandläkarprogrammet HTTP/1.1[0m" 200 -
+08/03/2021 01:22:33 PM 81.235.160.184 - - [03/Aug/2021 13:22:33] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+08/03/2021 09:22:54 PM 89.248.165.49 - - [03/Aug/2021 21:22:54] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+08/03/2021 09:22:54 PM 89.248.165.49 - - [03/Aug/2021 21:22:54] "[35m[1m  +&à     Cookie: mstshash=hello[0m" HTTPStatus.BAD_REQUEST -
+08/03/2021 10:54:58 PM 74.120.14.40 - - [03/Aug/2021 22:54:58] "[33mGET / HTTP/1.1[0m" 404 -
+08/03/2021 10:57:53 PM 185.202.2.147 - - [03/Aug/2021 22:57:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/03/2021 10:57:53 PM 185.202.2.147 - - [03/Aug/2021 22:57:53] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/03/2021 11:16:06 PM 185.202.2.32 - - [03/Aug/2021 23:16:06] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/03/2021 11:16:06 PM 185.202.2.32 - - [03/Aug/2021 23:16:06] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/03/2021 11:16:06 PM 185.202.2.32 - - [03/Aug/2021 23:16:06] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/03/2021 11:16:06 PM 185.202.2.32 - - [03/Aug/2021 23:16:06] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/05/2021 01:04:21 PM 89.248.165.52 - - [05/Aug/2021 13:04:21] code 400, message Bad request syntax ('\x04\x01\x00\x19h/F!\x00')
+08/05/2021 01:04:21 PM 89.248.165.52 - - [05/Aug/2021 13:04:21] "[35m[1m h/F! [0m" HTTPStatus.BAD_REQUEST -
+08/05/2021 01:05:21 PM 89.248.165.52 - - [05/Aug/2021 13:05:21] code 400, message Bad request syntax ('\x05\x01\x00')
+08/05/2021 01:05:21 PM 89.248.165.52 - - [05/Aug/2021 13:05:21] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+08/05/2021 01:05:21 PM 89.248.165.52 - - [05/Aug/2021 13:05:21] "[33mCONNECT hotmail-com.olc.protection.outlook.com:25 HTTP/1.1[0m" 404 -
+08/05/2021 02:04:20 PM 89.248.165.52 - - [05/Aug/2021 14:04:20] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00PUÎ')
+08/05/2021 02:04:20 PM 89.248.165.52 - - [05/Aug/2021 14:04:20] "[35m[1m PUÎ s [0m" HTTPStatus.BAD_REQUEST -
+08/05/2021 02:05:20 PM 89.248.165.52 - - [05/Aug/2021 14:05:20] code 400, message Bad request syntax ('\x05\x01\x00')
+08/05/2021 02:05:20 PM 89.248.165.52 - - [05/Aug/2021 14:05:20] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+08/05/2021 02:05:20 PM 89.248.165.52 - - [05/Aug/2021 14:05:20] "[33mCONNECT 85.206.160.115:80 HTTP/1.1[0m" 404 -
+08/05/2021 08:39:37 PM 74.120.14.54 - - [05/Aug/2021 20:39:37] "[33mGET / HTTP/1.1[0m" 404 -
+08/07/2021 10:59:54 PM 162.142.125.54 - - [07/Aug/2021 22:59:54] "[33mGET / HTTP/1.1[0m" 404 -
+08/09/2021 04:27:06 AM 162.142.125.128 - - [09/Aug/2021 04:27:06] "[33mGET / HTTP/1.1[0m" 404 -
+08/09/2021 07:05:24 AM 185.191.34.238 - - [09/Aug/2021 07:05:24] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/09/2021 07:05:24 AM 185.191.34.238 - - [09/Aug/2021 07:05:24] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/09/2021 09:55:41 AM 185.191.34.238 - - [09/Aug/2021 09:55:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/09/2021 09:55:41 AM 185.191.34.238 - - [09/Aug/2021 09:55:41] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/09/2021 11:40:01 PM 167.248.133.56 - - [09/Aug/2021 23:40:01] "[33mGET / HTTP/1.1[0m" 404 -
+08/10/2021 06:31:13 PM 54.163.102.20 - - [10/Aug/2021 18:31:13] "[33mGET / HTTP/1.1[0m" 404 -
+08/11/2021 07:44:38 AM 194.61.25.4 - - [11/Aug/2021 07:44:38] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/11/2021 07:44:38 AM 194.61.25.4 - - [11/Aug/2021 07:44:38] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/12/2021 12:37:35 AM 167.248.133.116 - - [12/Aug/2021 00:37:35] "[33mGET / HTTP/1.1[0m" 404 -
+08/14/2021 04:11:16 AM 162.142.125.58 - - [14/Aug/2021 04:11:16] "[33mGET / HTTP/1.1[0m" 404 -
+08/14/2021 01:28:41 PM 91.241.19.187 - - [14/Aug/2021 13:28:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/14/2021 01:28:41 PM 91.241.19.187 - - [14/Aug/2021 13:28:41] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/14/2021 03:12:52 PM 43.130.11.228 - - [14/Aug/2021 15:12:52] code 400, message Bad request version ('\x00/\x00')
+08/14/2021 03:12:52 PM 43.130.11.228 - - [14/Aug/2021 15:12:52] "[35m[1m  i  eU§ärandom1random2random3random4   / [0m" HTTPStatus.BAD_REQUEST -
+08/14/2021 03:12:52 PM 43.130.11.228 - - [14/Aug/2021 15:12:52] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+08/14/2021 03:12:52 PM 43.130.11.228 - - [14/Aug/2021 15:12:52] "[35m[1m  S  O ?G×÷º,îê²`~ó ý{¹ÕÈwæÄÛ<=Ûoïn  (   [0m" HTTPStatus.BAD_REQUEST -
+08/14/2021 03:12:54 PM 43.130.11.228 - - [14/Aug/2021 15:12:54] code 400, message Bad request syntax ('\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03')
+08/14/2021 03:12:54 PM 43.130.11.228 - - [14/Aug/2021 15:12:54] "[35m[1m         versionbind   [0m" HTTPStatus.BAD_REQUEST -
+08/14/2021 03:12:55 PM 43.130.11.228 - - [14/Aug/2021 15:12:55] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+08/14/2021 03:12:55 PM 43.130.11.228 - - [14/Aug/2021 15:12:55] "[35m[1mrþ          |                    [0m" HTTPStatus.BAD_REQUEST -
+08/14/2021 03:12:56 PM 43.130.11.228 - - [14/Aug/2021 15:12:56] "[33mGET / HTTP/1.0[0m" 404 -
+08/14/2021 03:12:59 PM 211.95.50.167 - - [14/Aug/2021 15:12:59] "[33mHEAD / HTTP/1.1[0m" 404 -
+08/14/2021 03:13:00 PM 211.95.50.167 - - [14/Aug/2021 15:13:00] "[33mGET / HTTP/1.1[0m" 404 -
+08/14/2021 03:13:04 PM 205.185.122.184 - - [14/Aug/2021 15:13:04] "[33mGET / HTTP/1.1[0m" 404 -
+08/14/2021 03:13:07 PM 211.95.50.167 - - [14/Aug/2021 15:13:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+08/14/2021 04:13:11 PM 123.58.212.83 - - [14/Aug/2021 16:13:11] "[33mGET / HTTP/1.1[0m" 404 -
+08/14/2021 04:13:11 PM 123.58.212.83 - - [14/Aug/2021 16:13:11] "[33mGET / HTTP/1.1[0m" 404 -
+08/14/2021 04:13:16 PM 123.58.212.83 - - [14/Aug/2021 16:13:16] "[33mGET / HTTP/1.1[0m" 404 -
+08/14/2021 04:13:16 PM 123.58.212.83 - - [14/Aug/2021 16:13:16] "[33mGET / HTTP/1.1[0m" 404 -
+08/14/2021 04:13:17 PM 123.58.212.83 - - [14/Aug/2021 16:13:17] "[33mGET / HTTP/1.1[0m" 404 -
+08/14/2021 04:13:21 PM 123.58.212.83 - - [14/Aug/2021 16:13:21] "[33mGET /h5/ HTTP/1.1[0m" 404 -
+08/14/2021 04:13:21 PM 123.58.212.83 - - [14/Aug/2021 16:13:21] "[33mGET /xy/ HTTP/1.1[0m" 404 -
+08/14/2021 04:13:22 PM 123.58.212.83 - - [14/Aug/2021 16:13:22] "[33mGET /m/ HTTP/1.1[0m" 404 -
+08/14/2021 04:13:22 PM 123.58.212.83 - - [14/Aug/2021 16:13:22] "[33mGET /xx.js HTTP/1.1[0m" 404 -
+08/14/2021 04:13:23 PM 123.58.212.83 - - [14/Aug/2021 16:13:23] "[33mGET /homes/ HTTP/1.1[0m" 404 -
+08/14/2021 04:13:27 PM 123.58.212.83 - - [14/Aug/2021 16:13:27] "[33mGET /loan HTTP/1.1[0m" 404 -
+08/14/2021 04:13:28 PM 123.58.212.83 - - [14/Aug/2021 16:13:28] "[33mGET /im/h5/ HTTP/1.1[0m" 404 -
+08/14/2021 04:13:32 PM 123.58.212.83 - - [14/Aug/2021 16:13:32] "[33mGET /user/Login HTTP/1.1[0m" 404 -
+08/14/2021 04:13:32 PM 123.58.212.83 - - [14/Aug/2021 16:13:32] "[33mGET /js/home.js HTTP/1.1[0m" 404 -
+08/14/2021 04:13:33 PM 123.58.212.83 - - [14/Aug/2021 16:13:33] "[33mGET /getLocale HTTP/1.1[0m" 404 -
+08/14/2021 04:13:33 PM 123.58.212.83 - - [14/Aug/2021 16:13:33] "[33mGET /Css/Hm.css HTTP/1.1[0m" 404 -
+08/14/2021 04:13:33 PM 123.58.212.83 - - [14/Aug/2021 16:13:33] "[33mGET /js/json.js HTTP/1.1[0m" 404 -
+08/14/2021 04:13:33 PM 123.58.212.83 - - [14/Aug/2021 16:13:33] "[33mGET /api/linkPF HTTP/1.1[0m" 404 -
+08/14/2021 04:13:33 PM 123.58.212.83 - - [14/Aug/2021 16:13:33] "[33mGET /admin/index HTTP/1.1[0m" 404 -
+08/14/2021 04:13:34 PM 123.58.212.83 - - [14/Aug/2021 16:13:34] "[33mGET /mtja.html HTTP/1.1[0m" 404 -
+08/14/2021 04:13:38 PM 123.58.212.83 - - [14/Aug/2021 16:13:38] "[33mGET /proxy/games HTTP/1.1[0m" 404 -
+08/14/2021 04:13:38 PM 123.58.212.83 - - [14/Aug/2021 16:13:38] "[33mGET /js/common.js HTTP/1.1[0m" 404 -
+08/14/2021 04:13:39 PM 123.58.212.83 - - [14/Aug/2021 16:13:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+08/14/2021 04:13:42 PM 123.58.212.83 - - [14/Aug/2021 16:13:42] "[33mGET /fePublicInfo/ HTTP/1.1[0m" 404 -
+08/14/2021 04:13:49 PM 123.58.212.83 - - [14/Aug/2021 16:13:49] "[33mGET /js/tvConfig.js HTTP/1.1[0m" 404 -
+08/14/2021 04:13:50 PM 123.58.212.83 - - [14/Aug/2021 16:13:50] "[33mGET /api/contactWay HTTP/1.1[0m" 404 -
+08/14/2021 04:13:53 PM 123.58.212.83 - - [14/Aug/2021 16:13:53] "[33mGET /proxy/settings HTTP/1.1[0m" 404 -
+08/14/2021 04:13:53 PM 123.58.212.83 - - [14/Aug/2021 16:13:53] "[33mGET /app/js/base.js HTTP/1.1[0m" 404 -
+08/14/2021 04:13:54 PM 123.58.212.83 - - [14/Aug/2021 16:13:54] "[33mGET /apis/api/index HTTP/1.1[0m" 404 -
+08/14/2021 04:13:54 PM 123.58.212.83 - - [14/Aug/2021 16:13:54] "[33mGET /files/pub_rem.js HTTP/1.1[0m" 404 -
+08/14/2021 04:13:59 PM 123.58.212.83 - - [14/Aug/2021 16:13:59] "[33mGET /script/public.js HTTP/1.1[0m" 404 -
+08/14/2021 04:13:59 PM 123.58.212.83 - - [14/Aug/2021 16:13:59] "[33mGET /static/config.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:00 PM 123.58.212.83 - - [14/Aug/2021 16:14:00] "[33mGET /Home/Bind/binding HTTP/1.1[0m" 404 -
+08/14/2021 04:14:05 PM 123.58.212.83 - - [14/Aug/2021 16:14:05] "[33mGET /JS/loginstatus.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:05 PM 123.58.212.83 - - [14/Aug/2021 16:14:05] "[33mGET /mytio/config/base HTTP/1.1[0m" 404 -
+08/14/2021 04:14:08 PM 123.58.212.83 - - [14/Aug/2021 16:14:08] "[33mGET /manager/js/left.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:08 PM 123.58.212.83 - - [14/Aug/2021 16:14:08] "[33mGET /Home/Get/getJnd28 HTTP/1.1[0m" 404 -
+08/14/2021 04:14:08 PM 123.58.212.83 - - [14/Aug/2021 16:14:08] "[33mGET /views/home/home.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:08 PM 123.58.212.83 - - [14/Aug/2021 16:14:08] "[33mGET /home/GetQrCodeInfo HTTP/1.1[0m" 404 -
+08/14/2021 04:14:09 PM 123.58.212.83 - - [14/Aug/2021 16:14:09] "[33mGET /api/v1/member/kefu HTTP/1.1[0m" 404 -
+08/14/2021 04:14:09 PM 123.58.212.83 - - [14/Aug/2021 16:14:09] "[33mGET /Home/GetInitSource HTTP/1.1[0m" 404 -
+08/14/2021 04:14:09 PM 123.58.212.83 - - [14/Aug/2021 16:14:09] "[33mPOST /wap/banner/details HTTP/1.1[0m" 404 -
+08/14/2021 04:14:10 PM 123.58.212.83 - - [14/Aug/2021 16:14:10] "[33mGET /common/download.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:11 PM 123.58.212.83 - - [14/Aug/2021 16:14:11] "[33mGET /room/script/face.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:12 PM 123.58.212.83 - - [14/Aug/2021 16:14:12] "[33mGET /index/index/andiro HTTP/1.1[0m" 404 -
+08/14/2021 04:14:12 PM 123.58.212.83 - - [14/Aug/2021 16:14:12] "[33mGET /api/index/loansList HTTP/1.1[0m" 404 -
+08/14/2021 04:14:13 PM 123.58.212.83 - - [14/Aug/2021 16:14:13] "[33mGET /api/site/getInfo.do HTTP/1.1[0m" 404 -
+08/14/2021 04:14:16 PM 123.58.212.83 - - [14/Aug/2021 16:14:16] "[33mGET /api/index/webconfig HTTP/1.1[0m" 404 -
+08/14/2021 04:14:18 PM 123.58.212.83 - - [14/Aug/2021 16:14:18] "[33mGET /Promotions/list.mvc HTTP/1.1[0m" 404 -
+08/14/2021 04:14:19 PM 123.58.212.83 - - [14/Aug/2021 16:14:19] "[33mGET /xy/image/jiantou.png HTTP/1.1[0m" 404 -
+08/14/2021 04:14:20 PM 123.58.212.83 - - [14/Aug/2021 16:14:20] "[33mGET /Public/js/common.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:21 PM 123.58.212.83 - - [14/Aug/2021 16:14:21] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+08/14/2021 04:14:25 PM 123.58.212.83 - - [14/Aug/2021 16:14:25] "[33mGET /public/css/style.css HTTP/1.1[0m" 404 -
+08/14/2021 04:14:25 PM 123.58.212.83 - - [14/Aug/2021 16:14:25] "[33mGET /data/json/config.json HTTP/1.1[0m" 404 -
+08/14/2021 04:14:26 PM 123.58.212.83 - - [14/Aug/2021 16:14:26] "[33mGET /static/diff_worker.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:30 PM 123.58.212.83 - - [14/Aug/2021 16:14:30] "[33mGET /api/user/ismustmobile HTTP/1.1[0m" 404 -
+08/14/2021 04:14:31 PM 123.58.212.83 - - [14/Aug/2021 16:14:31] "[33mGET /template/css/login.css HTTP/1.1[0m" 404 -
+08/14/2021 04:14:34 PM 123.58.212.83 - - [14/Aug/2021 16:14:34] "[33mGET /Public/home/js/check.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:34 PM 123.58.212.83 - - [14/Aug/2021 16:14:34] "[33mGET /admin_user/m_tixian.php HTTP/1.1[0m" 404 -
+08/14/2021 04:14:35 PM 123.58.212.83 - - [14/Aug/2021 16:14:35] "[33mGET /xianyu/index/setp1.html HTTP/1.1[0m" 404 -
+08/14/2021 04:14:37 PM 123.58.212.83 - - [14/Aug/2021 16:14:37] "[33mGET /Public/css/errorCss.css HTTP/1.1[0m" 404 -
+08/14/2021 04:14:37 PM 123.58.212.83 - - [14/Aug/2021 16:14:37] "[33mGET /static/home/js/rooms.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:38 PM 123.58.212.83 - - [14/Aug/2021 16:14:38] "[33mGET /static/wap/js/common.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:40 PM 123.58.212.83 - - [14/Aug/2021 16:14:40] "[33mGET /static/mobile/user.html HTTP/1.1[0m" 404 -
+08/14/2021 04:14:40 PM 123.58.212.83 - - [14/Aug/2021 16:14:40] "[33mGET /login/img/nyyh/game.css HTTP/1.1[0m" 404 -
+08/14/2021 04:14:43 PM 123.58.212.83 - - [14/Aug/2021 16:14:43] "[33mGET /static/data/gamedatas.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:43 PM 123.58.212.83 - - [14/Aug/2021 16:14:43] "[33mGET /static/wap/css/index.css HTTP/1.1[0m" 404 -
+08/14/2021 04:14:47 PM 123.58.212.83 - - [14/Aug/2021 16:14:47] "[33mGET /Public/home/js/fukuang.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:50 PM 123.58.212.83 - - [14/Aug/2021 16:14:50] "[33mGET /Template/Mobile/js/main.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:54 PM 123.58.212.83 - - [14/Aug/2021 16:14:54] "[33mGET /public/h5static/js/main.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:57 PM 123.58.212.83 - - [14/Aug/2021 16:14:57] "[33mGET /resources/css/headernav.css HTTP/1.1[0m" 404 -
+08/14/2021 04:14:58 PM 123.58.212.83 - - [14/Aug/2021 16:14:58] "[33mGET /home/login/login_index.html HTTP/1.1[0m" 404 -
+08/14/2021 04:14:58 PM 123.58.212.83 - - [14/Aug/2021 16:14:58] "[33mGET /Templates/user/js/global.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:59 PM 123.58.212.83 - - [14/Aug/2021 16:14:59] "[33mGET /static/admincp/js/common.js HTTP/1.1[0m" 404 -
+08/14/2021 04:14:59 PM 123.58.212.83 - - [14/Aug/2021 16:14:59] "[33mGET /index.php/Wap/Api/getBanner HTTP/1.1[0m" 404 -
+08/14/2021 04:15:02 PM 123.58.212.83 - - [14/Aug/2021 16:15:02] "[33mGET /Public/uploads/web/step1.png HTTP/1.1[0m" 404 -
+08/14/2021 04:15:02 PM 123.58.212.83 - - [14/Aug/2021 16:15:02] "[33mGET /mobile/v3/appSuperDownload.do HTTP/1.1[0m" 404 -
+08/14/2021 04:15:03 PM 123.58.212.83 - - [14/Aug/2021 16:15:03] "[33mPOST /api/system/system/config/get HTTP/1.1[0m" 404 -
+08/14/2021 04:15:03 PM 123.58.212.83 - - [14/Aug/2021 16:15:03] "[33mGET /common/member/js/user.util.js HTTP/1.1[0m" 404 -
+08/14/2021 04:15:03 PM 123.58.212.83 - - [14/Aug/2021 16:15:03] "[33mGET /static/home/css2/login--1.css HTTP/1.1[0m" 404 -
+08/14/2021 04:15:03 PM 123.58.212.83 - - [14/Aug/2021 16:15:03] "[33mGET /api/web/user/getIndexData.php HTTP/1.1[0m" 404 -
+08/14/2021 04:15:03 PM 123.58.212.83 - - [14/Aug/2021 16:15:03] "[33mGET /template/920ka/js/woodyapp.js HTTP/1.1[0m" 404 -
+08/14/2021 04:15:04 PM 123.58.212.83 - - [14/Aug/2021 16:15:04] "[33mGET /getConfig/getArticle.do?code=1 HTTP/1.1[0m" 404 -
+08/14/2021 04:15:05 PM 123.58.212.83 - - [14/Aug/2021 16:15:05] "[33mGET /ws/index/getTheLotteryInitList HTTP/1.1[0m" 404 -
+08/14/2021 04:15:09 PM 123.58.212.83 - - [14/Aug/2021 16:15:09] "[33mGET /public/appapi/images/error.jpg HTTP/1.1[0m" 404 -
+08/14/2021 04:15:09 PM 123.58.212.83 - - [14/Aug/2021 16:15:09] "[33mGET /assets/room/css/room_mobile.css HTTP/1.1[0m" 404 -
+08/14/2021 04:15:09 PM 123.58.212.83 - - [14/Aug/2021 16:15:09] "[33mGET /getConfig/getArticle.do?code=19 HTTP/1.1[0m" 404 -
+08/14/2021 04:15:09 PM 123.58.212.83 - - [14/Aug/2021 16:15:09] "[33mGET /api/mobile/checkStrategyHistory HTTP/1.1[0m" 404 -
+08/14/2021 04:15:15 PM 123.58.212.83 - - [14/Aug/2021 16:15:15] "[33mGET /admin/webadmin.php?mod=do&act=login HTTP/1.1[0m" 404 -
+08/14/2021 04:15:15 PM 123.58.212.83 - - [14/Aug/2021 16:15:15] "[33mGET /assets/extension/market/css/mt4.css HTTP/1.1[0m" 404 -
+08/14/2021 04:15:20 PM 123.58.212.83 - - [14/Aug/2021 16:15:20] "[33mGET /index.php/Wap/Api/getSystemNotice?id=1 HTTP/1.1[0m" 404 -
+08/14/2021 04:15:20 PM 123.58.212.83 - - [14/Aug/2021 16:15:20] "[33mGET /api/stock/getSingleStock.do?code=002405 HTTP/1.1[0m" 404 -
+08/14/2021 04:15:25 PM 123.58.212.83 - - [14/Aug/2021 16:15:25] "[33mGET /market/getStockBaseInfo?stockCodeInternal=2658 HTTP/1.1[0m" 404 -
+08/14/2021 04:15:26 PM 123.58.212.83 - - [14/Aug/2021 16:15:26] "[33mGET /static/local/img/userCenter/hourlyPrivilege.svg HTTP/1.1[0m" 404 -
+08/14/2021 04:15:26 PM 123.58.212.83 - - [14/Aug/2021 16:15:26] "[33mGET /infe/rest/fig/advertise/common.json?mobile_open=1 HTTP/1.1[0m" 404 -
+08/14/2021 04:15:26 PM 123.58.212.83 - - [14/Aug/2021 16:15:26] "[33mGET /base/exchange_article/index/classid/1/id/1 HTTP/1.1[0m" 404 -
+08/14/2021 04:15:26 PM 123.58.212.83 - - [14/Aug/2021 16:15:26] "[33mGET /json/configs/permanent/permanent-lottery-config-list.json HTTP/1.1[0m" 404 -
+08/14/2021 04:15:28 PM 123.58.212.83 - - [14/Aug/2021 16:15:28] "[33mGET /getConfig/listPopFrame.do?code=1&position=index&_=1601489645097 HTTP/1.1[0m" 404 -
+08/14/2021 04:15:29 PM 123.58.212.83 - - [14/Aug/2021 16:15:29] "[33mGET /api/product/topRank?token=null&uid=null&lang=null&direct=1&type=1 HTTP/1.1[0m" 404 -
+08/14/2021 04:15:31 PM 123.58.212.83 - - [14/Aug/2021 16:15:31] "[33mGET /kkrps/im_group/show_members HTTP/1.1[0m" 404 -
+08/14/2021 04:15:33 PM 123.58.212.83 - - [14/Aug/2021 16:15:33] "[33mGET /api/config-init HTTP/1.1[0m" 404 -
+08/14/2021 04:15:35 PM 123.58.212.83 - - [14/Aug/2021 16:15:35] "[33mGET /friendGroup/list HTTP/1.1[0m" 404 -
+08/14/2021 04:15:44 PM 123.58.212.83 - - [14/Aug/2021 16:15:44] code 400, message Bad request version ("I5Ù_É¾a\x18Í\x10å\x87\x9bàÆîCýÇ¬@Çò\x88\x89çYè¢¸.x\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+08/14/2021 04:15:44 PM 123.58.212.83 - - [14/Aug/2021 16:15:44] "[35m[1m  üi¥bØw¬9«Ü¬E<t¬3BG31üÓfï¼ I5Ù_É¾aÍåàÆîCýÇ¬@ÇòçYè¢¸.x VÀ,À0À+À/Ì©Ì¨  ÌªÀ¯À­À®À¬À$À(À#À'À[0m" HTTPStatus.BAD_REQUEST -
+08/14/2021 07:15:38 PM 167.248.133.113 - - [14/Aug/2021 19:15:38] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x91F\x7fMyrÖ\x95\x99\x9aüßº\x0f¿=\x1aùõ]\x06df\x19Èþ7¸è³\x00Ü\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+08/14/2021 07:15:38 PM 167.248.133.113 - - [14/Aug/2021 19:15:38] "[35m[1m {  wFMyrÖüßº¿=ùõ]dfÈþ7¸è³ Ü  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+08/14/2021 07:15:40 PM 167.248.133.113 - - [14/Aug/2021 19:15:40] "[33mGET / HTTP/1.1[0m" 404 -
+08/14/2021 07:15:40 PM 167.248.133.113 - - [14/Aug/2021 19:15:40] "[33mGET / HTTP/1.1[0m" 404 -
+08/15/2021 05:09:54 PM 162.142.125.128 - - [15/Aug/2021 17:09:54] "[33mGET / HTTP/1.1[0m" 404 -
+08/16/2021 12:02:40 AM 81.235.160.184 - - [16/Aug/2021 00:02:40] "[37mGET /query?q=Läkarprogrammet+ HTTP/1.1[0m" 200 -
+08/16/2021 12:03:16 AM 81.235.160.184 - - [16/Aug/2021 00:03:16] "[37mGET /query?q=teknisk+fysik+ HTTP/1.1[0m" 200 -
+08/16/2021 12:04:47 AM 81.235.160.184 - - [16/Aug/2021 00:04:47] "[37mGET /query?q=Industriell+ekonomi HTTP/1.1[0m" 200 -
+08/16/2021 12:05:09 AM 81.235.160.184 - - [16/Aug/2021 00:05:09] "[37mGET /query?q=Industriell+ekonomi+civilingenjör+ HTTP/1.1[0m" 200 -
+08/16/2021 01:34:19 AM 81.235.160.184 - - [16/Aug/2021 01:34:19] "[37mGET /query?q=Teknisk+matematik HTTP/1.1[0m" 200 -
+08/16/2021 01:34:23 AM 81.235.160.184 - - [16/Aug/2021 01:34:23] "[37mGET /program_data?q=KTH-32116&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+teknisk+matematik HTTP/1.1[0m" 200 -
+08/16/2021 03:35:55 PM 74.120.14.113 - - [16/Aug/2021 15:35:55] "[33mGET / HTTP/1.1[0m" 404 -
+08/17/2021 07:25:48 AM 89.248.165.52 - - [17/Aug/2021 07:25:48] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00\x19^d´')
+08/17/2021 07:25:48 AM 89.248.165.52 - - [17/Aug/2021 07:25:48] "[35m[1m ^d´ [0m" HTTPStatus.BAD_REQUEST -
+08/17/2021 07:26:48 AM 89.248.165.52 - - [17/Aug/2021 07:26:48] code 400, message Bad request syntax ('\x05\x01\x00')
+08/17/2021 07:26:48 AM 89.248.165.52 - - [17/Aug/2021 07:26:48] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+08/17/2021 07:26:48 AM 89.248.165.52 - - [17/Aug/2021 07:26:48] "[33mCONNECT mxs.mail.ru:25 HTTP/1.1[0m" 404 -
+08/17/2021 08:13:50 AM 89.248.165.52 - - [17/Aug/2021 08:13:50] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00PUÎ')
+08/17/2021 08:13:50 AM 89.248.165.52 - - [17/Aug/2021 08:13:50] "[35m[1m PUÎ s [0m" HTTPStatus.BAD_REQUEST -
+08/17/2021 08:14:50 AM 89.248.165.52 - - [17/Aug/2021 08:14:50] code 400, message Bad request syntax ('\x05\x01\x00')
+08/17/2021 08:14:50 AM 89.248.165.52 - - [17/Aug/2021 08:14:50] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+08/17/2021 08:14:50 AM 89.248.165.52 - - [17/Aug/2021 08:14:50] "[33mCONNECT 85.206.160.115:80 HTTP/1.1[0m" 404 -
+08/17/2021 10:50:41 PM 81.235.160.184 - - [17/Aug/2021 22:50:41] "[37mGET /query?q=Lund+indu HTTP/1.1[0m" 200 -
+08/17/2021 10:50:42 PM 81.235.160.184 - - [17/Aug/2021 22:50:42] "[37mGET /program_data?q=LU-80140&school=Lunds+universitet&program=Civilingenjörsutbildning+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+08/17/2021 11:28:23 PM 185.220.101.9 - - [17/Aug/2021 23:28:23] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+08/17/2021 11:28:23 PM 185.220.101.9 - - [17/Aug/2021 23:28:23] "[35m[1m          GetClassName        [0m" HTTPStatus.BAD_REQUEST -
+08/17/2021 11:28:25 PM 185.220.101.17 - - [17/Aug/2021 23:28:25] "[33mGET / HTTP/1.1[0m" 404 -
+08/17/2021 11:28:27 PM 23.129.64.145 - - [17/Aug/2021 23:28:27] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+08/17/2021 11:28:27 PM 23.129.64.145 - - [17/Aug/2021 23:28:27] "[35m[1m          GetClassName        [0m" HTTPStatus.BAD_REQUEST -
+08/17/2021 11:28:30 PM 23.129.64.143 - - [17/Aug/2021 23:28:30] "[33mGET / HTTP/1.1[0m" 404 -
