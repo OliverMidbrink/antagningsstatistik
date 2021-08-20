@@ -1,3 +1,4 @@
-"scripts": {
-    "start": "bash deploy.sh",
-  },
+{"scripts": {
+    "start": "bash deploy.sh"
+  }
+}
