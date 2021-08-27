@@ -2,6 +2,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import json
 import os.path
+import os
 import logging
 from urllib.parse import urlencode
 from flask import Flask, request
@@ -9,6 +10,7 @@ from flask_restful import Resource, Api
 from flask_cors import CORS
 import requests
 import datetime
+from datetime import date
 import time
 import random
 
@@ -24,16 +26,42 @@ level=logging.INFO, handlers=[logging.FileHandler("events.log"), logging.StreamH
 # the data in the program_data folder. Filename will be basically be the url path to the original data from 
 # antagningspoäng.se. Events will be logged in events.log
 def get_program_data(kurskod_ht, school, program):
+    current_year = datetime.datetime.now().year
+
     # Load data if already exists
     file_name = "./program_data/" + kurskod_ht + ".json"
 
     if os.path.exists(file_name):  
+        data_is_outdated = False
+
         with open(file_name, "r") as file:
             program_data_json = json.load(file)
             print("Reading from file")
-            return program_data_json
 
-    current_year = datetime.datetime.now().year
+            # Try getting the latest data and compare to the current date
+            try:
+                latest_year_HT_in_local_data = program_data_json["HT"][0][0]
+                if date(current_year, 8, 5) > date(latest_year_HT_in_local_data, 8, 5):
+                    # New data is out (given that the education program still exists)
+                    data_is_outdated = True
+
+            except:
+                print("Latest HT not found")
+
+            try:
+                latest_year_VT_in_local_data = program_data_json["VT"][0][0]
+                if date(current_year, 12, 30) > date(latest_year_HT_in_local_data, 12, 30):
+                    # New data is out (given that the education program still exists)
+                    data_is_outdated = True
+            except:
+                print("Latest HT not found")
+
+            if not data_is_outdated:
+                return program_data_json
+        
+        if data_is_outdated:
+            os.rename(file_name, './archived_program_data/' + kurskod_ht + '.json')
+
     kurskod_vt = -1
 
     # Search for VT kurskod
@@ -61,12 +89,14 @@ def get_program_data(kurskod_ht, school, program):
 
 
     # Some schools reuse course id for different time periods. Like use for one course, then after some years use the same code for another course
+    # This can cause confusing data results if not handled properly
     earliest_year_read_successfully = current_year
     should_break = False
 
     program_data = {"VT": [], "HT": [], "comment":""}
     kurskoder = {"HT": kurskod_ht, "VT": kurskod_vt}
 
+    # Add comments here for notes to the user about a certain education
     if kurskod_ht == "HHS-34002" or kurskod_ht == 'HHS-34004':
         program_data["comment"] = "Tänk på att handelshögskolan ej räknar med meritpoäng! Lägg därför inte till din meritpoäng i detta verktyg."
 
@@ -75,7 +105,7 @@ def get_program_data(kurskod_ht, school, program):
             if should_break or (semester == "VT" and kurskod_vt == -1):
                 continue
             
-            # Wait to be kind to the data server
+            # Wait a moment before reading so as to not spam the data server
             time.sleep(random.random() / 8)
 
 
@@ -99,7 +129,7 @@ def get_program_data(kurskod_ht, school, program):
 
             semester_data = response.json()["aaData"]
 
-            # IF three years without use of this coursecode has gone by, stop reading for more data
+            # IF three years without use of this coursecode has gone by, stop reading for more data for efficiency
             if earliest_year_read_successfully - year > 2:
                 print("Empty years, aborting")
                 should_break = True
