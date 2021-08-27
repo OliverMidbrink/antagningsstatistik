@@ -60,6 +60,11 @@ def get_program_data(kurskod_ht, school, program):
                 return program_data_json
         
         if data_is_outdated:
+            try:
+                # Create target Directory
+                os.mkdir("./archived_program_data/")
+            except FileExistsError:
+                pass
             os.rename(file_name, './archived_program_data/' + kurskod_ht + '.json')
 
     kurskod_vt = -1
