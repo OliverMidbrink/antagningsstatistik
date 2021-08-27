@@ -3172,3 +3172,60 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 08/17/2021 11:28:27 PM 23.129.64.145 - - [17/Aug/2021 23:28:27] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
 08/17/2021 11:28:27 PM 23.129.64.145 - - [17/Aug/2021 23:28:27] "[35m[1m          GetClassName        [0m" HTTPStatus.BAD_REQUEST -
 08/17/2021 11:28:30 PM 23.129.64.143 - - [17/Aug/2021 23:28:30] "[33mGET / HTTP/1.1[0m" 404 -
+08/18/2021 08:56:08 AM  * Running on http://68.183.10.8:5002/ (Press CTRL+C to quit)
+08/18/2021 09:38:05 AM 81.235.160.184 - - [18/Aug/2021 09:38:05] "[37mGET /query?q=data+kth HTTP/1.1[0m" 200 -
+08/18/2021 09:38:06 AM 81.235.160.184 - - [18/Aug/2021 09:38:06] "[37mGET /program_data?q=KTH-32102&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+datateknik HTTP/1.1[0m" 200 -
+08/18/2021 10:42:49 PM 167.248.133.59 - - [18/Aug/2021 22:42:49] "[33mGET / HTTP/1.1[0m" 404 -
+08/20/2021 01:42:43 PM 74.120.14.116 - - [20/Aug/2021 13:42:43] "[33mGET / HTTP/1.1[0m" 404 -
+08/20/2021 11:18:56 PM 185.220.101.146 - - [20/Aug/2021 23:18:56] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+08/20/2021 11:18:56 PM 185.220.101.146 - - [20/Aug/2021 23:18:56] "[35m[1m          GetClassName        [0m" HTTPStatus.BAD_REQUEST -
+08/20/2021 11:18:58 PM 185.220.101.228 - - [20/Aug/2021 23:18:58] "[33mGET / HTTP/1.1[0m" 404 -
+08/21/2021 07:09:28 AM 103.207.36.72 - - [21/Aug/2021 07:09:28] code 400, message Bad request syntax ('\x05\x01\x00')
+08/21/2021 07:09:28 AM 103.207.36.72 - - [21/Aug/2021 07:09:28] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+08/21/2021 07:09:43 AM 103.207.36.72 - - [21/Aug/2021 07:09:43] code 400, message Bad request syntax ('\x04\x01\x00P\x8eúBN\x00')
+08/21/2021 07:09:43 AM 103.207.36.72 - - [21/Aug/2021 07:09:43] "[35m[1m PúBN [0m" HTTPStatus.BAD_REQUEST -
+08/21/2021 03:39:52 PM 162.142.125.128 - - [21/Aug/2021 15:39:52] "[33mGET / HTTP/1.1[0m" 404 -
+08/22/2021 02:53:42 AM 46.166.139.111 - - [22/Aug/2021 02:53:42] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+08/22/2021 02:53:42 AM 46.166.139.111 - - [22/Aug/2021 02:53:42] "[35m[1m          GetClassName        [0m" HTTPStatus.BAD_REQUEST -
+08/22/2021 02:53:45 AM 23.129.64.162 - - [22/Aug/2021 02:53:45] "[33mGET / HTTP/1.1[0m" 404 -
+08/22/2021 02:54:14 AM 87.121.52.73 - - [22/Aug/2021 02:54:14] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+08/22/2021 02:54:14 AM 87.121.52.73 - - [22/Aug/2021 02:54:14] "[35m[1m          GetClassName        [0m" HTTPStatus.BAD_REQUEST -
+08/22/2021 02:54:17 AM 23.129.64.133 - - [22/Aug/2021 02:54:17] "[33mGET / HTTP/1.1[0m" 404 -
+08/22/2021 10:40:10 PM 81.235.160.184 - - [22/Aug/2021 22:40:10] "[37mGET /query?q=juristprogrammet HTTP/1.1[0m" 200 -
+08/22/2021 10:40:12 PM 81.235.160.184 - - [22/Aug/2021 22:40:12] "[37mGET /program_data?q=LU-80300&school=Lunds+universitet&program=Juristprogrammet HTTP/1.1[0m" 200 -
+08/22/2021 11:11:37 PM 81.235.160.184 - - [22/Aug/2021 23:11:37] "[37mGET /query?q=läkarprogrammet+karolinska HTTP/1.1[0m" 200 -
+08/22/2021 11:11:39 PM 81.235.160.184 - - [22/Aug/2021 23:11:39] "[37mGET /program_data?q=KI-41006&school=Karolinska+institutet&program=Läkarprogrammet HTTP/1.1[0m" 200 -
+08/22/2021 11:24:33 PM 81.235.160.184 - - [22/Aug/2021 23:24:33] "[37mGET /query?q=juristprogrammet HTTP/1.1[0m" 200 -
+08/23/2021 07:01:01 AM 167.248.133.113 - - [23/Aug/2021 07:01:01] "[33mGET / HTTP/1.1[0m" 404 -
+08/23/2021 07:17:06 PM 185.217.1.118 - - [23/Aug/2021 19:17:06] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/23/2021 07:17:06 PM 185.217.1.118 - - [23/Aug/2021 19:17:06] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/23/2021 08:43:22 PM 185.217.1.118 - - [23/Aug/2021 20:43:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/23/2021 08:43:22 PM 185.217.1.118 - - [23/Aug/2021 20:43:22] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/23/2021 09:14:50 PM 185.236.231.181 - - [23/Aug/2021 21:14:50] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+08/23/2021 09:14:50 PM 185.236.231.181 - - [23/Aug/2021 21:14:50] "[35m[1m          GetClassName        [0m" HTTPStatus.BAD_REQUEST -
+08/23/2021 09:14:53 PM 185.236.231.181 - - [23/Aug/2021 21:14:53] "[33mGET / HTTP/1.1[0m" 404 -
+08/23/2021 10:07:58 PM 185.217.1.118 - - [23/Aug/2021 22:07:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/23/2021 10:07:58 PM 185.217.1.118 - - [23/Aug/2021 22:07:58] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/23/2021 11:17:35 PM 194.61.25.4 - - [23/Aug/2021 23:17:35] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/23/2021 11:17:35 PM 194.61.25.4 - - [23/Aug/2021 23:17:35] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/23/2021 11:27:55 PM 185.217.1.118 - - [23/Aug/2021 23:27:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/23/2021 11:27:55 PM 185.217.1.118 - - [23/Aug/2021 23:27:55] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/24/2021 12:42:27 AM 185.217.1.118 - - [24/Aug/2021 00:42:27] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/24/2021 12:42:27 AM 185.217.1.118 - - [24/Aug/2021 00:42:27] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/24/2021 01:53:15 AM 185.217.1.118 - - [24/Aug/2021 01:53:15] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/24/2021 01:53:15 AM 185.217.1.118 - - [24/Aug/2021 01:53:15] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/24/2021 02:59:25 AM 185.217.1.118 - - [24/Aug/2021 02:59:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+08/24/2021 02:59:25 AM 185.217.1.118 - - [24/Aug/2021 02:59:25] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+08/25/2021 03:23:41 AM 167.248.133.44 - - [25/Aug/2021 03:23:41] "[33mGET / HTTP/1.1[0m" 404 -
+08/25/2021 11:12:47 AM 162.142.125.195 - - [25/Aug/2021 11:12:47] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03²F\x1bÚpÍÈ`K')
+08/25/2021 11:12:47 AM 162.142.125.195 - - [25/Aug/2021 11:12:47] "[35m[1m {  w²FÚpÍÈ`K ¼uï[0m" HTTPStatus.BAD_REQUEST -
+08/25/2021 11:12:48 AM 162.142.125.195 - - [25/Aug/2021 11:12:48] "[33mGET / HTTP/1.1[0m" 404 -
+08/25/2021 11:12:48 AM 162.142.125.195 - - [25/Aug/2021 11:12:48] "[33mGET / HTTP/1.1[0m" 404 -
+08/25/2021 03:26:40 PM 34.227.66.125 - - [25/Aug/2021 15:26:40] "[33mGET / HTTP/1.1[0m" 404 -
+08/25/2021 08:56:01 PM 81.235.160.184 - - [25/Aug/2021 20:56:01] "[37mGET /query?q=civil+indu+kth HTTP/1.1[0m" 200 -
+08/25/2021 08:56:02 PM 81.235.160.184 - - [25/Aug/2021 20:56:02] "[37mGET /program_data?q=KTH-32106&school=Kungl.+Tekniska+högskolan&program=Civilingenjörsutbildning+i+industriell+ekonomi HTTP/1.1[0m" 200 -
+08/26/2021 11:56:18 AM 23.129.64.153 - - [26/Aug/2021 11:56:18] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+08/26/2021 11:56:18 AM 23.129.64.153 - - [26/Aug/2021 11:56:18] "[35m[1m          GetClassName        [0m" HTTPStatus.BAD_REQUEST -
+08/26/2021 11:56:20 AM 185.220.100.243 - - [26/Aug/2021 11:56:20] "[33mGET / HTTP/1.1[0m" 404 -
+08/26/2021 03:41:51 PM 162.142.125.128 - - [26/Aug/2021 15:41:51] "[33mGET / HTTP/1.1[0m" 404 -
+08/26/2021 04:34:22 PM 74.120.14.60 - - [26/Aug/2021 16:34:22] "[33mGET / HTTP/1.1[0m" 404 -
